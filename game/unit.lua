@@ -1825,9 +1825,9 @@ function miscUpdates(state_change)
         unit.sprite[2] = "die_"..roll
       end
 
-      if unit.name == "it" then
+      if unit.fullname == "it" then
 	local it = math.random(5)
-        unit.sprite = {"it_" .. math.random(1,2)} or {"it"}
+        unit.sprite = {"moddit_" .. it} or {"modd/it"}
       end
 
       if unit.fullname == "txt_katany" then
