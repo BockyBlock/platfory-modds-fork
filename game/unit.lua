@@ -1825,9 +1825,13 @@ function miscUpdates(state_change)
         unit.sprite[2] = "die_"..roll
       end
 
-      if unit.fullname == "it" then
-	local it = math.random(5)
-        unit.sprite = {"modd/it_" .. it} or {"modd/it"}
+      if unit.name == "it" and scene ~= editor then --blatantly stolen from byc, but dont let anyone know that
+        if not card_for_id[unit.id] then
+          card_for_id[unit.id] = {math.random(1,5)}
+        end
+        local it = unpack(card_for_id[unit.id])
+        print("b")
+        unit.sprite[1] = "modd/it_"..it or "modd/it"
       end
 
       if unit.fullname == "txt_katany" then
