@@ -1827,7 +1827,7 @@ function miscUpdates(state_change)
 
       if unit.fullname == "it" then
 	local it = math.random(5)
-        unit.sprite = {"moddit_" .. it} or {"modd/it"}
+        unit.sprite = {"modd/it_" .. it} or {"modd/it"}
       end
 
       if unit.fullname == "txt_katany" then
