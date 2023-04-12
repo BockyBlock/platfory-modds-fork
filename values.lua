@@ -454,7 +454,8 @@ selector_grid_contents = {
   -- page 8: modded
   {
     "platfory","txt_platfory","wiki","txt_wiki","him","txt_him","monokeek","txt_monokeek","snacc","txt_snacc","ouch","txt_ouch","gunguy","txt_gunguy","lookat","txt_lookat","sog","txt_sog",
-    "whiz","txt_whiz","eexe","txt_eexe","monsert","txt_monsert","bologna","txt_bologna","ty","txt_ty","bruhbruh","txt_bruhbruh","whenthe","txt_whenthe",0,0,0,0,
+    "whiz","txt_whiz","eexe","txt_eexe","monsert","txt_monsert","bologna","txt_bologna","ty","txt_ty","bruhbruh","txt_bruhbruh","whenthe","txt_whenthe","be","txt_be","goawaypls","txt_goawaypls",
+    "nedkee","txt_nedkee","fordor","txt_fordor","every1","txt_every1","every2","txt_every2","lokc","pikc","txt_lokc","txt_pikc","it","txt_it",0,0,0,0,
     0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
     0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
     "txt_gud","txt_awdul",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
