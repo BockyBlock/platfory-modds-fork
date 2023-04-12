@@ -1825,6 +1825,11 @@ function miscUpdates(state_change)
         unit.sprite[2] = "die_"..roll
       end
 
+      if unit.name == "it" then
+	local it = math.random(5)
+        unit.sprite = {"it_" .. math.random(1,2)} or {"it"}
+      end
+
       if unit.fullname == "txt_katany" then
         unit.sprite = {"txt/katany"}
         if rules_with_unit[unit] then
