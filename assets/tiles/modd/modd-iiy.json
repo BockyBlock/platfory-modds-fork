@@ -115,5 +115,85 @@
     "color": [[1, 2]],
     "tags": ["chars", "all", "-oc", "iiy", "thingify", "mod"],
     "tags": ["it"]
+  },
+  {
+    "name": "left",
+    "sprite": ["modd/leftoc"],
+    "color": [[2, 2]],
+    "convertible": false,
+    "rotate": false,
+    "desc": "east? I thought you said weast",
+    "tags": ["chars", "-oc", "iiy", "thingify", "dir", "mod"],
+	"pronouns": ["it"]
+  },
+  {
+    "name": "right",
+    "sprite": ["modd/rightoc"],
+    "color": [[2, 2]],
+    "convertible": false,
+    "rotate": false,
+    "desc": "well... you're not wrong",
+    "tags": ["chars", "-oc", "iiy", "thingify", "dir", "mod"],
+	"pronouns": ["it"]
+  },
+  {
+    "name": "up",
+    "sprite": ["modd/upoc"],
+    "color": [[2, 2]],
+    "convertible": false,
+    "rotate": false,
+    "desc": "going UUUUUUUUUUUUP!",
+    "tags": ["chars", "-oc", "iiy", "thingify", "dir", "mod"],
+	"pronouns": ["it"]
+  },
+  {
+    "name": "down",
+    "sprite": ["modd/downoc"],
+    "color": [[2, 2]],
+    "convertible": false,
+    "rotate": false,
+    "desc": "really a low blow",
+    "tags": ["chars", "-oc", "iiy", "thingify", "dir", "mod"],
+	"pronouns": ["it"]
+  },
+  {
+    "name": "upleft",
+    "sprite": ["modd/upleftoc"],
+    "color": [[2, 2]],
+    "convertible": false,
+    "rotate": false,
+    "desc": "I got up and left",
+    "tags": ["chars", "-oc", "iiy", "thingify", "dir", "mod"],
+	"pronouns": ["it"]
+  },
+  {
+    "name": "downright",
+    "sprite": ["modd/downrightoc"],
+    "color": [[2, 2]],
+    "convertible": false,
+    "rotate": false,
+    "desc": "It's downright impossible to come up with puns for these",
+    "tags": ["chars", "-oc", "iiy", "thingify", "dir", "mod"],
+	"pronouns": ["it"]
+  },
+  {
+    "name": "upright",
+    "sprite": ["modd/uprightoc"],
+    "color": [[2, 2]],
+    "convertible": false,
+    "rotate": false,
+    "desc": "standing up, right?",
+    "tags": ["chars", "-oc", "iiy", "thingify", "dir", "mod"],
+	"pronouns": ["it"]
+  },
+  {
+    "name": "downleft",
+    "sprite": ["modd/downleftoc"],
+    "color": [[2, 2]],
+    "convertible": false,
+    "rotate": false,
+    "desc": "looking down because it's all so messed up, and looking left because the whole thing just ain't right",
+    "tags": ["chars", "-oc", "iiy", "thingify", "dir", "mod"],
+	"pronouns": ["it"]
   }
 ]
