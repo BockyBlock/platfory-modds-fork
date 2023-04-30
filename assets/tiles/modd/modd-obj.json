@@ -238,7 +238,8 @@
     "sprite": ["modd/pikc"],
     "color": [[0, 3]],
     "desc": "but what colr be it",
-    "tags": ["mod", "door", "pick"]
+    "tags": ["mod", "door", "pick"],
+    "rotate": true
   },
   {
     "name": "txt_pikc",
@@ -253,7 +254,8 @@
     "sprite": ["modd/it_editor"],
     "color": [[1, 4]],
     "desc": "Can't decide on a tile for it",
-    "tags": ["mod", "it"]
+    "tags": ["mod", "it"],
+    "rotate": true
   },
   {
     "name": "txt_it",
@@ -262,5 +264,21 @@
     "color": [[1, 4]],
     "desc": "IT: Randomizes each time it loads.",
     "tags": ["mod", "txt", "it"]
+  },
+  {
+    "name": "lopikckc",
+    "sprite": ["modd/lopikckc_bow", "modd/lopikckc_shoes", "modd/lopikckc_sleeves", "modd/lopikckc_skin", "modd/lopikckc_hair", "modd/lopikckc_overalls"],
+    "color": [[2, 2], [0, 0], [1, 2], [2, 4], [6, 2], [4, 4]],
+    "desc": "secretly adad doing a cosplay",
+    "rotate": true,
+    "tags": ["mod", "lock", "pick", "door", "key", "lily", "lokcpikc"]
+  },
+  {
+    "name": "txt_lopikckc",
+    "sprite": ["modd/moddtxt/lopikckc"],
+    "types": ["object"],
+    "color": [[4, 4]],
+    "desc": "because there's already so many people named lily",
+    "tags": ["mod", "lock", "pick", "door", "key", "lily", "lokcpikc", "txt"]
   }
 ]
