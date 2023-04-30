@@ -1,11 +1,10 @@
 hellol! am platfory!!! I creat modd for bab be u!!!!! it got mee! and scary humn :( but also thingifie!!! incleoods:
 
-wiki the angle
-platforey!
-Him.
-mono keek!!1!
+oc
 varius thingyifie
-man with gun
+i dont wanna lokcpikc anymore
+be be u
+musice
 & moar!
 
 let meem know iff therer are bogs!
