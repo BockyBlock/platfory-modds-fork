@@ -84,7 +84,7 @@ function scene.buildUI()
     :setPos(10, love.graphics.getHeight()-sprites["ui/github"]:getHeight()-10)
     :setPivot(0.5, 0.5)
     :onPreDraw(function(o) ui.buttonFX(o, {rotate = false}) end)
-    :onReleased(function() love.system.openURL("https://github.com/lilybeevee/bab-be-u") end)
+    :onReleased(function() love.system.openURL("https://github.com/BockyBlock/platfory-modds-fork") end)
 
   local ox, oy
   if not options then
