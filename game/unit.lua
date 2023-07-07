@@ -1827,7 +1827,7 @@ function miscUpdates(state_change)
 
       if unit.name == "it" and scene ~= editor then --blatantly stolen from byc, but dont let anyone know that
         if not card_for_id[unit.id] then
-          card_for_id[unit.id] = {math.random(1,5)}
+          card_for_id[unit.id] = {math.random(1,7)}
         end
         local it = unpack(card_for_id[unit.id])
         print("b")
@@ -3292,6 +3292,13 @@ function convertUnits(pass)
         if rule.object.name:find("letter_custom") then
           new_special.customletter = rule.object.unit.special.customletter
         end
+        --figure out if the next tile has the happen or nft prop
+		if hasProperty(rule.object.name,"happen") and tile ~= nil then
+          tile = nil
+        end
+		if hasProperty(rule.object.name,"nft") and tile ~= nil then
+          tile = nil
+        end
         if tile ~= nil and not overriden then
           if not unit.removed then
             table.insert(converted_units, unit)
@@ -3837,6 +3844,7 @@ function moveUnit(unit,x,y,portal,instant)
             addTween(tween.new(0.05, unit.draw, {scaley = 1}, "inQuint"), "unit:scaley:" .. unit.tempid)
           end)
         end
+		
         -- instantly change object's rotation, weirdness ensues otherwise
         unit.draw.rotation = (unit.rotatdir - 1) * 45
         tweens["unit:rotation:" .. unit.tempid] = nil

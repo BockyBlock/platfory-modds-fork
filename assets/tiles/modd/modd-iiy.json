@@ -112,7 +112,7 @@
     "desc": "Exclamation Point! Question Mark?",
     "convertible": false,
     "rotate": true,
-    "color": [[1, 2]],
+    "color": [[1, 3]],
     "tags": ["chars", "all", "-oc", "iiy", "thingify", "mod"],
     "tags": ["it"]
   },
@@ -193,6 +193,16 @@
     "convertible": false,
     "rotate": false,
     "desc": "looking down because it's all so messed up, and looking left because the whole thing just ain't right",
+    "tags": ["chars", "-oc", "iiy", "thingify", "dir", "mod"],
+	"pronouns": ["it"]
+  },
+  {
+    "name": "direction",
+    "sprite": ["modd/goc"],
+    "color": [[2, 2]],
+    "convertible": false,
+    "rotate": true,
+    "desc": "long lostt whiz sibling",
     "tags": ["chars", "-oc", "iiy", "thingify", "dir", "mod"],
 	"pronouns": ["it"]
   }

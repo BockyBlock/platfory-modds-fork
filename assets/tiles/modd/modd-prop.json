@@ -14,5 +14,21 @@
     "color": [[1, 2]],
     "desc": "AWDUL: Causes the unit to be awful.\nAnti: The unit becomes awesome!",
     "tags": ["aw", "nay", "sad", "uncool", "worst"]
+  },
+  {
+    "name": "txt_happen",
+    "sprite": ["modd/moddtxt/happen"],
+    "types": ["property"],
+    "color": [[1, 2]],
+    "desc": "HAPPEN: Where any other unit would normally transform into this one, they instead RP it. In theory. It's not done yet.",
+    "tags": ["rp", "be", "is", "feel"]
+  },
+  {
+    "name": "txt_nft",
+    "sprite": ["modd/moddtxt/nft"],
+    "types": ["property"],
+    "color": [[2, 1]],
+    "desc": "NFT: Prevents anything from transforming into this object.\nAnti: Everytwo becomes this unit.",
+    "tags": ["bad", "nft", "rare", "happen", "absent"]
   }
 ]

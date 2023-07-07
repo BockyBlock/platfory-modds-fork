@@ -222,7 +222,7 @@
     "name": "lokc",
     "sprite": ["modd/lokc"],
     "color": [[0, 3]],
-    "desc": "but what colr be it",
+    "desc": "use many pikc on lokc",
     "tags": ["mod", "door", "pick"]
   },
   {
@@ -230,14 +230,13 @@
     "sprite": ["modd/moddtxt/lokc"],
     "types": ["object"],
     "color": [[0, 3]],
-    "desc": "so what exacty do i put her",
     "tags": ["mod", "door", "pick", "txt"]
   },
   {
     "name": "pikc",
     "sprite": ["modd/pikc"],
     "color": [[0, 3]],
-    "desc": "but what colr be it",
+    "desc": "ge tmany pikc and open lokc",
     "tags": ["mod", "door", "pick"],
     "rotate": true
   },
@@ -246,7 +245,6 @@
     "sprite": ["modd/moddtxt/pikc"],
     "types": ["object"],
     "color": [[0, 3]],
-    "desc": "so what exacty do i put her",
     "tags": ["mod", "door", "pick", "txt"]
   },
   {
@@ -280,5 +278,20 @@
     "color": [[4, 4]],
     "desc": "because there's already so many people named lily",
     "tags": ["mod", "lock", "pick", "door", "key", "lily", "lokcpikc", "txt"]
+  },
+  {
+    "name": "canyon",
+    "sprite": ["modd/canyon_sand", "modd/canyon_shadow"],
+    "color": [[6, 1], [6, 0]],
+    "desc": "dont haetskye",
+    "tags": ["mod", "cliff"]
+  },
+  {
+    "name": "txt_canyon",
+    "sprite": ["modd/moddtxt/canyon"],
+    "types": ["object"],
+    "color": [[6, 2]],
+    "desc": "cannon?",
+    "tags": ["mod", "cliff", "txt"]
   }
 ]

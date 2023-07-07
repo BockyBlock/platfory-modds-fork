@@ -248,7 +248,7 @@ function scene.draw(dt)
       else
         splashtext = "spooky month!"
       end
-    elseif splash > 0.1 then
+    elseif splash < 0.1 then
       splashtext = "bab be u!"
     elseif splash < 0.2 then
       splashtext = "eat polish gras"
