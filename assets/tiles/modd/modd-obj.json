@@ -309,5 +309,21 @@
     "color": [[6, 2]],
     "desc": "cannon?",
     "tags": ["mod", "cliff", "txt"]
+  },
+  {
+    "name": "pnut",
+    "sprite": ["modd/pnut_body", "modd/pnut_leg"],
+    "color": [[6, 1], [0, 3]],
+    "desc": "madedede by the sister of aLIEz on artfight, is very cute",
+    "tags": ["mod", "peanut"],
+    "rotate": true
+  },
+  {
+    "name": "txt_pnut",
+    "sprite": ["modd/moddtxt/pnut"],
+    "types": ["object"],
+    "color": [[6, 2]],
+    "desc": "don't to be immature, and if u do, don't",
+    "tags": ["mod", "peanut", "txt"]
   }
 ]
