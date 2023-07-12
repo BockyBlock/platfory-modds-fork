@@ -6,5 +6,6 @@ hellol! am platfory!!! I creat modd for bab be u!!!!! it got mee! and scary humn
 - be be u
 - musice
 - & moar!
+- props!!! gud, awdul, nft, and happen!
 
 let meem know iff therer are bogs!
