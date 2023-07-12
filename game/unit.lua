@@ -1825,9 +1825,9 @@ function miscUpdates(state_change)
         unit.sprite[2] = "die_"..roll
       end
 
-      if unit.name == "it" and scene ~= editor then --blatantly stolen from byc, but dont let anyone know that
+      if unit.name == "it" and scene ~= editor then --blatantly stolen from byc, but that's fine, everything else is stolen too
         if not card_for_id[unit.id] then
-          card_for_id[unit.id] = {math.random(1,7)}
+          card_for_id[unit.id] = {math.random(1,9)}
         end
         local it = unpack(card_for_id[unit.id])
         print("b")
@@ -2084,6 +2084,10 @@ function updateUnitColourOverride(unit)
     unit.color_override = {0, 3}
   elseif unit.blacc then
     unit.color_override = {0, 0}
+  elseif unit.limeme then
+    unit.color_override = {5, 3}
+  elseif unit.corl then
+    unit.color_override = {4, 2}
   end
   --mixing colors
   if (unit.reed and unit.whit) then --pinc
@@ -2104,6 +2108,10 @@ function updateUnitColourOverride(unit)
     unit.color_override = {5, 2}
   elseif (unit.blacc and unit.whit) then --graey
     unit.color_override = {0, 1}
+  elseif (unit.pinc and unit.whit) then --corl
+    unit.color_override = {4, 2}
+  elseif (unit.grun and unit.yello) then --limeme
+    unit.color_override = {5, 3}
   end
 end
 

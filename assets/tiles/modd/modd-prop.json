@@ -30,5 +30,27 @@
     "color": [[2, 1]],
     "desc": "NFT: Prevents anything from transforming into this object.\nAnti: Everytwo becomes this unit.",
     "tags": ["bad", "nft", "rare", "happen", "absent"]
+  },
+  {
+    "name": "txt_limeme",
+    "sprite": ["modd/moddtxt/limeme_cond"],
+    "sprite_transforms": {
+      "property": "modd/moddtxt/limeme"
+    },
+    "types": ["class_prefix", "cond_prefix", "property"],
+    "color": [[5, 3]],
+    "desc": "limeme: Causes the unit to appear lime.\nGrun+Yello.\nAnti: coral",
+    "tags": ["colors", "colours", "lime", "chartreuse"]
+  },
+  {
+    "name": "txt_corl",
+    "sprite": ["modd/moddtxt/corl_cond"],
+    "sprite_transforms": {
+      "property": "modd/moddtxt/corl"
+    },
+    "types": ["class_prefix", "cond_prefix", "property"],
+    "color": [[4, 2]],
+    "desc": "CORL: Causes the unit to appear magenta.\nPinc+Whit.\nAnti: limeme",
+    "tags": ["colors", "colours", "magenta", "fusicha"]
   }
 ]

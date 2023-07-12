@@ -876,7 +876,9 @@ function scene.draw(dt)
     lvl_color = {hslToRgb(love.timer.getTime()/6%1, .1, .1, .9), 1}
   elseif (hasProperty(outerlvl,"reed") and hasProperty(outerlvl,"whit")) or hasProperty(outerlvl,"pinc") then
     lvl_color = {getPaletteColor(4, 1)}
-  elseif (hasProperty(outerlvl,"grun") and hasProperty(outerlvl,"whit")) then
+  elseif (hasProperty(outerlvl,"pinc") and hasProperty(outerlvl,"whit")) or hasProperty(outerlvl,"corl") then
+    lvl_color = {getPaletteColor(4, 2)}
+  elseif (hasProperty(outerlvl,"grun") and hasProperty(outerlvl,"yello")) or hasProperty(outerlvl,"limeme") then
     lvl_color = {getPaletteColor(5, 3)}
   elseif hasProperty(outerlvl,"whit") then
     lvl_color = {getPaletteColor(0, 3)}
@@ -1829,7 +1831,9 @@ function scene.draw(dt)
         color = newcolor
       elseif (hasProperty(cursor,"reed") and hasProperty(cursor,"whit")) or hasProperty(cursor,"pinc") then
         color = {4, 1}
-      elseif (hasProperty(cursor,"grun") and hasProperty(cursor,"whit")) then
+      elseif (hasProperty(cursor,"pinc") and hasProperty(cursor,"whit")) or hasProperty(cursor,"corl") then
+        color = {4, 2}
+      elseif (hasProperty(cursor,"yello") and hasProperty(cursor,"grun")) or hasProperty(cursor,"limeme") then
         color = {5, 3}
       elseif (hasProperty(cursor,"bleu") and hasProperty(cursor,"reed")) or hasProperty(cursor,"purp") then
         color = {3, 1}

@@ -141,15 +141,17 @@ reed = {2, 2},
 orang = {2, 3},
 yello = {2, 4},
 grun = {5, 2},
+limeme = {5, 3},
 cyeann = {1, 4},
 bleu = {1, 3},
 purp = {3, 1},
 whit = {0, 3},
 pinc = {4, 1},
+corl = {4, 2},
 graey = {0, 1},
 brwn = {6, 0},
 }
-color_names = {"reed", "orang", "yello", "grun", "cyeann", "bleu", "purp", "pinc", "whit", "blacc", "graey", "brwn"}
+color_names = {"reed", "orang", "yello", "grun", "cyeann", "bleu", "purp", "pinc", "whit", "blacc", "graey", "brwn", "corl", "limeme"}
 
 colour_for_palette = {}
 colour_for_palette[0] = {}
@@ -179,14 +181,14 @@ colour_for_palette[3][4] = nil
 colour_for_palette[4] = {}
 colour_for_palette[4][0] = "pinc"
 colour_for_palette[4][1] = "pinc"
-colour_for_palette[4][2] = "pinc"
+colour_for_palette[4][2] = "limeme"
 colour_for_palette[4][3] = nil
 colour_for_palette[4][4] = nil
 colour_for_palette[5] = {}
 colour_for_palette[5][0] = "grun"
 colour_for_palette[5][1] = "grun"
 colour_for_palette[5][2] = "grun"
-colour_for_palette[5][3] = "grun"
+colour_for_palette[5][3] = "limeme"
 colour_for_palette[5][4] = nil
 colour_for_palette[6] = {}
 colour_for_palette[6][0] = "brwn"
@@ -243,6 +245,8 @@ anti_word_replacements = {
   orang = "bleu",
   yello = "purp",
   grun = "pinc",
+  limeme = "corl",
+  corl = "limeme",
   cyeann = "reed",
   bleu = "orang",
   purp = "yello",
@@ -458,7 +462,7 @@ selector_grid_contents = {
     "nedkee","fordor",0,0,"every1","every2",0,0,"lokc","txt_lokc","pikc","txt_pikc","lopikckc","txt_lopikckc","it","txt_it",":)",0,
     0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"upleft","up","upright",
     0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"left","direction","right",
-    "txt_gud","txt_awdul","txt_nft",0,0,0,0,0,0,0,0,0,0,0,0,"downleft","down","downright",
+    "txt_gud","txt_awdul","txt_nft","txt_corl","txt_limeme",0,0,0,0,0,0,0,0,0,0,"downleft","down","downright",
     0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
     0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
     0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,

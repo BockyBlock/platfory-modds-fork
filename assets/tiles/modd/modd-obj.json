@@ -265,8 +265,8 @@
   },
   {
     "name": "lopikckc",
-    "sprite": ["modd/lopikckc_bow", "modd/lopikckc_shoes", "modd/lopikckc_sleeves", "modd/lopikckc_skin", "modd/lopikckc_hair", "modd/lopikckc_overalls"],
-    "color": [[2, 2], [0, 0], [1, 2], [2, 4], [6, 2], [4, 4]],
+    "sprite": ["modd/lopikckc_hair", "modd/lopikckc_bow", "modd/lopikckc_shoes", "modd/lopikckc_sleeves", "modd/lopikckc_skin", "modd/lopikckc_overalls"],
+    "color": [[6, 2], [2, 2], [0, 0], [1, 2], [2, 4], [4, 4]],
     "desc": "secretly adad doing a cosplay",
     "rotate": true,
     "tags": ["mod", "lock", "pick", "door", "key", "lily", "lokcpikc"]
