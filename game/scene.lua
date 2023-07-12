@@ -1414,6 +1414,10 @@ function scene.draw(dt)
         local o = getTableWithDefaults(unit.features.gunne, {x=0, y=0, sprite="gunnesmol"})
         love.graphics.setColor(getPaletteColor(c1 or 0, c2 or 3))
         love.graphics.draw(sprites[o.sprite], fulldrawx + o.x + shake_x, fulldrawy + o.y + shake_y, 0, unit.draw.scalex, unit.draw.scaley, sprite:getWidth() / 2, sprite:getHeight() / 2)
+      elseif name == "bandana" then
+        local o = getTableWithDefaults(unit.features.gunne, {x=0, y=0, sprite="modd/bandana_wear"})
+        love.graphics.setColor(getPaletteColor(c1 or 2, c2 or 4))
+        love.graphics.draw(sprites[o.sprite], fulldrawx + o.x + shake_x, fulldrawy + o.y + shake_y, 0, unit.draw.scalex, unit.draw.scaley, sprite:getWidth() / 2, sprite:getHeight() / 2)
       elseif name ~= "bowie" and unit.fullname == "swan" then
         local tile = getTile(name)
         if tile then

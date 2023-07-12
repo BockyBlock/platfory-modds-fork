@@ -124,15 +124,15 @@
     "sprite": ["modd/moddtxt/eexe"],
     "types": ["object"],
     "color": [[1, 3]],
-    "desc": "uh oh spooky scary",
-    "tags": ["hempuli", "mod", "blue", "chars"]
+    "desc": "pronounced 'eeeeeeeeeeeeeeeeeeecks-eeh'",
+    "tags": ["mod", "txt"]
   },
   {
     "name": "eexe",
     "sprite": ["modd/eexe_pic", "modd/eexe_bar", "modd/eexe_screen"],
     "layer": 20,
     "color": [[1, 3], [0, 2], [0, 3]],
-    "desc": "wintow",
+    "desc": "uh oh spooky scary",
     "tags": ["mod"],
 	"pronouns": ["it"]
   },
@@ -325,5 +325,69 @@
     "color": [[6, 2]],
     "desc": "don't to be immature, and if u do, don't",
     "tags": ["mod", "peanut", "txt"]
+  },
+  {
+    "name": "bandana",
+    "sprite": ["modd/bandana"],
+    "color": [[2, 4]],
+    "desc": "its peel is made of carbord",
+    "tags": ["mod", "banana"],
+    "rotate": true
+  },
+  {
+    "name": "txt_bandana",
+    "sprite": ["modd/moddtxt/bandana"],
+    "types": ["object"],
+    "color": [[2, 4]],
+    "desc": "if an object GOT BANDANA it will got a bandana",
+    "tags": ["mod", "banana", "txt"]
+  },
+  {
+    "name": "bead",
+    "sprite": ["modd/bead_sheet", "modd/bead_pillow", "modd/bead_frame"],
+    "color": [[2, 2], [0, 3], [6, 2]],
+    "desc": "gud for slep",
+    "tags": ["mod", "bed"],
+    "rotate": true
+  },
+  {
+    "name": "txt_bead",
+    "sprite": ["modd/moddtxt/bead"],
+    "types": ["object"],
+    "color": [[2, 1]],
+    "desc": "time for bead",
+    "tags": ["mod", "bed", "txt"]
+  },
+  {
+    "name": "bloop",
+    "sprite": ["modd/bloop"],
+    "color": [[5, 2]],
+    "desc": "SPHERICALLLLLL",
+    "tags": ["mod", "blob", "circle"],
+    "rotate": true
+  },
+  {
+    "name": "txt_bloop",
+    "sprite": ["modd/moddtxt/bloop"],
+    "types": ["object"],
+    "color": [[5, 3]],
+    "desc": "I have no words (except for the ones u just read)",
+    "tags": ["mod", "blob", "circle", "txt"]
+  },
+  {
+    "name": "boug",
+    "sprite": ["watr"],
+    "color": [[5, 1]],
+    "desc": "very goopi",
+    "tags": ["mod", "bog"],
+    "rotate": true
+  },
+  {
+    "name": "txt_boug",
+    "sprite": ["modd/moddtxt/boug"],
+    "types": ["object"],
+    "color": [[5, 1]],
+    "desc": "a bit like boux",
+    "tags": ["mod", "bog", "txt"]
   }
 ]
