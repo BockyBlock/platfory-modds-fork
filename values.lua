@@ -459,7 +459,7 @@ selector_grid_contents = {
   {
     "platfory","txt_platfory","wiki","txt_wiki","him","txt_him","monokeek","txt_monokeek","snacc","ouch","canyon","txt_canyon","gunguy","txt_gunguy","lookat",0,"sog","txt_sog",
     "whiz","txt_whiz","eexe","txt_eexe","monsert","txt_monsert","bologna","txt_bologna","ty","txt_ty","bruhbruh","txt_bruhbruh","whenthe","txt_whenthe","be","goawaypls",0,0,
-    "nedkee","fordor",0,0,"every1","every2",0,0,"lokc","txt_lokc","pikc","txt_pikc","lopikckc","txt_lopikckc","it","txt_it",":)",0,
+    "nedkee","fordor",0,0,"every1","every2","kid","txt_kid","lokc","txt_lokc","pikc","txt_pikc","lopikckc","txt_lopikckc","it","txt_it",":)",0,
     0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"upleft","up","upright",
     0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"left","direction","right",
     "txt_gud","txt_awdul","txt_nft","txt_corl","txt_limeme",0,0,0,0,0,0,0,0,0,0,"downleft","down","downright",

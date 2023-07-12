@@ -1733,6 +1733,14 @@ function miscUpdates(state_change)
         end
       end
       
+      if unit.fullname == "kid" then
+        if hasProperty(unit,"thicc") then
+          unit.sprite = {"modd/kid_metal", "modd/guy_cape", "modd/kid_hair", "modd/kid_pant", "modd/kid_shirt", "modd/guy_skin"}
+        else
+          unit.sprite = {"modd/kid_metal", "modd/kid_cape", "modd/kid_hair", "modd/kid_pant", "modd/kid_shirt", "modd/kid_skin"}
+        end
+      end
+      
       if unit.fullname == "pumkin" then
         if hasProperty(unit,"sans") or hasProperty(unit,":(") or hasProperty(unit,"brite") or hasProperty(unit,"torc") or hasRule(unit,"spoop","?") then
           if graphical_property_cache["slep"][unit] ~= nil then

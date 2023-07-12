@@ -272,12 +272,28 @@
     "tags": ["mod", "lock", "pick", "door", "key", "lily", "lokcpikc"]
   },
   {
+    "name": "kid",
+    "sprite": ["modd/kid_metal", "modd/kid_cape", "modd/kid_hair", "modd/kid_pant", "modd/kid_shirt", "modd/kid_skin"],
+    "color": [[0, 1], [2, 2], [6, 0], [3, 4], [5, 1], [2, 4]],
+    "desc": "he can be the guy",
+    "rotate": true,
+    "tags": ["mod", "kid", "guy", "iwbtg", "wanna"]
+  },
+  {
     "name": "txt_lopikckc",
     "sprite": ["modd/moddtxt/lopikckc"],
     "types": ["object"],
     "color": [[4, 4]],
     "desc": "because there's already so many people named lily",
     "tags": ["mod", "lock", "pick", "door", "key", "lily", "lokcpikc", "txt"]
+  },
+  {
+    "name": "txt_kid",
+    "sprite": ["modd/moddtxt/kid"],
+    "types": ["object"],
+    "color": [[4, 4]],
+    "desc": "if he's thicc he'll be the guy",
+    "tags": ["mod", "kid", "guy", "iwbtg", "wanna", "txt"]
   },
   {
     "name": "canyon",
