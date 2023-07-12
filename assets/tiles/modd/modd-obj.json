@@ -389,5 +389,37 @@
     "color": [[5, 1]],
     "desc": "a bit like boux",
     "tags": ["mod", "bog", "txt"]
+  },
+  {
+    "name": "drincc",
+    "sprite": ["modd/drincc"],
+    "color": [[1, 3]],
+    "tags": ["mod", "drink", "boba"],
+    "desc": "I hope this modd isn't become quanity over qualtity",
+    "rotate": true
+  },
+  {
+    "name": "txt_drincc",
+    "sprite": ["modd/moddtxt/drincc"],
+    "types": ["object"],
+    "color": [[1, 3]],
+    "desc": "I don't know why but this one was really obvious",
+    "tags": ["mod", "drink", "boba", "txt"]
+  },
+  {
+    "name": "read",
+    "sprite": ["modd/read"],
+    "color": [[2, 2]],
+    "tags": ["mod", "book"],
+    "desc": "for the last time, it's not a diary",
+    "rotate": true
+  },
+  {
+    "name": "txt_read",
+    "sprite": ["modd/moddtxt/read"],
+    "types": ["object"],
+    "color": [[2, 2]],
+    "desc": "README.txt",
+    "tags": ["mod", "book", "txt"]
   }
 ]
