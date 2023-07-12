@@ -1663,11 +1663,11 @@ function miscUpdates(state_change)
           local color = colour_for_palette[unit.color_override[1]][unit.color_override[2]]
           if color == "bleu" or color == "cyeann" then
             unit.sprite = {"casete_bleu"}
-          elseif color == "reed" or color == "pinc" then
+          elseif color == "reed" or color == "pinc" or color == "corl" then
             unit.sprite = {"casete_pinc"}
           elseif color == "orang" or color == "yello" then
             unit.sprite = {"casete_yello"}
-          elseif color == "grun" then
+          elseif color == "grun" or color == "limeme" then
             unit.sprite = {"casete_grun"}
           else
             unit.sprite = {"casete_wut"}
@@ -1705,6 +1705,10 @@ function miscUpdates(state_change)
             unit.sprite = {"bolble_stars"}
           elseif color == "grun" then
             unit.sprite = {"bolble_tree"}
+          elseif color == "limeme" then
+            unit.sprite = {"modd/bolble_lime"}
+          elseif color == "corl" then
+            unit.sprite = {"modd/bolble_coral"}
           else
             unit.sprite = {"bolble"}
           end
