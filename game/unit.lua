@@ -969,6 +969,26 @@ function updateUnits(undoing, big_update)
     
     to_destroy = handleDels(to_destroy)
     
+    local isdrincc = matchesRule(nil, "drincc", "?")
+    for _,ruleparent in ipairs(isdrincc) do
+      local unit = ruleparent[2]
+      local stuff = getUnitsOnTile(unit.x, unit.y, {not_destroyed = true, checkmous = true, thicc = thicc_units[unit]})
+      for _,on in ipairs(stuff) do
+        if (unit ~= on or ruleparent[1].rule.object.name == "themself") and hasRule(unit, "drincc", on) and sameFloat(unit, on) and ignoreCheck(on, unit) then
+          if timecheck(unit,"drincc",on) and timecheck(on) then
+            table.insert(to_destroy, on)
+            playSound("sink")
+            shakeScreen(0.3, 0.15)
+          else
+            table.insert(time_destroy,{on.id,timeless})
+            addUndo({"time_destroy",on.id})
+            table.insert(time_sfx,"sink")
+          end
+          addParticles("destroy", unit.x, unit.y, getUnitColor(unit))
+        end
+      end
+    end
+    
     local isvs = matchesRule(nil,"vs","?")
     for _,ruleparent in ipairs(isvs) do
       local unit = ruleparent[2]
@@ -1121,14 +1141,19 @@ function updateUnits(undoing, big_update)
         if hasU(on) and sameFloat(unit, on) and ignoreCheck(on, unit, ":(") then
           if timecheck(unit,"be",":(") and (timecheckUs(on)) then
             table.insert(to_destroy, on)
-            playSound("break")
-            shakeScreen(0.3, 0.2)
+			if (unit.fullname == "spik") or (unit.fullname == "kid") then
+				playSound("spikdeath")
+				addParticles("blood", unit.x, unit.y, {2,2})
+			else
+				playSound("break")
+				shakeScreen(0.3, 0.2)
+          addParticles("destroy", unit.x, unit.y, getUnitColor(unit))
+			end
           else
             table.insert(time_destroy,{on.id,timeless})
 						addUndo({"time_destroy",on.id})
             table.insert(time_sfx,"break")
           end
-          addParticles("destroy", unit.x, unit.y, getUnitColor(unit))
         end
       end
     end

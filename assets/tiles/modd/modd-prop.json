@@ -28,7 +28,7 @@
     "sprite": ["modd/moddtxt/nft"],
     "types": ["property"],
     "color": [[2, 1]],
-    "desc": "NFT: Prevents anything from transforming into this object.\nAnti: Everytwo becomes this unit.",
+    "desc": "NFT: Nothing can become this unit.\nAnti: Moar",
     "tags": ["bad", "nft", "rare", "happen", "absent"]
   },
   {
@@ -52,5 +52,13 @@
     "color": [[4, 2]],
     "desc": "CORL: Causes the unit to appear magenta.\nPinc+Whit.\nAnti: limeme",
     "tags": ["colors", "colours", "magenta", "fusicha"]
+  },
+  {
+    "name": "txt_thing",
+    "sprite": ["modd/moddtxt/thing"],
+    "types": ["object"],
+    "color": [[3, 3]],
+    "desc": "THING: Includes all units that are not convertible.",
+    "tags": ["all", "everyone", "thing"]
   }
 ]

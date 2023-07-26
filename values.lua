@@ -266,6 +266,7 @@ anti_word_replacements = {
   seenby = "behind",
   behind = "seenby",
   halfstep = "hopovr",
+  nft = "moar",
 }
 
 anti_word_reverses = {
@@ -458,12 +459,12 @@ selector_grid_contents = {
   -- page 8: modded
   {
 	"platfory","txt_platfory","wiki","txt_wiki","whenthe","txt_whenthe","him","txt_him","bruhbruh","txt_bruhbruh","monokeek","txt_monokeek","ty","txt_ty","gunguy","txt_gunguy","bologna","txt_bologna",
-	"whiz","txt_whiz","monsert","txt_monsert","kid","txt_kid","lopikckc","txt_lopikckc","pnut","txt_pnut",0,0,0,0,0,0,0,0,
+	"whiz","txt_whiz","monsert","txt_monsert","kid","txt_kid","lopikckc","txt_lopikckc","pnut","txt_pnut","rru","txt_rru","it","txt_it","lol","txt_lol",0,0,
 	"canyon","txt_canyon","lokc","txt_lokc","pikc","txt_pikc","sog","txt_sog","eexe","txt_eexe","bandana","txt_bandana","bead","txt_bead","bloop","txt_bloop","boug","txt_boug",
-	"drincc","txt_drincc","read","txt_read",0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-	"be","goawaypls","nedkee","fordor","every1","every2","it","txt_it",":)","upleft","up","upright","left","direction","right","downleft","down","downright",
+	"drincc","txt_drincc","read","txt_read","cbush","txt_cbush",0,0,0,0,0,0,0,0,0,0,0,0,
+	"be","goawaypls","nedkee","fordor","every1","every2","every3","txtify",":)","upleft","up","upright","left","direction","right","downleft","down","downright",
 	"snacc","ouch","lookat",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-	"txt_gud","txt_awdul","txt_nft","txt_corl","txt_limeme",0,0,0,0,0,0,0,0,0,0,0,0,0,
+	"txt_gud","txt_awdul","txt_nft","txt_corl","txt_limeme","txt_thing",0,0,0,0,0,0,0,0,0,0,0,0,
 	0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 	0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 	0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,

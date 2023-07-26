@@ -117,6 +117,17 @@
     "tags": ["it"]
   },
   {
+    "name": "every3",
+    "sprite": ["modd/all3oc"],
+    "types": ["object"],
+    "desc": "Infinity Sign.",
+    "convertible": false,
+    "rotate": true,
+    "color": [[1, 4]],
+    "tags": ["chars", "all", "-oc", "iiy", "thingify", "mod"],
+    "tags": ["it"]
+  },
+  {
     "name": "left",
     "sprite": ["modd/leftoc"],
     "color": [[2, 2]],
@@ -182,7 +193,7 @@
     "color": [[2, 2]],
     "convertible": false,
     "rotate": false,
-    "desc": "standing up, right?",
+    "desc": "standing upright",
     "tags": ["chars", "-oc", "iiy", "thingify", "dir", "mod"],
 	"pronouns": ["it"]
   },
@@ -192,7 +203,7 @@
     "color": [[2, 2]],
     "convertible": false,
     "rotate": false,
-    "desc": "looking down because it's all so messed up, and looking left because the whole thing just ain't right",
+    "desc": "feeling down because u left",
     "tags": ["chars", "-oc", "iiy", "thingify", "dir", "mod"],
 	"pronouns": ["it"]
   },
@@ -204,6 +215,16 @@
     "rotate": true,
     "desc": "long lostt whiz sibling",
     "tags": ["chars", "-oc", "iiy", "thingify", "dir", "mod"],
+	"pronouns": ["it"]
+  },
+  {
+    "name": "txtify",
+    "sprite": ["modd/writeoc", "modd/writeoc2"],
+    "color": [[6, 2], [6, 1]],
+    "convertible": false,
+    "rotate": true,
+    "desc": "took the 1.20 minecraft update too literally",
+    "tags": ["chars", "thingify"],
 	"pronouns": ["it"]
   }
 ]

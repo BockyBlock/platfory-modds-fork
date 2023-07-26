@@ -2628,6 +2628,20 @@ function addParticles(ptype,x,y,color,count)
     ps:start()
     ps:emit(count or 10)
     table.insert(particles, ps)
+  elseif ptype == "blood" then
+    local ps = love.graphics.newParticleSystem(sprites["circle"])
+    local px = (x + 0.5) * TILE_SIZE
+    local py = (y + 0.5) * TILE_SIZE
+    ps:setPosition(px, py)
+    ps:setSpread(1)
+    ps:setEmissionArea("borderrectangle", TILE_SIZE/3, TILE_SIZE/3, 0, true)
+    ps:setSizes(0.3, 0.3, 0.3, 0)
+    ps:setSpeed(math.random(10,20))
+    ps:setParticleLifetime(math.random(1,2))
+    ps:setColors(unpack(particle_colors))
+    ps:start()
+    ps:emit(count or 20)
+    table.insert(particles, ps)
   elseif ptype == "sing" then
     local ps = love.graphics.newParticleSystem(sprites["noet"])
     local px = (x + 0.5) * TILE_SIZE

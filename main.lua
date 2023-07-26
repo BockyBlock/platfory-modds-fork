@@ -318,6 +318,7 @@ bab arguments!
   registerSound("unwin", 0.5)
   registerSound("stopwatch", 1.0)
   registerSound("babbolovania", 0.7)
+  registerSound("spikdeath", 0.7)
   registerSound("dragabl pickup", 0.5)
   registerSound("dragabl putdown", 0.5)
   registerSound("thicc", 1)
