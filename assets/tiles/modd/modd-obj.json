@@ -150,6 +150,7 @@
     "sprite": ["modd/moddtxt/ty"],
     "types": ["object"],
     "color": [[2, 3]],
+    "desc": "thank you",
     "tags": ["it"]
   },
   {
@@ -305,5 +306,24 @@
     "color": [[4, 1]],
     "desc": "the day I came up with this name, platfory's modds prolly started going uphill",
     "tags": ["mod", "txt", "aloe", "alal"]
+  },
+  {
+    "name": "xx__xx",
+    "sprite": ["modd/xx--xx"],
+    "color": [[0, 3]],
+    "rotate": true,
+    "wobble": true,
+    "desc": "It simultaneously breaks every single rule of Baba Be U sprite makeing. Amazing!",
+    "tags": ["x", "mod", "chars"],
+    "pronouns": ["he", "him"]
+  },
+  {
+    "name": "txt_xx__xx",
+    "sprite": ["modd/moddtxt/xx--xx"],
+    "types": ["object"],
+    "color": [[2, 2]],
+    "desc": "xx__xx: no",
+    "wobble": true,
+    "tags": ["x", "mod", "chars"],
   }
 ]
