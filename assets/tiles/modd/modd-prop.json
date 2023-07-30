@@ -60,5 +60,12 @@
     "color": [[3, 3]],
     "desc": "THING: Includes all units that are not convertible.",
     "tags": ["all", "everyone", "thing"]
+  },
+  {
+    "name": "letter__",
+    "sprite": ["modd/moddtxt/_"],
+    "types": ["letter"],
+    "color": [[0, 3]],
+    "desc": "I wonder if bab be u will even properly parse thsi lether?"
   }
 ]

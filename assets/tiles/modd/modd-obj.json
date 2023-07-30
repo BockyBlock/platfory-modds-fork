@@ -322,7 +322,7 @@
     "sprite": ["modd/moddtxt/xx--xx"],
     "types": ["object"],
     "color": [[2, 2]],
-    "desc": "xx__xx: no",
+    "desc": "you know, this game doesn't have an underscore character that works",
     "wobble": true,
     "tags": ["x", "mod", "chars"],
   }

@@ -1,7 +1,7 @@
 [
   {
     "name": "snacc",
-    "sprite": ["modd/snacc"],
+    "sprite": ["modd/iiy/snacc"],
     "layer": 7,
     "color": [[6, 2]],
     "convertible": false,
@@ -12,7 +12,7 @@
   },
   {
     "name": "ouch",
-    "sprite": ["modd/ouch"],
+    "sprite": ["modd/iiy/ouch"],
     "layer": 7,
     "color": [[6, 2]],
     "convertible": false,
@@ -23,7 +23,7 @@
   },
   {
     "name": "lookat",
-    "sprite": ["modd/lookat_body", "modd/lookat_lid", "modd/lookat_sclera"],
+    "sprite": ["modd/iiy/lookat_body", "modd/iiy/lookat_lid", "modd/iiy/lookat_sclera"],
     "layer": 7,
     "color": [[1, 3], [1, 4], [0, 3]],
     "convertible": false,
@@ -34,7 +34,7 @@
   },
   {
     "name": "be",
-    "sprite": ["modd/isoc_body", "modd/isoc_arrow"],
+    "sprite": ["modd/iiy/isoc_body", "modd/iiy/isoc_arrow"],
     "color": [[4, 2], [4, 1]],
     "convertible": false,
     "rotate": true,
@@ -44,7 +44,7 @@
   },
   {
     "name": "goawaypls",
-    "sprite": ["modd/pushoc_body", "modd/pushoc_hands"],
+    "sprite": ["modd/iiy/pushoc_body", "modd/iiy/pushoc_hands"],
     "color": [[6, 1], [6, 2]],
     "convertible": false,
     "rotate": true,
@@ -54,7 +54,7 @@
   },
   {
     "name": "gaem",
-    "sprite": ["modd/gameoc"],
+    "sprite": ["modd/iiy/gameoc"],
     "types": ["object"],
     "desc": "deprecated and broken",
     "color": [[0, 3]],
@@ -64,7 +64,7 @@
   },
   {
     "name": "fordor",
-    "sprite": ["modd/openoc"],
+    "sprite": ["modd/iiy/openoc"],
     "color": [[0, 2]],
     "convertible": false,
     "rotate": true,
@@ -74,7 +74,7 @@
   },
   {
     "name": "nedkee",
-    "sprite": ["modd/shutoc"],
+    "sprite": ["modd/iiy/shutoc"],
     "types": ["object"],
     "convertible": false,
     "rotate": true,
@@ -85,7 +85,7 @@
   },
   {
     "name": ":)",
-    "sprite": ["modd/winoc"],
+    "sprite": ["modd/iiy/winoc"],
     "types": ["object"],
     "desc": ":)",
     "convertible": false,
@@ -96,7 +96,7 @@
   },
   {
     "name": "every1",
-    "sprite": ["modd/alloc"],
+    "sprite": ["modd/iiy/alloc"],
     "types": ["object"],
     "desc": "Question Mark?",
     "convertible": false,
@@ -107,7 +107,7 @@
   },
   {
     "name": "every2",
-    "sprite": ["modd/all2oc"],
+    "sprite": ["modd/iiy/all2oc"],
     "types": ["object"],
     "desc": "Exclamation Point! Question Mark?",
     "convertible": false,
@@ -118,7 +118,7 @@
   },
   {
     "name": "every3",
-    "sprite": ["modd/all3oc"],
+    "sprite": ["modd/iiy/all3oc"],
     "types": ["object"],
     "desc": "Infinity Sign.",
     "convertible": false,
@@ -129,7 +129,7 @@
   },
   {
     "name": "left",
-    "sprite": ["modd/leftoc"],
+    "sprite": ["modd/iiy/leftoc"],
     "color": [[2, 2]],
     "convertible": false,
     "rotate": false,
@@ -139,7 +139,7 @@
   },
   {
     "name": "right",
-    "sprite": ["modd/rightoc"],
+    "sprite": ["modd/iiy/rightoc"],
     "color": [[2, 2]],
     "convertible": false,
     "rotate": false,
@@ -149,7 +149,7 @@
   },
   {
     "name": "up",
-    "sprite": ["modd/upoc"],
+    "sprite": ["modd/iiy/upoc"],
     "color": [[2, 2]],
     "convertible": false,
     "rotate": false,
@@ -159,7 +159,7 @@
   },
   {
     "name": "down",
-    "sprite": ["modd/downoc"],
+    "sprite": ["modd/iiy/downoc"],
     "color": [[2, 2]],
     "convertible": false,
     "rotate": false,
@@ -169,7 +169,7 @@
   },
   {
     "name": "upleft",
-    "sprite": ["modd/upleftoc"],
+    "sprite": ["modd/iiy/upleftoc"],
     "color": [[2, 2]],
     "convertible": false,
     "rotate": false,
@@ -179,7 +179,7 @@
   },
   {
     "name": "downright",
-    "sprite": ["modd/downrightoc"],
+    "sprite": ["modd/iiy/downrightoc"],
     "color": [[2, 2]],
     "convertible": false,
     "rotate": false,
@@ -189,7 +189,7 @@
   },
   {
     "name": "upright",
-    "sprite": ["modd/uprightoc"],
+    "sprite": ["modd/iiy/uprightoc"],
     "color": [[2, 2]],
     "convertible": false,
     "rotate": false,
@@ -199,7 +199,7 @@
   },
   {
     "name": "downleft",
-    "sprite": ["modd/downleftoc"],
+    "sprite": ["modd/iiy/downleftoc"],
     "color": [[2, 2]],
     "convertible": false,
     "rotate": false,
@@ -209,7 +209,7 @@
   },
   {
     "name": "direction",
-    "sprite": ["modd/goc"],
+    "sprite": ["modd/iiy/goc"],
     "color": [[2, 2]],
     "convertible": false,
     "rotate": true,
@@ -219,12 +219,45 @@
   },
   {
     "name": "txtify",
-    "sprite": ["modd/writeoc", "modd/writeoc2"],
+    "sprite": ["modd/iiy/writeoc", "modd/iiy/writeoc2"],
     "color": [[6, 2], [6, 1]],
     "convertible": false,
     "rotate": true,
     "desc": "took the 1.20 minecraft update too literally",
     "tags": ["chars", "thingify"],
+	"pronouns": ["it"]
+  },
+  {
+    "name": "nogo",
+    "sprite": ["modd/iiy/stopoc"],
+    "layer": 7,
+    "color": [[1, 2]],
+    "convertible": false,
+    "rotate": true,
+    "desc": "control freak",
+    "tags": ["chars", "thingify", "mod"],
+	"pronouns": ["it"]
+  },
+  {
+    "name": "flye",
+    "sprite": ["modd/iiy/floatfly"],
+    "layer": 7,
+    "color": [[0, 3]],
+    "convertible": false,
+    "rotate": true,
+    "desc": "It'd be stupid not to do this",
+    "tags": ["chars", "thingify", "mod"],
+	"pronouns": ["it"]
+  },
+  {
+    "name": "walk",
+    "sprite": ["modd/iiy/walkoc"],
+    "layer": 7,
+    "color": [[5, 2]],
+    "convertible": false,
+    "rotate": true,
+    "desc": "beautiful legs",
+    "tags": ["chars", "thingify", "mod"],
 	"pronouns": ["it"]
   }
 ]
