@@ -67,5 +67,13 @@
     "types": ["letter"],
     "color": [[0, 3]],
     "desc": "I wonder if bab be u will even properly parse thsi lether?"
+  },
+  {
+    "name": "txt_matic",
+    "sprite": ["modd/moddtxt/matic"],
+    "types": ["property"],
+    "color": [[2, 1]],
+    "desc": "MATIC: Moves forwards. Cannot be cancelled via SLEP.",
+    "tags": ["txt"]
   }
 ]

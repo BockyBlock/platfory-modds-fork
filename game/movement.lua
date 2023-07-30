@@ -343,6 +343,17 @@ function doMovement(movex, movey, key)
         end
       end
       )
+      moveAndAnti("matic",
+      function(word,dir)
+        local walk = getUnitsWithEffectAndCount(word)
+        for unit,walkness in pairs(walk) do
+          unit = units_by_id[unit] or cursors_by_id[unit]
+          if slippers[unit.id] == nil and timecheck(unit,"be",word) then
+            addMove(unit,"matic",dirAdd(unit.dir,dir),walkness)
+          end
+        end
+      end
+      )
       moveAndAnti("moov",
       function(word,dir)
         if (rules_with[word]) then
