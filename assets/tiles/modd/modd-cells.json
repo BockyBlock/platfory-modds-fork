@@ -29,7 +29,7 @@
     "types": ["object"],
     "layer": 3,
     "color": [[4, 4]],
-    "desc": "CELL: refers to all cell machine tiles",
+    "desc": "CELL: refers to all cell machine tiles. is very borked.",
     "tags": ["cell"],  
   },
   {
