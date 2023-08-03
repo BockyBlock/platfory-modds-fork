@@ -465,7 +465,7 @@ selector_grid_contents = {
 	"be","goawaypls","nedkee","fordor","every1","every2","every3","txtify",":)","upleft","up","upright","left","direction","right","downleft","down","downright",
 	"snacc","ouch","lookat","nogo","walk","flye",0,0,0,0,0,0,0,0,0,0,0,0,
 	"txt_gud","txt_awdul","txt_nft","txt_corl","txt_limeme","txt_cell","txt_matic",0,0,0,0,0,0,0,0,0,0,0,
-	"txt_beb","beb","txt_dad","dad","txt_day","day","txt_getboux","getboux","txt_obby","obby","txt_tu","tu",0,0,0,0,0,0,
+	"beb","txt_beb","dad","txt_dad","day","txt_day","getboux","txt_getboux","obby","txt_obby","tu","txt_tu",0,0,0,0,0,0,
 	"zekiel","txt_zekiel","menstr","txt_menstr","jely","txt_jely",0,0,0,0,0,0,0,0,0,0,0,0,
 	"muuv","pooosh","redbloodcell","tholl","stne",0,0,0,0,0,0,0,0,0,0,0,0,0,
 	0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
