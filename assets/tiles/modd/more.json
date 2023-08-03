@@ -1,0 +1,193 @@
+[
+  {
+    "name": "getboux",
+    "sprite": ["modd/modd/getboux"],
+    "layer": 8,
+    "color": [[0, 1]],
+    "rotate": true,
+    "desc": "essential warehouse utility for boux moving",
+    "tags": ["forklift"]
+  },
+  {
+    "name": "txt_getboux",
+    "sprite": ["modd/modd/txt/getboux"],
+    "types": ["object"],
+    "desc": "kris get the boux",
+    "color": [[0, 1]],
+    "tags": ["forklift"]
+  },
+  {
+    "name": "tu",
+    "sprite": ["modd/modd/tu", "modd/modd/tu_scarf"],
+    "layer": 11,
+    "color": [[4, 2], [2, 2]],
+    "painted": [false, true],
+    "rotate": true,
+    "features": {
+      "sans": {"x": 22, "y": 13, "w": 3, "h": 3}
+    },
+    "desc": "you broke it",
+    "tags": ["somevovka", "flofl", "flag", "chars"],
+    "pronouns": ["all"]
+  },
+  {
+    "name": "txt_tu",
+    "sprite": ["modd/modd/txt/tu"],
+    "types": ["object"],
+    "color": [[4, 2]],
+    "tags": ["somevovka", "flofl", "flag", "chars"]
+  },
+  {
+    "name": "dad",
+    "sprite": ["modd/modd/dad"],
+    "layer": 11,
+    "color": [[1, 2]],
+    "rotate": true,
+    "features": {
+      "sans": {"x": 19, "y": 12, "w": 4, "h": 3}
+    },
+    "desc": "proud babysitter of babby, not actually a father",
+    "tags": ["chars", "ada", "adad", "chars"],
+    "pronouns": ["he", "him"]
+  },
+  {
+    "name": "txt_dad",
+    "sprite": ["modd/modd/txt/dad"],
+    "types": ["object"],
+    "color": [[1, 2]],
+    "tags": ["chars", "ada", "adad", "chars"]
+  },
+  {
+    "name": "obby",
+    "sprite": ["modd/modd/obby", "modd/modd/obby_wings"],
+    "layer": 10,
+    "color": [[2, 4], [0,3]],
+    "painted": [true, true, false],
+    "rotate": true,
+    "features": {
+      "sans": {"x": 19, "y": 13, "w": 2, "h": 3}
+    },
+    "desc": "ben't spooped",
+    "tags": ["chars", "ring", "angel", "obo"],
+    "pronouns": ["they", "them"]
+  },
+  {
+    "name": "txt_obby",
+    "sprite": ["modd/modd/txt/obby"],
+    "types": ["object"],
+    "color": [[2, 4]],
+    "tags": ["chars", "ring", "angel", "obo"]
+  },
+  {
+    "name": "day",
+    "sprite": ["modd/modd/day"],
+    "layer": 11,
+    "color": [[5, 2]],
+    "rotate": true,
+    "features": {
+      "sans": {"x": 22, "y": 16, "w": 3, "h": 3}
+    },
+    "desc": "sunburns HURT really badly",
+    "tags": ["chars", "dag", "chars"],
+    "pronouns": ["he", "him"]
+  },
+  {
+    "name": "txt_day",
+    "sprite": ["modd/modd/txt/day"],
+    "types": ["object"],
+    "color": [[5, 2]],
+    "desc": "made my day",
+    "tags": ["chars", "dag", "chars"]
+  },
+  {
+    "name": "ses",
+    "sprite": ["modd/modd/ses"],
+    "layer": 11,
+    "color": [[0, 1]],
+    "rotate": true,
+    "features": {
+      "sans": {"x": 22, "y": 13, "w": 5, "h": 5}
+    },
+    "desc": "very spooped by bogs",
+    "tags": ["chars", "sas", "sesa", "chars"],
+    "pronouns": ["all"]
+  },
+  {
+    "name": "txt_ses",
+    "sprite": ["modd/modd/txt/ses"],
+    "types": ["object"],
+    "color": [[0, 1]],
+    "tags": ["chars", "sas", "sesa", "chars"]
+  },
+  {
+    "name": "beb",
+    "sprite": ["modd/modd/beb"],
+    "layer": 11,
+    "color": [[0, 1]],
+    "rotate": true,
+	"features": {
+      "sans": {"x": 24, "y": 21, "w": 2, "h": 2}
+    },
+    "desc": "ballt's sister",
+    "tags": ["trollbreeder", "troll", "chars", "beba", "balt", "ballt"],
+    "pronouns": ["she", "her"]
+  },
+  {
+    "name": "txt_beb",
+    "sprite": ["modd/modd/txt/beb"],
+    "types": ["object"],
+    "color": [[0, 1]],
+    "tags": ["trollbreeder", "troll", "chars", "beba", "balt", "ballt"]
+  },
+  {
+    "name": "zekiel",
+    "sprite": ["modd/modd/zekiel"],
+    "layer": 11,
+    "color": [[0, 3]],
+    "rotate": true,
+    "desc": "creat bab omeag",
+    "tags": ["zez","zekiel"],
+  },
+  {
+    "name": "txt_zekiel",
+    "sprite": ["modd/modd/txt/zekiel"],
+    "types": ["object"],
+    "color": [[0, 3]],
+    "tags": ["zez","zekiel"],
+    "desc": "creat gud modd",
+  },
+  {
+    "name": "menstr",
+    "sprite": ["modd/modd/menstr_old"],
+    "layer": 11,
+    "color": [[4, 2]],
+    "rotate": true,
+    "desc": "dont let this distract u from the fact that this modd has 2 monsters in it",
+    "tags": ["zez","monsert"],
+  },
+  {
+    "name": "txt_menstr",
+    "sprite": ["modd/modd/txt/menstr_old"],
+    "types": ["object"],
+    "color": [[4, 2]],
+    "tags": ["zez","monsert"],
+    "desc": "wee ar men",
+  },
+  {
+    "name": "jely",
+    "sprite": ["modd/modd/jely"],
+    "layer": 11,
+    "color": [[1, 3]],
+    "rotate": true,
+    "desc": "where its brain would normally be, there is instead two toothpicks and a frog",
+    "tags": ["zez","monsert"],
+  },
+  {
+    "name": "txt_jely",
+    "sprite": ["modd/modd/txt/jely"],
+    "types": ["object"],
+    "color": [[1, 3]],
+    "tags": ["zez","monsert"],
+    "desc": "jelyjelluellyllylylleylljeyjlejylejylejylrvhuggtfxvghjxjgvdzygkutrvvbeyse",
+  }
+]
