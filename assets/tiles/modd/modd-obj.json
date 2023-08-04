@@ -373,5 +373,100 @@
     "color": [[1, 4]],
     "desc": "yoyle cake",
     "tags": ["mod", "bub"]
+  },
+  {
+    "name": "babtoo",
+    "sprite": ["modd/babtoo"],
+    "color": [[0, 3]],
+    "desc": "it's evolvinng",
+    "tags": ["mod", "bab"],
+    "rotate": true
+  },
+  {
+    "name": "txt_babtoo",
+    "sprite": ["modd/moddtxt/babtoo"],
+    "types": ["object"],
+    "color": [[4, 1]],
+    "desc": "bab be u predicted bab be u 2, but they didn't predict that sloops would be removed in that game",
+    "tags": ["mod", "bab"]
+  },
+  {
+    "name": "babtoo",
+    "sprite": ["modd/babtoo"],
+    "color": [[0, 3]],
+    "desc": "it's evolvinng",
+    "tags": ["mod", "bab"],
+    "rotate": true
+  },
+  {
+    "name": "txt_babtoo",
+    "sprite": ["modd/moddtxt/babtoo"],
+    "types": ["object"],
+    "color": [[4, 1]],
+    "desc": "new and improoved? doesn't that mean bab is old and inferior",
+    "tags": ["mod", "bab"]
+  },
+  {
+    "name": "waly",
+    "sprite": ["modd/waly"],
+    "layer": 2,
+    "color": [[1, 1]],
+    "desc": "camouflage",
+    "tags": ["walla", "mod"],
+    "pronouns": ["it"],
+    "rotate": true
+  },
+  {
+    "name": "txt_waly",
+    "sprite": ["modd/moddtxt/waly"],
+    "color": [[1, 1]],
+    "desc": "waly wonder",
+    "tags": ["mod", "walla"],
+  },
+  {
+    "name": "lefi",
+    "sprite": ["modd/lefi"],
+    "layer": 2,
+    "color": [[2, 4]],
+    "desc": "will steal ur island",
+    "tags": ["bfdi", "mod"],
+    "pronouns": ["she", "her"],
+    "rotate": true
+  },
+  {
+    "name": "txt_lefi",
+    "sprite": ["modd/moddtxt/lefi"],
+    "color": [[2, 4]],
+    "desc": "snacc on berries to turn into a goldleaf",
+    "tags": ["mod", "bfdi"],
+  },
+  {
+    "name": "cap",
+    "sprite": ["modd/cap"],
+    "color": [[2, 2]],
+    "desc": "u r capping",
+    "tags": ["mod", "mhat"],
+  },
+  {
+    "name": "txt_cap",
+    "sprite": ["modd/moddtxt/cap"],
+    "color": [[2, 2]],
+    "desc": "CAP: If you got a cap, you will have got a cap",
+    "tags": ["mod", "mhat"],
+  },
+  {
+    "name": "sso",
+    "sprite": ["modd/sso"],
+    "color": [[0, 2]],
+    "desc": "haet stinky things",
+    "tags": ["mod", "soso"],
+    "rotate": true
+  },
+  {
+    "name": "txt_sso",
+    "sprite": ["modd/moddtxt/sso"],
+    "color": [[0, 2]],
+    "desc": "SSO? single sign on? social security office? sorry sold out?",
+    "tags": ["mod", "soso"],
   }
 ]

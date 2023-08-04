@@ -905,6 +905,7 @@ function updateUnits(undoing, big_update)
                 if canMove(on, dx1, dy1, dir1) then
                   if on.class == "unit" then
                     splits_per_tile[coords] = splits_per_tile[coords] + 1
+					
                     local new_unit = createUnit(on.tile, on.x, on.y, dir1)
                     addUndo({"create", new_unit.id, false})
                     _, __, ___, x, y = getNextTile(on, dx1, dy1, dir1, false)
@@ -1763,6 +1764,14 @@ function miscUpdates(state_change)
           unit.sprite = {"modd/kid_metal", "modd/guy_cape", "modd/kid_hair", "modd/kid_pant", "modd/kid_shirt", "modd/guy_skin"}
         else
           unit.sprite = {"modd/kid_metal", "modd/kid_cape", "modd/kid_hair", "modd/kid_pant", "modd/kid_shirt", "modd/kid_skin"}
+        end
+      end
+      
+      if unit.fullname == "lefi" then
+        if hasProperty(unit,":(") then
+          unit.sprite = {"modd/evillefi"}
+        else
+          unit.sprite = {"modd/lefi"}
         end
       end
       
