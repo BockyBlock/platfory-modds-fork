@@ -459,7 +459,9 @@ selector_grid_contents = {
   -- page 8: modded
   {
 	"platfory","txt_platfory","wiki","txt_wiki","whenthe","txt_whenthe","him","txt_him","bruhbruh","txt_bruhbruh","monokeek","txt_monokeek","ty","txt_ty","gunguy","txt_gunguy","bologna","txt_bologna",
-	"whiz","txt_whiz","monsert","txt_monsert","kid","txt_kid","lopikckc","txt_lopikckc","pnut","txt_pnut","rru","txt_rru","it","txt_it","lol","txt_lol",0,0,
+	"whiz","txt_whiz","monsert","txt_monsert","kid","txt_kid","lopikckc","txt_lopikckc","pnut","txt_pnut","rru","txt_rru","it","txt_it","lol","txt_lol","swiit","txt_swiit",
+	"ubu","txt_ubu","bobub","txt_bobub",0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+	0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 	"canyon","txt_canyon","lokc","txt_lokc","pikc","txt_pikc","sog","txt_sog","eexe","txt_eexe","bandana","txt_bandana","bead","txt_bead","bloop","txt_bloop","boug","txt_boug",
 	"drincc","txt_drincc","read","txt_read","cbush","txt_cbush",0,0,0,0,0,0,0,0,0,0,0,0,
 	"be","goawaypls","nedkee","fordor","every1","every2","every3","txtify",":)","upleft","up","upright","left","direction","right","downleft","down","downright",
@@ -468,8 +470,6 @@ selector_grid_contents = {
 	"beb","txt_beb","dad","txt_dad","day","txt_day","getboux","txt_getboux","obby","txt_obby","tu","txt_tu",0,0,0,0,0,0,
 	"zekiel","txt_zekiel","menstr","txt_menstr","jely","txt_jely",0,0,0,0,0,0,0,0,0,0,0,0,
 	"muuv","pooosh","redbloodcell","tholl","stne",0,0,0,0,0,0,0,0,0,0,0,0,0,
-	0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-	0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 	0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 	"txt_flammaje","txt_zapmaje","txt_watmaje","txt_quagmaje","txt_majmaje","txt_datmaje","txt_mtalmaje","txt_tinbolt",0,0,0,0,0,0,0,0,0,"txt_xx__xx",
 	"flammaje","zapmaje","watmaje","quagmaje","majmaje","datmaje","mtalmaje","tinbolt",0,0,0,0,0,0,0,0,0,"xx__xx",

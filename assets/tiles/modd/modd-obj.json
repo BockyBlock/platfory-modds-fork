@@ -325,5 +325,53 @@
     "desc": "you know, this game doesn't have an underscore character that works",
     "wobble": true,
     "tags": ["x", "mod", "chars"],
+  },
+  {
+    "name": "swiit",
+    "sprite": ["modd/swiit"],
+    "color": [[1, 2]],
+    "desc": "sibling of ubu",
+    "tags": ["mod"],
+    "rotate": true
+  },
+  {
+    "name": "txt_swiit",
+    "sprite": ["modd/moddtxt/swiit"],
+    "types": ["object"],
+    "color": [[1, 2]],
+    "desc": "I almost called it sus",
+    "tags": ["mod"]
+  },
+  {
+    "name": "ubu",
+    "sprite": ["modd/ubu"],
+    "color": [[1, 2]],
+    "desc": "eats limons for a living",
+    "tags": ["mod"],
+    "rotate": true
+  },
+  {
+    "name": "txt_ubu",
+    "sprite": ["modd/moddtxt/ubu"],
+    "types": ["object"],
+    "color": [[1, 2]],
+    "desc": "nice going, bub",
+    "tags": ["mod"]
+  },
+  {
+    "name": "bobub",
+    "sprite": ["modd/bobub"],
+    "color": [[1, 4]],
+    "desc": "needs a chiropractor",
+    "tags": ["mod", "bub"],
+    "rotate": true
+  },
+  {
+    "name": "txt_bobub",
+    "sprite": ["modd/moddtxt/bobub"],
+    "types": ["object"],
+    "color": [[1, 4]],
+    "desc": "yoyle cake",
+    "tags": ["mod", "bub"]
   }
 ]
