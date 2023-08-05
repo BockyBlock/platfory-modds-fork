@@ -387,23 +387,7 @@
     "sprite": ["modd/moddtxt/babtoo"],
     "types": ["object"],
     "color": [[4, 1]],
-    "desc": "bab be u predicted bab be u 2, but they didn't predict that sloops would be removed in that game",
-    "tags": ["mod", "bab"]
-  },
-  {
-    "name": "babtoo",
-    "sprite": ["modd/babtoo"],
-    "color": [[0, 3]],
-    "desc": "it's evolvinng",
-    "tags": ["mod", "bab"],
-    "rotate": true
-  },
-  {
-    "name": "txt_babtoo",
-    "sprite": ["modd/moddtxt/babtoo"],
-    "types": ["object"],
-    "color": [[4, 1]],
-    "desc": "new and improoved? doesn't that mean bab is old and inferior",
+    "desc": "new and improoved? doesn't that imply bab 1 is old and inferior",
     "tags": ["mod", "bab"]
   },
   {
@@ -468,5 +452,35 @@
     "color": [[0, 2]],
     "desc": "SSO? single sign on? social security office? sorry sold out?",
     "tags": ["mod", "soso"],
+  },
+  {
+    "name": "wowbrutal",
+    "sprite": ["modd/wowbrutal"],
+    "color": [[4, 0]],
+    "desc": "stays in spce",
+    "tags": ["mod", "brute"],
+    "rotate": true
+  },
+  {
+    "name": "txt_wowbrutal",
+    "sprite": ["modd/moddtxt/wowbrutal"],
+    "color": [[4, 0]],
+    "desc": "aw, hootal",
+    "tags": ["mod", "brute"],
+  },
+  {
+    "name": "illy",
+    "sprite": ["modd/illy"],
+    "color": [[6, 2]],
+    "desc": "illy is in your walls",
+    "tags": ["mod", "ili"],
+    "rotate": true
+  },
+  {
+    "name": "txt_illy",
+    "sprite": ["modd/moddtxt/illy"],
+    "color": [[6, 2]],
+    "desc": "silly",
+    "tags": ["mod", "ili"],
   }
 ]
