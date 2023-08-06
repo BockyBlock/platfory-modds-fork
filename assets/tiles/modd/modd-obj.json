@@ -203,12 +203,12 @@
     "tags": ["mod", "txt", "it"]
   },
   {
-    "name": "lopikckc",
+    "name": "victoria",
     "sprite": ["modd/lopikckc_hair", "modd/lopikckc_bow", "modd/lopikckc_shoes", "modd/lopikckc_sleeves", "modd/lopikckc_skin", "modd/lopikckc_overalls"],
     "color": [[6, 2], [2, 2], [0, 0], [1, 2], [2, 4], [4, 4]],
     "desc": "secretly adad doing a cosplay",
     "rotate": true,
-    "tags": ["mod", "lock", "pick", "door", "key", "lily", "lokcpikc"],
+    "tags": ["mod", "lock", "pick", "door", "key", "lily", "lokcpikc", "lopikckc"],
     "pronouns": ["she", "her"]
   },
   {
@@ -224,11 +224,11 @@
     "pronouns": ["he", "him"]
   },
   {
-    "name": "txt_lopikckc",
-    "sprite": ["modd/moddtxt/lopikckc"],
+    "name": "txt_victoria",
+    "sprite": ["modd/moddtxt/victoria"],
     "types": ["object"],
     "color": [[4, 4]],
-    "desc": "because there's already so many people named lily",
+    "desc": "formerly named lopikckc",
     "tags": ["mod", "lock", "pick", "door", "key", "lily", "lokcpikc", "txt"]
   },
   {
@@ -425,20 +425,6 @@
     "tags": ["mod", "bfdi"],
   },
   {
-    "name": "cap",
-    "sprite": ["modd/cap"],
-    "color": [[2, 2]],
-    "desc": "u r capping",
-    "tags": ["mod", "mhat"],
-  },
-  {
-    "name": "txt_cap",
-    "sprite": ["modd/moddtxt/cap"],
-    "color": [[2, 2]],
-    "desc": "CAP: If you got a cap, you will have got a cap",
-    "tags": ["mod", "mhat"],
-  },
-  {
     "name": "sso",
     "sprite": ["modd/sso"],
     "color": [[0, 2]],
@@ -482,5 +468,13 @@
     "color": [[6, 2]],
     "desc": "silly",
     "tags": ["mod", "ili"],
+  },
+  {
+    "name": "bab0",
+    "sprite": ["modd/bab0"],
+    "color": [[0, 3]],
+    "desc": "what the fuck?",
+    "tags": ["mod", "bab"],
+    "rotate": true
   }
 ]

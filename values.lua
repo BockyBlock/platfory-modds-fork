@@ -459,10 +459,10 @@ selector_grid_contents = {
   -- page 8: modded
   {
 	"platfory","txt_platfory","wiki","txt_wiki","whenthe","txt_whenthe","him","txt_him","bruhbruh","txt_bruhbruh","monokeek","txt_monokeek","ty","txt_ty","gunguy","txt_gunguy","bologna","txt_bologna",
-	"whiz","txt_whiz","monsert","txt_monsert","kid","txt_kid","lopikckc","txt_lopikckc","pnut","txt_pnut","rru","txt_rru","it","txt_it","lol","txt_lol","swiit","txt_swiit",
+	"whiz","txt_whiz","monsert","txt_monsert","kid","txt_kid","victoria","txt_victoria","pnut","txt_pnut","rru","txt_rru","it","txt_it","lol","txt_lol","swiit","txt_swiit",
 	"ubu","txt_ubu","bobub","txt_bobub","lefi","txt_lefi","waly","txt_waly","sso","txt_sso","wowbrutal","txt_wowbrutal","illy","txt_illy",0,0,0,0,
 	"canyon","txt_canyon","lokc","txt_lokc","pikc","txt_pikc","sog","txt_sog","eexe","txt_eexe","bandana","txt_bandana","bead","txt_bead","bloop","txt_bloop","boug","txt_boug",
-	"drincc","txt_drincc","read","txt_read","cbush","txt_cbush","cap","txt_cap",0,0,0,0,0,0,0,0,0,0,
+	"drincc","txt_drincc","read","txt_read","cbush","txt_cbush","cap","txt_cap","lopikckc","txt_lopikckc",0,0,0,0,0,0,0,0,
 	"be","goawaypls","nedkee","fordor","every1","every2","every3","txtify",":)","upleft","up","upright","left","direction","right","downleft","down","downright",
 	"snacc","ouch","lookat","nogo","walk","flye",0,0,0,0,0,0,0,0,0,0,0,0,
 	"txt_gud","txt_awdul","txt_nft","txt_corl","txt_limeme","txt_matic",0,0,0,0,0,0,0,0,0,0,0,0,

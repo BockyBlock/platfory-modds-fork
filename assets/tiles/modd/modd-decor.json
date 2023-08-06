@@ -174,5 +174,33 @@
     "color": [[2, 2]],
     "desc": "README.txt",
     "tags": ["mod", "book", "txt"]
+  },
+  {
+    "name": "cap",
+    "sprite": ["modd/cap"],
+    "color": [[2, 2]],
+    "desc": "u r capping",
+    "tags": ["mod", "mhat"],
+  },
+  {
+    "name": "txt_cap",
+    "sprite": ["modd/moddtxt/cap"],
+    "color": [[2, 2]],
+    "desc": "CAP: If you got a cap, you will have got a cap",
+    "tags": ["mod", "mhat"],
+  },
+  {
+    "name": "lopikckc",
+    "sprite": ["modd/pikcgold"],
+    "color": [[2, 4]],
+    "desc": "open lokc with only one pikc",
+    "tags": ["mod", "key"],
+  },
+  {
+    "name": "txt_lopikckc",
+    "sprite": ["modd/moddtxt/lopikckc"],
+    "color": [[2, 4]],
+    "desc": "added this because it felt weird to rename victoria and break all those old levels",
+    "tags": ["mod", "key"],
   }
 ]
