@@ -9,7 +9,7 @@
   },
   {
     "name": "txt_majmaje",
-    "sprite": ["modd/moddtxt/majmaje"],
+    "sprite": ["modd/misctxt/majmaje"],
     "types": ["object"],
     "color": [[3, 2]],
     "tags": ["mod", "mage", "txt"]
@@ -24,7 +24,7 @@
   },
   {
     "name": "txt_flammaje",
-    "sprite": ["modd/moddtxt/flammaje"],
+    "sprite": ["modd/misctxt/flammaje"],
     "types": ["object"],
     "color": [[2, 2]],
     "tags": ["mod", "mage", "txt"]
@@ -39,7 +39,7 @@
   },
   {
     "name": "txt_zapmaje",
-    "sprite": ["modd/moddtxt/zapmaje"],
+    "sprite": ["modd/misctxt/zapmaje"],
     "types": ["object"],
     "color": [[2, 4]],
     "tags": ["mod", "mage", "txt"]
@@ -54,7 +54,7 @@
   },
   {
     "name": "txt_watmaje",
-    "sprite": ["modd/moddtxt/watmaje"],
+    "sprite": ["modd/misctxt/watmaje"],
     "types": ["object"],
     "color": [[1, 4]],
     "tags": ["mod", "mage", "txt"]
@@ -69,7 +69,7 @@
   },
   {
     "name": "txt_quagmaje",
-    "sprite": ["modd/moddtxt/quagmaje"],
+    "sprite": ["modd/misctxt/quagmaje"],
     "types": ["object"],
     "color": [[5, 2]],
     "tags": ["mod", "mage", "txt"]
@@ -84,7 +84,7 @@
   },
   {
     "name": "txt_datmaje",
-    "sprite": ["modd/moddtxt/datmaje"],
+    "sprite": ["modd/misctxt/datmaje"],
     "types": ["object"],
     "color": [[0, 2]],
     "tags": ["mod", "mage", "txt"]
@@ -99,7 +99,7 @@
   },
   {
     "name": "txt_mtalmaje",
-    "sprite": ["modd/moddtxt/mtalmaje"],
+    "sprite": ["modd/misctxt/mtalmaje"],
     "types": ["object"],
     "color": [[2, 3]],
     "tags": ["mod", "mage", "txt"]
@@ -114,10 +114,32 @@
   },
   {
     "name": "txt_tinbolt",
-    "sprite": ["modd/moddtxt/tinbolt"],
+    "sprite": ["modd/misctxt/tinbolt"],
     "types": ["object"],
     "color": [[2,2]],
     "desc": "metal should be an elemnt",
     "tags": ["mod", "bolt", "txt"]
+  },
+  {
+    "name": "woug",
+    "sprite": ["wog"],
+    "layer": 10,
+    "color": [[2, 4]],
+    "rotate": true,
+    "features": {
+      "sans": {"x": 16, "y": 9, "w": 3, "h": 3}
+    },
+    "voice": "s_strum",
+    "desc": "what are you talking about? it was always named woug",
+    "tags": ["wug", "chars", "bird"],
+	  "pronouns": ["they", "them"]
+  },
+  {
+    "name": "txt_woug",
+    "sprite": ["modd/moddtxt/woug"],
+    "types": ["object"],
+    "color": [[2, 4]],
+    "desc": "wougs dream is to be a mad scientist and go evil with power using nothing but sheer linguistics. linguists' evil career options may be limited but that wont stop woug from trying their best",
+    "tags": ["wug", "chars", "bird"]
   }
 ]

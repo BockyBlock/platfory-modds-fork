@@ -189,5 +189,41 @@
     "color": [[1, 3]],
     "tags": ["zez","monsert"],
     "desc": "jelyjelluellyllylylleylljeyjlejylejylejylrvhuggtfxvghjxjgvdzygkutrvvbeyse",
+  },
+  {
+    "name": "hey",
+    "sprite": ["modd/othr/hey"],
+    "layer": 11,
+    "color": [[1, 2]],
+    "tags": ["chars", "andy"],
+    "rotate": true,
+    "pronouns": ["they", "them"],
+    "desc": "notice that the legs are swapped"
+  },
+  {
+    "name": "txt_hey",
+    "sprite": ["modd/othr/txt/hey"],
+    "types": ["object"],
+    "color": [[1, 2]],
+    "tags": ["chars", "andy"],
+    "desc": "heyyyyy"
+  },
+  {
+    "name": "then",
+    "sprite": ["modd/othr/then"],
+    "layer": 11,
+    "color": [[5, 3]],
+    "tags": ["chars", "andy"],
+    "rotate": true,
+    "pronouns": ["they", "them"],
+    "desc": "there are three of"
+  },
+  {
+    "name": "txt_then",
+    "sprite": ["modd/othr/txt/then"],
+    "types": ["object"],
+    "color": [[5, 3]],
+    "tags": ["chars", "andy"],
+    "desc": "when? then"
   }
 ]

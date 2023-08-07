@@ -206,7 +206,7 @@
     "name": "victoria",
     "sprite": ["modd/lopikckc_hair", "modd/lopikckc_bow", "modd/lopikckc_shoes", "modd/lopikckc_sleeves", "modd/lopikckc_skin", "modd/lopikckc_overalls"],
     "color": [[6, 2], [2, 2], [0, 0], [1, 2], [2, 4], [4, 4]],
-    "desc": "secretly adad doing a cosplay",
+    "desc": "bi and lesbiab",
     "rotate": true,
     "tags": ["mod", "lock", "pick", "door", "key", "lily", "lokcpikc", "lopikckc"],
     "pronouns": ["she", "her"]
@@ -473,8 +473,23 @@
     "name": "bab0",
     "sprite": ["modd/bab0"],
     "color": [[0, 3]],
-    "desc": "what the fuck?",
+    "desc": "wtf?",
     "tags": ["mod", "bab"],
     "rotate": true
+  },
+  {
+    "name": "heeh2",
+    "sprite": ["modd/heeh2"],
+    "color": [[1, 4]],
+    "desc": "I wheezed",
+    "tags": ["mod", "heeh"],
+    "rotate": true
+  },
+  {
+    "name": "txt_heeh2",
+    "sprite": ["modd/moddtxt/heeh2"],
+    "color": [[1, 4]],
+    "desc": "so as not to conflict with heeh (fof's modds)",
+    "tags": ["mod", "heeh"],
   }
 ]
