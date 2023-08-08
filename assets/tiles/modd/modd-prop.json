@@ -1,7 +1,7 @@
 [
   {
     "name": "txt_gud",
-    "sprite": ["modd/moddtxt/gud"],
+    "sprite": ["modd/moddtxt/prop/gud"],
     "types": ["property"],
     "color": [[2, 4]],
     "desc": "GUD: Causes the unit to be awesome!\nAnti: The unit becomes awful.",
@@ -9,7 +9,7 @@
   },
   {
     "name": "txt_awdul",
-    "sprite": ["modd/moddtxt/awdul"],
+    "sprite": ["modd/moddtxt/prop/awdul"],
     "types": ["property"],
     "color": [[1, 2]],
     "desc": "AWDUL: Causes the unit to be awful.\nAnti: The unit becomes awesome!",
@@ -17,7 +17,7 @@
   },
   {
     "name": "txt_happen",
-    "sprite": ["modd/moddtxt/happen"],
+    "sprite": ["modd/moddtxt/prop/happen"],
     "types": ["property"],
     "color": [[1, 2]],
     "desc": "HAPPEN: Where any other unit would normally transform into this one, they instead RP it. In theory. It's not done yet.",
@@ -25,7 +25,7 @@
   },
   {
     "name": "txt_nft",
-    "sprite": ["modd/moddtxt/nft"],
+    "sprite": ["modd/moddtxt/prop/nft"],
     "types": ["property"],
     "color": [[2, 1]],
     "desc": "NFT: Nothing can become this unit.\nAnti: Moar",
@@ -33,9 +33,9 @@
   },
   {
     "name": "txt_limeme",
-    "sprite": ["modd/moddtxt/limeme_cond"],
+    "sprite": ["modd/moddtxt/prop/limeme_cond"],
     "sprite_transforms": {
-      "property": "modd/moddtxt/limeme"
+      "property": "modd/moddtxt/prop/limeme"
     },
     "types": ["class_prefix", "cond_prefix", "property"],
     "color": [[5, 3]],
@@ -44,9 +44,9 @@
   },
   {
     "name": "txt_corl",
-    "sprite": ["modd/moddtxt/corl_cond"],
+    "sprite": ["modd/moddtxt/prop/corl_cond"],
     "sprite_transforms": {
-      "property": "modd/moddtxt/corl"
+      "property": "modd/moddtxt/prop/corl"
     },
     "types": ["class_prefix", "cond_prefix", "property"],
     "color": [[4, 2]],
@@ -55,7 +55,7 @@
   },
   {
     "name": "txt_thing",
-    "sprite": ["modd/moddtxt/thing"],
+    "sprite": ["modd/moddtxt/prop/thing"],
     "types": ["object"],
     "color": [[3, 3]],
     "desc": "THING: Includes all units that are not convertible.",
@@ -63,17 +63,25 @@
   },
   {
     "name": "letter__",
-    "sprite": ["modd/moddtxt/_"],
+    "sprite": ["modd/moddtxt/prop/_"],
     "types": ["letter"],
     "color": [[0, 3]],
     "desc": "I wonder if bab be u will even properly parse thsi lether?"
   },
   {
     "name": "txt_matic",
-    "sprite": ["modd/moddtxt/matic"],
+    "sprite": ["modd/moddtxt/prop/matic"],
     "types": ["property"],
-    "color": [[2, 1]],
+    "color": [[4, 2]],
     "desc": "MATIC: Moves forwards. Cannot be cancelled via SLEP.",
+    "tags": ["txt"]
+  },
+  {
+    "name": "txt_vsl",
+    "sprite": ["modd/moddtxt/prop/vsl"],
+    "types": ["property"],
+    "color": [[0, 1]],
+    "desc": "VSL: Controlled by player input, but does not respond to :( objects.",
     "tags": ["txt"]
   }
 ]

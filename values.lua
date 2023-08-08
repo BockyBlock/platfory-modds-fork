@@ -22,7 +22,7 @@ PACK_UNIT_V3 = "llhhbs" -- ID, TILE, X, Y, DIR, SPECIALS
 PACK_SPECIAL_V2 = "ss" -- KEY, VALUE
 
 profile = {
-  name = "bab"
+  name = "platfory"
 }
 
 defaultsettings = {
@@ -466,10 +466,10 @@ selector_grid_contents = {
 	"be","goawaypls","nedkee","fordor","every1","every2","every3","txtify",":)","upleft","up","upright","left","direction","right","downleft","down","downright",
 	"snacc","ouch","lookat","nogo","walk","flye",0,0,0,0,0,0,0,0,0,0,0,0,
 	"txt_gud","txt_awdul","txt_nft","txt_corl","txt_limeme","txt_matic",0,0,0,0,0,0,0,0,0,0,0,0,
+	0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 	"muuv","pooosh","redbloodcell","tholl","stne",0,0,0,0,0,0,0,0,0,0,0,0,0,
 	"beb","txt_beb","dad","txt_dad","day","txt_day","getboux","txt_getboux","obby","txt_obby","tu","txt_tu","then","txt_then","hey","txt_hey",0,0,
 	"zekiel","txt_zekiel","menstr","txt_menstr","jely","txt_jely","babtoo","txt_babtoo",0,0,0,0,0,0,0,0,0,0,
-	0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 	0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 	"txt_flammaje","txt_zapmaje","txt_watmaje","txt_quagmaje","txt_majmaje","txt_datmaje","txt_mtalmaje","txt_tinbolt",0,0,0,0,0,0,0,0,0,"txt_xx__xx",
 	"flammaje","zapmaje","watmaje","quagmaje","majmaje","datmaje","mtalmaje","tinbolt",0,0,0,0,0,0,0,0,0,"xx__xx",

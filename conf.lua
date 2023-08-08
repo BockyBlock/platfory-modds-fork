@@ -1,9 +1,9 @@
 function love.conf(t)
-    t.identity = "bab"
+    t.identity = "platfory"
     t.window.icon = "assets/sprites/ui/baboutline.png"
     t.version = "11.1"
     t.release = false
-    t.window.title = 'bab be u'
+    t.window.title = 'platfory modds'
     t.window.resizable = true
     t.window.vsync = false
     t.window.minwidth = 640

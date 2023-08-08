@@ -2195,6 +2195,9 @@ function DoDiscordRichPresence()
       elseif love.filesystem.read("author_name") == "fox" or unit.fullname == "o" then
         presence["smallImageText"] = "o"
         presence["smallImageKey"] = "o"
+      elseif unit.fullname == "platfory" then
+        presence["smallImageText"] = "platfory"
+        presence["smallImageKey"] = "platfory"
       elseif unit.fullname == "bab" or unit.fullname == "keek" or unit.fullname == "meem" or unit.fullname == "bup" then
         presence["smallImageText"] = unit.fullname
         presence["smallImageKey"] = unit.fullname
