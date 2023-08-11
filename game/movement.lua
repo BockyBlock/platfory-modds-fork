@@ -2353,89 +2353,94 @@ function canMoveCore(unit,dx,dy,dir,o) --pushing, pulling, solid_name, reason, p
       end
       --New FLYE mechanic, as decreed by the bab dictator - if you aren't sameFloat as a push/pull/sidekik, you can enter it.
       -- print("checking if",v.name,"has goawaypls")
-      if not table.has_value(unitsByTile(v.x,v.y),unit) then
-        local push = (hasProperty(v, "goawaypls") and ignoreCheck(unit,v,"goawaypls"))
-                  or (hasProperty(v, "anti sidekik") and ignoreCheck(unit,v,"anti sidekik"))
-                  or (hasProperty(v, "anti diagkik") and ignoreCheck(unit,v,"anti diagkik"))
-                  or (hasProperty(v, "push") and ignoreCheck(unit,v,"push"))
-        local moov = hasRule(unit, "moov", v) and ignoreCheck(unit,v);
-        if (push or moov) and not would_swap_with then
-          if o.pushing and ignoreCheck(v,unit) then
-            --glued units are pushed all at once or not at all
-            local is_glued, glued_rule = hasProperty(v, "glued", true)
-            if is_glued then
-              local units, pushers, pullers = FindEntireGluedUnit(v, dx, dy, glued_rule)
-              
-              local all_success = true
-              local newer_movers = {}
-              for _,v2 in ipairs(pushers) do
-                o.push_stack[unit] = true
-                local reason = push and "goawaypls" or "moov"
-                local temp_o = copyTable(o)
-                temp_o.reason = reason
-                local success,new_movers,new_specials = canMove(v2, dx, dy, dir, temp_o)
-                o.push_stack[unit] = nil
-                mergeTable(specials, new_specials)
-                mergeTable(newer_movers, new_movers)
-                if not success then all_success = false end
-              end
-              if all_success then
-                mergeTable(movers, newer_movers)
-                for _,add in ipairs(units) do
-                  table.insert(movers, {unit = add, dx = dx, dy = dy, dir = dir, move_dx = move_dx, move_dy = move_dy, move_dir = move_dir, geometry_spin = geometry_spin, portal = portal_unit})
-                end
-                --print(dump(movers))
-              elseif push then
-                stopped = stopped or (sameFloat(unit, v) and o.reason ~= "curse")
-              end
-            else
-              --single units have to be able to move themselves to be pushed
-              o.push_stack[unit] = true
-              local reason = push and "goawaypls" or "moov"
-              local temp_o = copyTable(o)
-              temp_o.reason = reason
-              local success,new_movers,new_specials = canMove(v, dx, dy, dir, temp_o)
-              o.push_stack[unit] = nil
-              for _,special in ipairs(new_specials) do
-                table.insert(specials, special)
-              end
-              if success then
-                for _,mover in ipairs(new_movers) do
-                  table.insert(movers, mover)
-                end
-              elseif push then
-                stopped = stopped or (sameFloat(unit, v) and o.reason ~= "curse")
-              end
-            end
-          elseif push then
-            stopped = stopped or (sameFloat(unit, v) and o.reason ~= "curse")
-          end
-        else
-          -- print("fail (or would_swap_with)")
-        end
-      end
       
-      local canpush = hasProperty(v, "goawaypls") or hasProperty(v, "anti sidekik") or hasProperty(v, "anti diagkik") or hasProperty(v, "push")
-      --if/elseif chain for everything that sets stopped to true if it's true - no need to check the remainders after all! (but if anything ignores flye, put it first, like haet!)
-      if rules_with["haet"] ~= nil and hasRule(unit, "haet", v) and not hasRule(unit,"liek",v) and ignoreCheck(unit,v) then
-        stopped = true
-      elseif hasProperty(v, "nogo") and o.reason ~= "curse" then --Things that are STOP stop being PUSH, unlike in Baba. Also unlike Baba, a wall can be floated across if it is not tall!
-        stopped = stopped or (sameFloat(unit, v) and ignoreCheck(unit,v,"nogo"))
-      elseif hasProperty(v, "sidekik") and not canpush and not would_swap_with and o.reason ~= "curse" then
-        stopped = stopped or (sameFloat(unit, v) and ignoreCheck(unit,v,"sidekik"))
-      elseif hasProperty(v, "diagkik") and not canpush and not would_swap_with and o.reason ~= "curse" then
-        stopped = stopped or (sameFloat(unit, v) and ignoreCheck(unit,v,"diagkik"))
-      elseif hasProperty(v, "comepls") and not canpush and not would_swap_with and not pulling and o.reason ~= "curse" then
-        stopped = stopped or (sameFloat(unit, v) and ignoreCheck(unit,v,"comepls"))
-      elseif hasProperty(v, "gomyway") and goMyWayPrevents(v.dir, dx, dy) then
-        stopped = stopped or (sameFloat(unit, v) and ignoreCheck(unit,v,"gomyway"))
-      elseif hasProperty(v, "anti gomyway") and dir ~= v.dir then
-        stopped = stopped or (sameFloat(unit, v) and ignoreCheck(unit,v,"anti gomyway"))
-      end
-      if stopped and v.name == "gato" then
-        v.draw.rotation = v.draw.rotation - 10
-        addTween(tween.new(0.5, v.draw, {rotation = (v.rotatdir-1)*45}, "outElastic"), "v:rotation:" .. v.tempid)
-      end
+	  local phantoming = hasProperty(unit, "yesgo")
+	  
+	  if not phantoming then
+		  if not table.has_value(unitsByTile(v.x,v.y),unit) then
+			local push = (hasProperty(v, "goawaypls") and ignoreCheck(unit,v,"goawaypls"))
+					  or (hasProperty(v, "anti sidekik") and ignoreCheck(unit,v,"anti sidekik"))
+					  or (hasProperty(v, "anti diagkik") and ignoreCheck(unit,v,"anti diagkik"))
+					  or (hasProperty(v, "push") and ignoreCheck(unit,v,"push"))
+			local moov = hasRule(unit, "moov", v) and ignoreCheck(unit,v);
+			if (push or moov) and not would_swap_with then
+			  if o.pushing and ignoreCheck(v,unit) then
+				--glued units are pushed all at once or not at all
+				local is_glued, glued_rule = hasProperty(v, "glued", true)
+				if is_glued then
+				  local units, pushers, pullers = FindEntireGluedUnit(v, dx, dy, glued_rule)
+				  
+				  local all_success = true
+				  local newer_movers = {}
+				  for _,v2 in ipairs(pushers) do
+					o.push_stack[unit] = true
+					local reason = push and "goawaypls" or "moov"
+					local temp_o = copyTable(o)
+					temp_o.reason = reason
+					local success,new_movers,new_specials = canMove(v2, dx, dy, dir, temp_o)
+					o.push_stack[unit] = nil
+					mergeTable(specials, new_specials)
+					mergeTable(newer_movers, new_movers)
+					if not success then all_success = false end
+				  end
+				  if all_success then
+					mergeTable(movers, newer_movers)
+					for _,add in ipairs(units) do
+					  table.insert(movers, {unit = add, dx = dx, dy = dy, dir = dir, move_dx = move_dx, move_dy = move_dy, move_dir = move_dir, geometry_spin = geometry_spin, portal = portal_unit})
+					end
+					--print(dump(movers))
+				  elseif push then
+					stopped = stopped or (sameFloat(unit, v) and o.reason ~= "curse")
+				  end
+				else
+				  --single units have to be able to move themselves to be pushed
+				  o.push_stack[unit] = true
+				  local reason = push and "goawaypls" or "moov"
+				  local temp_o = copyTable(o)
+				  temp_o.reason = reason
+				  local success,new_movers,new_specials = canMove(v, dx, dy, dir, temp_o)
+				  o.push_stack[unit] = nil
+				  for _,special in ipairs(new_specials) do
+					table.insert(specials, special)
+				  end
+				  if success then
+					for _,mover in ipairs(new_movers) do
+					  table.insert(movers, mover)
+					end
+				  elseif push then
+					stopped = stopped or (sameFloat(unit, v) and o.reason ~= "curse")
+				  end
+				end
+			  elseif push then
+				stopped = stopped or (sameFloat(unit, v) and o.reason ~= "curse")
+			  end
+			else
+			  -- print("fail (or would_swap_with)")
+			end
+		  end
+	  
+		  local canpush = hasProperty(v, "goawaypls") or hasProperty(v, "anti sidekik") or hasProperty(v, "anti diagkik") or hasProperty(v, "push")
+		  --if/elseif chain for everything that sets stopped to true if it's true - no need to check the remainders after all! (but if anything ignores flye, put it first, like haet!)
+		  if rules_with["haet"] ~= nil and hasRule(unit, "haet", v) and not hasRule(unit,"liek",v) and ignoreCheck(unit,v) then
+			stopped = true
+		  elseif hasProperty(v, "nogo") and o.reason ~= "curse" then --Things that are STOP stop being PUSH, unlike in Baba. Also unlike Baba, a wall can be floated across if it is not tall!
+			stopped = stopped or (sameFloat(unit, v) and ignoreCheck(unit,v,"nogo"))
+		  elseif hasProperty(v, "sidekik") and not canpush and not would_swap_with and o.reason ~= "curse" then
+			stopped = stopped or (sameFloat(unit, v) and ignoreCheck(unit,v,"sidekik"))
+		  elseif hasProperty(v, "diagkik") and not canpush and not would_swap_with and o.reason ~= "curse" then
+			stopped = stopped or (sameFloat(unit, v) and ignoreCheck(unit,v,"diagkik"))
+		  elseif hasProperty(v, "comepls") and not canpush and not would_swap_with and not pulling and o.reason ~= "curse" then
+			stopped = stopped or (sameFloat(unit, v) and ignoreCheck(unit,v,"comepls"))
+		  elseif hasProperty(v, "gomyway") and goMyWayPrevents(v.dir, dx, dy) then
+			stopped = stopped or (sameFloat(unit, v) and ignoreCheck(unit,v,"gomyway"))
+		  elseif hasProperty(v, "anti gomyway") and dir ~= v.dir then
+			stopped = stopped or (sameFloat(unit, v) and ignoreCheck(unit,v,"anti gomyway"))
+		  end
+		  if stopped and v.name == "gato" then
+			v.draw.rotation = v.draw.rotation - 10
+			addTween(tween.new(0.5, v.draw, {rotation = (v.rotatdir-1)*45}, "outElastic"), "v:rotation:" .. v.tempid)
+		  end
+	  end
       
       --ouch/snacc logic:
       --1) if mover can destroy wall via ouch/snacc, then allow movement AND destroy the wall immediately

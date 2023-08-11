@@ -81,7 +81,15 @@
     "sprite": ["modd/moddtxt/prop/vsl"],
     "types": ["property"],
     "color": [[0, 1]],
-    "desc": "VSL: Controlled by player input, but does not respond to :( objects.",
+    "desc": "VSL: Controlled by player input, but does not respond to :( objects. Not flippin' implemented yet",
+    "tags": ["txt"]
+  },
+  {
+    "name": "txt_yesgo",
+    "sprite": ["modd/moddtxt/prop/yesgo"],
+    "types": ["property"],
+    "color": [[4, 2]],
+    "desc": "YESGO: Will not be impeded by NOGO, GOAWAYPLS, or other similar properties.",
     "tags": ["txt"]
   }
 ]
