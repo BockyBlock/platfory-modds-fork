@@ -72,7 +72,7 @@
     "name": "txt_matic",
     "sprite": ["modd/moddtxt/prop/matic"],
     "types": ["property"],
-    "color": [[4, 2]],
+    "color": [[4, 1]],
     "desc": "MATIC: Moves forwards. Cannot be cancelled via SLEP.",
     "tags": ["txt"]
   },

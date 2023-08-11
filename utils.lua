@@ -3843,6 +3843,7 @@ function buildOptions()
   elseif global_menu_state == "editor" then
     scene.addOption("print_to_screen", "log print()s to screen", {{"on", true}, {"off", false}})
     scene.addOption("unfinished_words", "unfinished words in editor", {{"on", true}, {"off", false}})
+    scene.addOption("baba", "spoilery words in editor", {{"on", true}, {"off", false}})
     scene.addOption("infomode", "display object info", {{"on", true}, {"off", false}})
     scene.addButton("back", function() global_menu_state = "none"; scene.buildUI() end)
   elseif global_menu_state == "misc" then

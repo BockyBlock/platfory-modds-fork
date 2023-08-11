@@ -393,15 +393,15 @@ w = w-h, h = h}):center():setGroup("settings")
   local x = love.graphics.getWidth()/2 - tile_grid_width*16 - 64
   local y = love.graphics.getHeight()/2 - tile_grid_height*16 - 32
   
-  for i=1,#tile_grid do
+  for i=1,12 do
     local tab_name = custom_selector_tab == i and "custom" or i
-    if tab_name == 8 then
+    if tab_name == 11 then
       if settings["baba"] then
         tab_name = "baba"
       else
         tab_name = "unfinished"
       end
-    elseif tab_name == 9 then
+    elseif tab_name == 12 then
       tab_name = "unfinished"
     end
     local button_width = math.floor(576 / #tile_grid) --576 is 18 tiles wide * 32 pixels per tile
@@ -410,13 +410,13 @@ w = w-h, h = h}):center():setGroup("settings")
         selector_tab_buttons_list[selector_page]:setBGImage(sprites["ui/selector_tab_custom"], sprites["ui/selector_tab_custom_h"])
       else
         local image_to_use = selector_page
-        if selector_page == 8 then
+        if selector_page == 11 then
           if settings["baba"] then
             image_to_use = "baba"
           else
             image_to_use = "unfinished"
           end
-        elseif selector_page == 9 then
+        elseif selector_page == 12 then
           image_to_use = "unfinished"
         end
         selector_tab_buttons_list[selector_page]:setBGImage(sprites["ui/selector_tab_"..image_to_use], sprites["ui/selector_tab_"..image_to_use.."_h"])
@@ -434,13 +434,13 @@ w = w-h, h = h}):center():setGroup("settings")
     selector_tab_buttons_list[selector_page]:setBGImage(sprites["ui/selector_tab_custom_a"], sprites["ui/selector_tab_custom_h"])
   else
     local image_to_use = selector_page
-    if selector_page == 8 then
+    if selector_page == 11 then
       if settings["baba"] then
         image_to_use = "baba"
       else
         image_to_use = "unfinished"
       end
-    elseif selector_page == 9 then
+    elseif selector_page == 12 then
       image_to_use = "unfinished"
     end
     selector_tab_buttons_list[selector_page]:setBGImage(sprites["ui/selector_tab_"..image_to_use.."_a"], sprites["ui/selector_tab_"..image_to_use.."_h"])
@@ -756,13 +756,13 @@ function scene.keyPressed(key)
     selector_tab_buttons_list[selector_page]:setBGImage(sprites["ui/selector_tab_custom"], sprites["ui/selector_tab_custom_h"])
   else
     local image_to_use = selector_page
-    if selector_page == 8 then
+    if selector_page == 11 then
       if settings["baba"] then
         image_to_use = "baba"
       else
         image_to_use = "unfinished"
       end
-    elseif selector_page == 9 then
+    elseif selector_page == 12 then
       image_to_use = "unfinished"
     end
     selector_tab_buttons_list[selector_page]:setBGImage(sprites["ui/selector_tab_"..image_to_use], sprites["ui/selector_tab_"..image_to_use.."_h"])
@@ -784,13 +784,13 @@ function scene.keyPressed(key)
       selector_tab_buttons_list[selector_page]:setBGImage(sprites["ui/selector_tab_custom_a"], sprites["ui/selector_tab_custom_h"])
     else
       local image_to_use = selector_page
-      if selector_page == 8 then
+      if selector_page == 11 then
         if settings["baba"] then
           image_to_use = "baba"
         else
           image_to_use = "unfinished"
         end
-      elseif selector_page == 9 then
+      elseif selector_page == 12 then
         image_to_use = "unfinished"
       end
       selector_tab_buttons_list[selector_page]:setBGImage(sprites["ui/selector_tab_"..image_to_use.."_a"], sprites["ui/selector_tab_"..image_to_use.."_h"])
