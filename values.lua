@@ -478,8 +478,8 @@ selector_grid_contents = {
   {
 	"platfory","txt_platfory","wiki","txt_wiki","whenthe","txt_whenthe","him","txt_him","bruhbruh","txt_bruhbruh","monokeek","txt_monokeek","ty","txt_ty","gunguy","txt_gunguy","bologna","txt_bologna",
 	"whiz","txt_whiz","monsert","txt_monsert","kid","txt_kid","victoria","txt_victoria","pnut","txt_pnut","rru","txt_rru","it","txt_it","lol","txt_lol","swiit","txt_swiit",
-	"ubu","txt_ubu","bobub","txt_bobub","lefi","txt_lefi","waly","txt_waly","sso","txt_sso","wowbrutal","txt_wowbrutal","illy","txt_illy","heeh2","txt_heeh2",0,0,
-	0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+	"ubu","txt_ubu","bobub","txt_bobub","lefi","txt_lefi","waly","txt_waly","sso","txt_sso","wowbrutal","txt_wowbrutal","illy","txt_illy","heeh2","txt_heeh2","fari","txt_fari",
+	"sammah","txt_sammah","sallt","txt_sallt","huro","txt_huro","chonke","txt_chonke","quiq","txt_quiq",0,0,0,0,0,0,0,0,
     0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
     0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
     0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
