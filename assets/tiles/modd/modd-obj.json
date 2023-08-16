@@ -540,7 +540,7 @@
   {
     "name": "huro",
     "sprite": ["modd/huro"],
-    "color": [[6, 2]],
+    "color": [[6, 1]],
     "desc": "goes brrrrrrrr",
     "tags": ["mod", "tero"],
     "rotate": true
@@ -548,7 +548,7 @@
   {
     "name": "txt_huro",
     "sprite": ["modd/moddtxt/huro"],
-    "color": [[6, 2]],
+    "color": [[6, 1]],
     "desc": "hurcan't",
     "tags": ["mod", "tero"],
   },
