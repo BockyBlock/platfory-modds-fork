@@ -266,8 +266,7 @@ anti_word_replacements = {
   seenby = "behind",
   behind = "seenby",
   halfstep = "hopovr",
-  nft = "moar",
-  yesgo = "stukc",
+  nft = "moar"
 }
 
 anti_word_reverses = {

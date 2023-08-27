@@ -2439,6 +2439,8 @@ end
 			stopped = stopped or (sameFloat(unit, v) and ignoreCheck(unit,v,"gomyway"))
 		  elseif hasProperty(v, "anti gomyway") and dir ~= v.dir then
 			stopped = stopped or (sameFloat(unit, v) and ignoreCheck(unit,v,"anti gomyway"))
+		  elseif hasProperty(unit, "anti yesgo") then
+			stopped = true
 		  end
 		  if stopped and v.name == "gato" then
 			v.draw.rotation = v.draw.rotation - 10

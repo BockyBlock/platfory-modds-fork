@@ -156,7 +156,7 @@
     "sprite": ["modd/moddtxt/drincc"],
     "types": ["object", "verb_class", "verb"],
     "color": [[1, 3]],
-    "desc": "zekiel helped me made this one a verb and it's funny\nDRINCC: A bit like Snacc, but in a different order",
+    "desc": "Zekiel came up with this one :)\nDRINCC: Destroys all objects that it DRINCCs if it overlaps them, like FRIDGD\nANTI: Destroy self if it overlaps something it DRINCCs",
     "tags": ["mod", "drink", "boba", "txt"]
   },
   {

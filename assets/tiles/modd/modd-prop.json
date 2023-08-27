@@ -73,7 +73,7 @@
     "sprite": ["modd/moddtxt/prop/matic"],
     "types": ["property"],
     "color": [[4, 1]],
-    "desc": "MATIC: Moves forwards. Cannot be cancelled via SLEP.",
+    "desc": "MATIC: Moves forwards. Cannot be cancelled via SLEP.\nANTI: Starts going in circles",
     "tags": ["txt"]
   },
   {
@@ -89,7 +89,7 @@
     "sprite": ["modd/moddtxt/prop/yesgo"],
     "types": ["property"],
     "color": [[4, 2]],
-    "desc": "YESGO: Will not be impeded by NOGO, GOAWAYPLS, or other similar properties. ANTI: stukc",
+    "desc": "YESGO: Will not be impeded by NOGO, GOAWAYPLS, or other similar properties. ANTI: Will not move unless it will be frenles",
     "tags": ["txt"]
   },
   {

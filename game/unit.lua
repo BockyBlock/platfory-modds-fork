@@ -969,7 +969,26 @@ function updateUnits(undoing, big_update)
     end
     
     to_destroy = handleDels(to_destroy)
-    
+    local isantidrincc = matchesRule(nil, "anti drincc", "?")
+    for _,ruleparent in ipairs(isantidrincc) do
+      local unit = ruleparent[2]
+      local stuff = getUnitsOnTile(unit.x, unit.y, {not_destroyed = true, checkmous = true, thicc = thicc_units[unit]})
+      for _,on in ipairs(stuff) do
+        if (unit ~= on or ruleparent[1].rule.object.name == "themself") and hasRule(unit, "anti drincc", on) and sameFloat(unit, on) and ignoreCheck(on, unit) then
+          if timecheck(unit,"anti drincc",on) and timecheck(on) then
+            table.insert(to_destroy, unit)
+            table.insert(time_sfx,"sink")
+            shakeScreen(0.3, 0.15)
+          else
+            table.insert(time_destroy,{unit.id,timeless})
+            playSound("sink")
+            shakeScreen(0.3, 0.15)
+          end
+          addParticles("destroy", unit.x, unit.y, getUnitColor(unit))
+        end
+      end
+    end
+	
     local isdrincc = matchesRule(nil, "drincc", "?")
     for _,ruleparent in ipairs(isdrincc) do
       local unit = ruleparent[2]
