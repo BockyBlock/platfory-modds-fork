@@ -99,5 +99,21 @@
     "color": [[1, 4]],
     "desc": "SPLASH: If its movement is cancelled, it will instantly melt. ANTI: Treat others as SPLASH",
     "tags": ["txt"]
+  },
+  {
+    "name": "txt_did",
+    "sprite": ["modd/moddtxt/prop/did"],
+    "types": ["cond_prefix"],
+    "color": [[3, 3]],
+    "desc": "DID: A prefix the object is more YEE than it is ANTI YEE.\nANTI: Swap YEE and anti YEE",
+    "tags": ["txt"]
+  },
+  {
+    "name": "txt_yee",
+    "sprite": ["modd/moddtxt/prop/yee"],
+    "types": ["property"],
+    "color": [[5, 2]],
+    "desc": "YEE: Causes the DID prefix to activate. Stacks.\nANTI: -1 to count",
+    "tags": ["yes", "yeah", "yup", "yeeeeeee"]
   }
 ]

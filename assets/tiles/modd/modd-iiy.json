@@ -7,8 +7,7 @@
     "convertible": false,
     "rotate": true,
     "desc": "why do they call it a snacc when its the one that snaccs u",
-    "tags": ["chars", "scary", "thingify", "mod"],
-	"pronouns": ["it"]
+    "tags": ["chars", "scary", "thingify", "mod"]
   },
   {
     "name": "ouch",
@@ -18,8 +17,7 @@
     "convertible": false,
     "rotate": true,
     "desc": "really stale creepypasta",
-    "tags": ["chars", "scary", "thingify", "mod"],
-	"pronouns": ["it"]
+    "tags": ["chars", "scary", "thingify", "mod"]
   },
   {
     "name": "lookat",
@@ -29,8 +27,7 @@
     "convertible": false,
     "rotate": true,
     "desc": "sussy",
-    "tags": ["chars", "thingify", "mod"],
-	"pronouns": ["it"]
+    "tags": ["chars", "thingify", "mod"]
   },
   {
     "name": "be",
@@ -39,8 +36,7 @@
     "convertible": false,
     "rotate": true,
     "desc": "kirb-oid",
-    "tags": ["chars", "is", "-oc", "iiy", "thingify", "mod"],
-	"pronouns": ["it"]
+    "tags": ["chars", "is", "-oc", "iiy", "thingify", "mod"]
   },
   {
     "name": "goawaypls",
@@ -49,8 +45,7 @@
     "convertible": false,
     "rotate": true,
     "desc": "it has stomach problems :(",
-    "tags": ["chars", "push", "-oc", "iiy", "thingify", "mod"],
-	"pronouns": ["it"]
+    "tags": ["chars", "push", "-oc", "iiy", "thingify", "mod"]
   },
   {
     "name": "gaem",
@@ -59,8 +54,7 @@
     "desc": "deprecated and broken",
     "color": [[0, 3]],
     "rotate": true,
-    "tags": ["chars", "game", "-oc", "iiy", "thingify", "mod"],
-    "tags": ["it"]
+    "tags": ["chars", "game", "-oc", "iiy", "thingify", "mod"]
   },
   {
     "name": "fordor",
@@ -69,8 +63,7 @@
     "convertible": false,
     "rotate": true,
     "desc": "has no idea why nedkee keeps running away",
-    "tags": ["chars", "open", "-oc", "iiy", "thingify", "mod"],
-	"pronouns": ["it"]
+    "tags": ["chars", "open", "-oc", "iiy", "thingify", "mod"]
   },
   {
     "name": "nedkee",
@@ -80,8 +73,7 @@
     "rotate": true,
     "desc": "i fordor",
     "color": [[6, 2]],
-    "tags": ["chars", "shut", "-oc", "iiy", "thingify", "mod"],
-    "tags": ["it"]
+    "tags": ["chars", "shut", "-oc", "iiy", "thingify", "mod"]
   },
   {
     "name": ":)",
@@ -91,8 +83,7 @@
     "convertible": false,
     "rotate": true,
     "color": [[1, 4]],
-    "tags": ["chars", "win", "-oc", "iiy", "thingify", "mod"],
-    "tags": ["it"]
+    "tags": ["chars", "win", "-oc", "iiy", "thingify", "mod"]
   },
   {
     "name": "every1",
@@ -102,8 +93,7 @@
     "convertible": false,
     "rotate": true,
     "color": [[1, 2]],
-    "tags": ["chars", "all", "-oc", "iiy", "thingify", "mod"],
-    "tags": ["it"]
+    "tags": ["chars", "all", "-oc", "iiy", "thingify", "mod"]
   },
   {
     "name": "every2",
@@ -113,8 +103,7 @@
     "convertible": false,
     "rotate": true,
     "color": [[1, 3]],
-    "tags": ["chars", "all", "-oc", "iiy", "thingify", "mod"],
-    "tags": ["it"]
+    "tags": ["chars", "all", "-oc", "iiy", "thingify", "mod"]
   },
   {
     "name": "every3",
@@ -124,8 +113,7 @@
     "convertible": false,
     "rotate": true,
     "color": [[1, 4]],
-    "tags": ["chars", "all", "-oc", "iiy", "thingify", "mod"],
-    "tags": ["it"]
+    "tags": ["chars", "all", "-oc", "iiy", "thingify", "mod"]
   },
   {
     "name": "left",
@@ -134,8 +122,7 @@
     "convertible": false,
     "rotate": false,
     "desc": "east? I thought you said weast",
-    "tags": ["chars", "-oc", "iiy", "thingify", "dir", "mod"],
-	"pronouns": ["it"]
+    "tags": ["chars", "-oc", "iiy", "thingify", "dir", "mod"]
   },
   {
     "name": "right",
@@ -144,8 +131,7 @@
     "convertible": false,
     "rotate": false,
     "desc": "well... you're not wrong",
-    "tags": ["chars", "-oc", "iiy", "thingify", "dir", "mod"],
-	"pronouns": ["it"]
+    "tags": ["chars", "-oc", "iiy", "thingify", "dir", "mod"]
   },
   {
     "name": "up",
@@ -154,8 +140,7 @@
     "convertible": false,
     "rotate": false,
     "desc": "going UUUUUUUUUUUUP!",
-    "tags": ["chars", "-oc", "iiy", "thingify", "dir", "mod"],
-	"pronouns": ["it"]
+    "tags": ["chars", "-oc", "iiy", "thingify", "dir", "mod"]
   },
   {
     "name": "down",
@@ -164,8 +149,7 @@
     "convertible": false,
     "rotate": false,
     "desc": "really a low blow",
-    "tags": ["chars", "-oc", "iiy", "thingify", "dir", "mod"],
-	"pronouns": ["it"]
+    "tags": ["chars", "-oc", "iiy", "thingify", "dir", "mod"]
   },
   {
     "name": "upleft",
@@ -174,8 +158,7 @@
     "convertible": false,
     "rotate": false,
     "desc": "I got up and left",
-    "tags": ["chars", "-oc", "iiy", "thingify", "dir", "mod"],
-	"pronouns": ["it"]
+    "tags": ["chars", "-oc", "iiy", "thingify", "dir", "mod"]
   },
   {
     "name": "downright",
@@ -184,8 +167,7 @@
     "convertible": false,
     "rotate": false,
     "desc": "It's downright impossible to come up with puns for these",
-    "tags": ["chars", "-oc", "iiy", "thingify", "dir", "mod"],
-	"pronouns": ["it"]
+    "tags": ["chars", "-oc", "iiy", "thingify", "dir", "mod"]
   },
   {
     "name": "upright",
@@ -194,8 +176,7 @@
     "convertible": false,
     "rotate": false,
     "desc": "standing upright",
-    "tags": ["chars", "-oc", "iiy", "thingify", "dir", "mod"],
-	"pronouns": ["it"]
+    "tags": ["chars", "-oc", "iiy", "thingify", "dir", "mod"]
   },
   {
     "name": "downleft",
@@ -204,8 +185,7 @@
     "convertible": false,
     "rotate": false,
     "desc": "feeling down because u left",
-    "tags": ["chars", "-oc", "iiy", "thingify", "dir", "mod"],
-	"pronouns": ["it"]
+    "tags": ["chars", "-oc", "iiy", "thingify", "dir", "mod"]
   },
   {
     "name": "direction",
@@ -214,8 +194,7 @@
     "convertible": false,
     "rotate": true,
     "desc": "long lostt whiz sibling",
-    "tags": ["chars", "-oc", "iiy", "thingify", "dir", "mod"],
-	"pronouns": ["it"]
+    "tags": ["chars", "-oc", "iiy", "thingify", "dir", "mod"]
   },
   {
     "name": "txtify",
@@ -224,8 +203,7 @@
     "convertible": false,
     "rotate": true,
     "desc": "took the 1.20 minecraft update too literally",
-    "tags": ["chars", "thingify"],
-	"pronouns": ["it"]
+    "tags": ["chars", "thingify"]
   },
   {
     "name": "nogo",
@@ -235,8 +213,7 @@
     "convertible": false,
     "rotate": true,
     "desc": "control freak",
-    "tags": ["chars", "thingify", "mod"],
-	"pronouns": ["it"]
+    "tags": ["chars", "thingify", "mod"]
   },
   {
     "name": "flye",
@@ -246,8 +223,7 @@
     "convertible": false,
     "rotate": true,
     "desc": "It'd be stupid not to do this",
-    "tags": ["chars", "thingify", "mod"],
-	"pronouns": ["it"]
+    "tags": ["chars", "thingify", "mod"]
   },
   {
     "name": "walk",
@@ -257,7 +233,15 @@
     "convertible": false,
     "rotate": true,
     "desc": "beautiful legs",
-    "tags": ["chars", "thingify", "mod"],
-	"pronouns": ["it"]
+    "tags": ["chars", "thingify", "mod"]
+  },
+  {
+    "name": "the",
+    "sprite": ["modd/iiy/the"],
+    "color": [[2, 2]],
+    "convertible": false,
+    "rotate": true,
+    "desc": "formerly named burbur until we realized it's not supposed to look like a burger",
+    "tags": ["chars", "-oc", "iiy", "thingify", "thethe", "thief", "mod"]
   }
 ]

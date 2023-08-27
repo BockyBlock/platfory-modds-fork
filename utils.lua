@@ -1813,6 +1813,10 @@ function testConds(unit, conds, compare_with, first_unit) --cond should be a {co
       result = not ((math.floor(unit.x)==unit.x) and (math.floor(unit.y)==unit.y)) 
     elseif condtype == "alt" then
       result = #undo_buffer % 2 == 1
+    elseif condtype == "did" then
+      result = countProperty(unit, "yee", true) > countProperty(unit, "anti yee", true)
+    elseif condtype == "anti did" then
+      result = countProperty(unit, "yee", true) < countProperty(unit, "anti yee", true)
     else
       print("unknown condtype: " .. condtype)
       result = false

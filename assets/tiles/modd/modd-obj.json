@@ -660,5 +660,35 @@
     "color": [[4, 0]],
     "desc": "bzzzzt",
     "tags": ["mod", "zat"],
+  },
+  {
+    "name": "ror",
+    "sprite": ["modd/ror"],
+    "color": [[5, 3]],
+    "desc": "the eyes are smaller than a pixel (but they're still there)",
+    "tags": ["mod", "roro"],
+    "rotate": true
+  },
+  {
+    "name": "txt_ror",
+    "sprite": ["modd/moddtxt/ror"],
+    "color": [[5, 3]],
+    "desc": "not roor",
+    "tags": ["mod", "roro"]
+  },
+  {
+    "name": "whoa",
+    "sprite": ["modd/whoa"],
+    "color": [[1, 2]],
+    "desc": "woah",
+    "tags": ["mod", "woe"],
+    "rotate": true
+  },
+  {
+    "name": "txt_whoa",
+    "sprite": ["modd/moddtxt/whoa"],
+    "color": [[1, 2]],
+    "desc": "woe is me",
+    "tags": ["mod", "woe"]
   }
 ]
