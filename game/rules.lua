@@ -778,10 +778,20 @@ function addRule(full_rule)
       play_sans_sound = true
     end
   end
+  --"pikman be u" plays a pikman sound, too!
+  local play_pikman_sound = false
+  if new_rule then
+    if subject == "pikman" and verb == "be" and object == "u" and units_by_name[subject] then
+      play_pikman_sound = true
+    end
+  end
   
   -- play the x be sans jingle!
   if play_sans_sound then
     playSound("babbolovania")
+  end
+  if play_pikman_sound then
+    playSound("pikmin")
   end
   
   while subject:ends("n't") do subject, subject_not = subject:sub(1, -4), subject_not + 1 end

@@ -28,7 +28,7 @@
     "sprite": ["modd/moddtxt/prop/nft"],
     "types": ["property"],
     "color": [[2, 1]],
-    "desc": "NFT: Nothing can become this unit.\nAnti: Moar",
+    "desc": "NFT: Nothing can become this unit.\nAnti: moar",
     "tags": ["bad", "nft", "rare", "happen", "absent"]
   },
   {
@@ -66,7 +66,7 @@
     "sprite": ["modd/moddtxt/prop/_"],
     "types": ["letter"],
     "color": [[0, 3]],
-    "desc": "I wonder if bab be u will even properly parse thsi lether?"
+    "desc": "I wonder if bab be u will even properly parse this lether?"
   },
   {
     "name": "txt_matic",
@@ -89,7 +89,15 @@
     "sprite": ["modd/moddtxt/prop/yesgo"],
     "types": ["property"],
     "color": [[4, 2]],
-    "desc": "YESGO: Will not be impeded by NOGO, GOAWAYPLS, or other similar properties.",
+    "desc": "YESGO: Will not be impeded by NOGO, GOAWAYPLS, or other similar properties. ANTI: stukc",
+    "tags": ["txt"]
+  },
+  {
+    "name": "txt_splash",
+    "sprite": ["modd/moddtxt/prop/splash"],
+    "types": ["property"],
+    "color": [[1, 4]],
+    "desc": "SPLASH: If its movement is cancelled, it will instantly melt. ANTI: Treat others as SPLASH",
     "tags": ["txt"]
   }
 ]

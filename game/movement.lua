@@ -2077,13 +2077,17 @@ function canMoveCore(unit,dx,dy,dir,o) --pushing, pulling, solid_name, reason, p
   end
   
   --STUB: We probably want to do something more explicit like synthesize bordr units around the border so they can be explicitly moved/created/destroyed/have conditional rules apply to them.
+	local phantoming = hasProperty(unit, "yesgo")
+	  
+if not phantoming then
   if not inBounds(x,y) and (not (hasRule("bordr","ben't","nogo") or not ignoreCheck(unit,"bordr") or o.reason == "curse") or hasRule(unit,"liek",outerlvl)) then
-    if o.pushing and hasProperty(unit, "ouch") and not hasProperty(unit, "protecc") and (o.reason ~= "walk" or hasProperty(unit, "stubbn")) then
+    if o.pushing and (hasProperty(unit, "ouch") or hasProperty(unit, "splash")) and not hasProperty(unit, "protecc") and (o.reason ~= "walk" or hasProperty(unit, "stubbn")) then
       table.insert(specials, {"weak", {unit}})
       return true,movers,specials
     end
     return false,{},{}
   end
+end
 
   if hasProperty(unit, "diag") and (not hasProperty(unit, "ortho")) and (dx == 0 or dy == 0) then
     return false,movers,specials
@@ -2464,7 +2468,7 @@ function canMoveCore(unit,dx,dy,dir,o) --pushing, pulling, solid_name, reason, p
         end
       
         --Case 2 or 3 - we will be destroyed by walking onto a wall.
-        local ouch = hasProperty(unit, "ouch") or hasProperty(v, "anti ouch")
+        local ouch = hasProperty(unit, "ouch") or hasProperty(v, "anti ouch") or hasProperty(unit, "splash") or hasProperty(v, "anti splash")
         local snacc = rules_with["snacc"] ~= nil and hasRule(v, "snacc", unit)
         if (ouch or snacc) and not hasProperty(unit, "protecc") and (o.reason ~= "walk" or not hasProperty(unit, "stubbn")) and ignoreCheck(unit,v) then
           if (timecheck(unit,"be","ouch") or timecheck(v,"snacc",unit)) and timecheck(v) then

@@ -1040,9 +1040,9 @@ function scene.draw(dt)
       fulldrawy = fulldrawy + (unit.draw.thicc-1)*TILE_SIZE/2
     end
 
-    if graphical_property_cache["flye"][unit] ~= nil or (unit.parent and graphical_property_cache["flye"][unit.parent] ~= nil) or unit.name == "o" or unit.name == "square" or unit.name == "triangle" then
+    if graphical_property_cache["flye"][unit] ~= nil or (unit.parent and graphical_property_cache["flye"][unit.parent] ~= nil) or unit.name == "o" or unit.name == "square" or unit.name == "triangle" or unit.name == "roor" then
       local flyenes = graphical_property_cache["flye"][unit] or (unit.parent and graphical_property_cache["flye"][unit.parent]) or 0
-      if unit.name == "o" or unit.name == "square" or unit.name == "triangle" then
+      if unit.name == "o" or unit.name == "square" or unit.name == "triangle" or unit.name == "roor" then
         flyenes = flyenes + 1
       end
       if flyenes > 0 then 

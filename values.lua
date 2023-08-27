@@ -267,6 +267,7 @@ anti_word_replacements = {
   behind = "seenby",
   halfstep = "hopovr",
   nft = "moar",
+  yesgo = "nogo",
 }
 
 anti_word_reverses = {
@@ -479,7 +480,7 @@ selector_grid_contents = {
 	"platfory","txt_platfory","wiki","txt_wiki","whenthe","txt_whenthe","him","txt_him","bruhbruh","txt_bruhbruh","monokeek","txt_monokeek","ty","txt_ty","gunguy","txt_gunguy","bologna","txt_bologna",
 	"whiz","txt_whiz","monsert","txt_monsert","kid","txt_kid","victoria","txt_victoria","pnut","txt_pnut","rru","txt_rru","it","txt_it","lol","txt_lol","swiit","txt_swiit",
 	"ubu","txt_ubu","bobub","txt_bobub","lefi","txt_lefi","waly","txt_waly","sso","txt_sso","wowbrutal","txt_wowbrutal","illy","txt_illy","heeh2","txt_heeh2","fari","txt_fari",
-	"sammah","txt_sammah","sallt","txt_sallt","huro","txt_huro","chonke","txt_chonke","quiq","txt_quiq",0,0,0,0,0,0,0,0,
+	"sammah","txt_sammah","sallt","txt_sallt","huro","txt_huro","chonke","txt_chonke","quiq","txt_quiq","caac","txt_caac","zt","txt_zt","dooder","txt_dooder","lito","txt_lito",
     0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
     0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
     0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -490,11 +491,11 @@ selector_grid_contents = {
     0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
     0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 	"canyon","txt_canyon","lokc","txt_lokc","pikc","txt_pikc","sog","txt_sog","eexe","txt_eexe","bandana","txt_bandana","bead","txt_bead","bloop","txt_bloop","boug","txt_boug",
-	"drincc","txt_drincc","read","txt_read","cbush","txt_cbush","cap","txt_cap","lopikckc","txt_lopikckc",0,0,0,0,0,0,0,0,
+	"drincc","txt_drincc","read","txt_read","cbush","txt_cbush","cap","txt_cap","lopikckc","txt_lopikckc","pikman","txt_pikman","roor","txt_roor",0,0,0,0,
 	},
 	-- page 10: modd props
   {
-	"txt_gud","txt_awdul","txt_nft","txt_corl","txt_limeme","txt_matic","txt_yesgo",0,0,0,0,0,0,0,0,0,0,0,
+	"txt_gud","txt_awdul","txt_nft","txt_corl","txt_limeme","txt_matic","txt_yesgo","txt_drincc","txt_splash",0,0,0,0,0,0,0,0,0,
 	"muuv","pooosh","redbloodcell","tholl","stne",0,0,0,0,0,0,0,0,0,0,0,0,0,
     0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
     0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,

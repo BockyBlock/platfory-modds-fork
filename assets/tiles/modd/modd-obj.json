@@ -206,7 +206,7 @@
     "name": "victoria",
     "sprite": ["modd/lopikckc_hair", "modd/lopikckc_bow", "modd/lopikckc_shoes", "modd/lopikckc_sleeves", "modd/lopikckc_skin", "modd/lopikckc_overalls"],
     "color": [[6, 2], [2, 2], [0, 0], [1, 2], [2, 4], [4, 4]],
-    "desc": "bi and lesbiab",
+    "desc": "she will not, in fact, be the guy",
     "rotate": true,
     "tags": ["mod", "lock", "pick", "door", "key", "lily", "lokcpikc", "lopikckc"],
     "pronouns": ["she", "her"]
@@ -228,7 +228,7 @@
     "sprite": ["modd/moddtxt/victoria"],
     "types": ["object"],
     "color": [[4, 4]],
-    "desc": "formerly named lopikckc",
+    "desc": "formerly named lopikckc because there's too many people named lily",
     "tags": ["mod", "lock", "pick", "door", "key", "lily", "lokcpikc", "txt"]
   },
   {
@@ -483,7 +483,8 @@
     "color": [[1, 4]],
     "desc": "I wheezed",
     "tags": ["mod", "heeh"],
-    "rotate": true
+    "rotate": true,
+    "voice": "xylo"
   },
   {
     "name": "txt_heeh2",
@@ -549,7 +550,7 @@
     "name": "txt_huro",
     "sprite": ["modd/moddtxt/huro"],
     "color": [[6, 1]],
-    "desc": "hurcan't",
+    "desc": "*laminated paper sounds*",
     "tags": ["mod", "tero"],
   },
   {
@@ -558,7 +559,8 @@
     "color": [[2, 4]],
     "desc": "wink wink wink wink wink",
     "tags": ["mod", "chunk"],
-    "rotate": true
+    "rotate": true,
+    "voice": "shortsynth"
   },
   {
     "name": "txt_chonke",
@@ -573,7 +575,8 @@
     "color": [[3, 4]],
     "desc": "keeks distant cousine",
     "tags": ["mod", "qiqi", "quiqui"],
-    "rotate": true
+    "rotate": true,
+    "voice": "bit2"
   },
   {
     "name": "txt_quiq",
@@ -581,5 +584,81 @@
     "color": [[3, 4]],
     "desc": "QUICKLY!!!!!!!",
     "tags": ["mod", "qiqi", "quiqui"],
+  },
+  {
+    "name": "caac",
+    "sprite": ["modd/caac"],
+    "color": [[2, 4]],
+    "desc": "horrors beyond our comprenhension, or adorable little cutie pie? you decide",
+    "tags": ["mod", "chacha"],
+    "rotate": true,
+    "voice": "dark"
+  },
+  {
+    "name": "txt_caac",
+    "sprite": ["modd/moddtxt/caac"],
+    "color": [[2, 4]],
+    "desc": "jump in the caac",
+    "tags": ["mod", "chacha"],
+  },
+  {
+    "name": "pikman",
+    "sprite": ["modd/pikman/sprout"],
+    "color": [[5, 2]],
+    "desc": "u can't garden with a shotgunne",
+    "tags": ["mod", "pikmin"],
+    "rotate": true
+  },
+  {
+    "name": "txt_pikman",
+    "sprite": ["modd/moddtxt/pikc"],
+    "color": [[5, 2]],
+    "desc": "i love my pikman",
+    "tags": ["mod", "pikmin"],
+  },
+  {
+    "name": "lito",
+    "sprite": ["modd/lito"],
+    "color": [[2, 4]],
+    "desc": "goes kzzzzzzzzzt",
+    "tags": ["mod", "lito"],
+    "rotate": true
+  },
+  {
+    "name": "txt_lito",
+    "sprite": ["modd/moddtxt/lito"],
+    "color": [[2, 4]],
+    "desc": "*oscilloscope sounds*",
+    "tags": ["mod", "lito"],
+  },
+  {
+    "name": "dooder",
+    "sprite": ["modd/dooder"],
+    "color": [[0, 1]],
+    "desc": "there's a shark in the pool",
+    "tags": ["mod", "duder"],
+    "rotate": true
+  },
+  {
+    "name": "txt_dooder",
+    "sprite": ["modd/moddtxt/dooder"],
+    "color": [[0, 1]],
+    "desc": "doost",
+    "tags": ["mod", "duder"],
+  },
+  {
+    "name": "zt",
+    "sprite": ["modd/zt"],
+    "color": [[4, 0]],
+    "desc": "hot off the press",
+    "tags": ["mod", "zat"],
+    "rotate": true
+  },
+  {
+    "name": "txt_zt",
+    "sprite": ["modd/moddtxt/zt"],
+    "color": [[4, 0]],
+    "desc": "bzzzzt",
+    "tags": ["mod", "zat"],
   }
 ]

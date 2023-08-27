@@ -325,6 +325,9 @@ bab arguments!
   
   registerSound("spikdeath", 0.7)
   registerSound("pikmin", 1)
+  registerSound("shortsynth", 1)
+  registerSound("dark", 0.5)
+  registerSound("xylo", 1)
 
   print(colr.green("✓ sounds registered"))
 

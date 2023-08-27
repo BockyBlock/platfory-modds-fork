@@ -202,5 +202,20 @@
     "color": [[2, 4]],
     "desc": "added this because it felt weird to rename victoria and break all those old levels",
     "tags": ["mod", "key"],
+  },
+  {
+    "name": "roor",
+    "sprite": ["modd/roor"],
+    "color": [[0, 2]],
+    "desc": "it's a woug! it's a rockit! nnno it's just this thing",
+    "tags": ["mod", "drone"],
+    "rotate": true
+  },
+  {
+    "name": "txt_roor",
+    "sprite": ["modd/moddtxt/roor"],
+    "color": [[0, 2]],
+    "desc": "I still don't know why I called it that",
+    "tags": ["mod", "drone"],
   }
 ]
