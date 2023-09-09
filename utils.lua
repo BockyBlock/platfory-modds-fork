@@ -3843,6 +3843,7 @@ function buildOptions()
       scene.addOption("menu_anim", "menu animations", {{"on", true}, {"off", false}})
     end
     scene.addOption("themes", "menu themes", {{"on", true}, {"off", false}})
+    scene.addButton("reroll theme", function() menu_palette = menu_palettes[math.random(1,#menu_palettes)]; scene.buildUI() end)
     scene.addButton("back", function() global_menu_state = "none"; scene.buildUI() end)
   elseif global_menu_state == "editor" then
     scene.addOption("print_to_screen", "log print()s to screen", {{"on", true}, {"off", false}})

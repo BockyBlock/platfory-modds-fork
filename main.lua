@@ -786,7 +786,7 @@ function love.draw()
     local mousex, mousey = love.mouse.getPosition()
 
     local debugheader = "SUPER DEBUG MENU V2.1"
-    local debugtext = 'bab be u commit numero '..build_number..'\n'..
+    local debugtext = 'bab be u commit numero '..build_number..'\n'.."them be "..menu_palette
     'current fps: '..love.timer.getFPS()..'\n'..
     'peak fps: '..peakfps..'\n'..
     'average fps: '..averagefps..'\n'..

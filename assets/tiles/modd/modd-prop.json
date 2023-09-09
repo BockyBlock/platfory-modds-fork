@@ -89,7 +89,7 @@
     "sprite": ["modd/moddtxt/prop/yesgo"],
     "types": ["property"],
     "color": [[4, 2]],
-    "desc": "YESGO: Will not be impeded by NOGO, GOAWAYPLS, or other similar properties. ANTI: Will not move unless it will be frenles",
+    "desc": "YESGO: Will not be impeded by NOGO, GOAWAYPLS, or other similar properties. ANTI: Will not move onto a tile that has any other object",
     "tags": ["txt"]
   },
   {

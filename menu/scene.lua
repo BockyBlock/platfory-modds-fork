@@ -26,6 +26,8 @@ function scene.load()
     resetMusic("bab spoop u", 0.5)
   elseif music_path["bab be u them - "..getTheme()] then
     resetMusic("bab be u them - "..getTheme(), 0.5)
+  elseif music_path["bab be u platfory modds them - "..getTheme()] then
+    resetMusic("bab be u platfory modds them - "..getTheme(), 0.5)
   else
     resetMusic("bab be u them", 0.5)
   end

@@ -310,6 +310,8 @@ menu_palettes = {
   "space",
   "variant",
   "volcano",
+  "sterile",
+  "bluefault",
 }
 
 custom_letter_quads = {
