@@ -458,7 +458,7 @@ selector_grid_contents = {
     0,0,0,0,0,"lvl","txt_lvl","txt_txt","txt_no1","txt_every1","txt_every2","this","txt_mous",0,0,0,0,0,
     "txt_...","txt_''","txt_nt","txt_anti",0,"bordr","txt_bordr","lin","txt_lin","txt_lethers","txt_numa","txt_toen","txt_yuiy",0,0,0,0,0,
   },
-	-- page 8: other modds
+	-- page 8: modds that are not platfory
   {
     0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
     0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -471,7 +471,7 @@ selector_grid_contents = {
 	0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 	0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 	"beb","txt_beb","dad","txt_dad","day","txt_day","getboux","txt_getboux","obby","txt_obby","tu","txt_tu","then","txt_then","hey","txt_hey",0,0,
-	"zekiel","txt_zekiel","menstr","txt_menstr","jely","txt_jely","babtoo","txt_babtoo",0,0,0,0,0,0,0,0,0,0,
+	"zekiel","txt_zekiel","menstr","txt_menstr","jely","txt_jely","babtoo","txt_babtoo","pati","txt_pati",0,0,0,0,0,0,0,0,
 	0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 	"txt_flammaje","txt_zapmaje","txt_watmaje","txt_quagmaje","txt_majmaje","txt_datmaje","txt_mtalmaje","txt_tinbolt",0,0,0,0,0,0,0,0,0,"txt_xx__xx",
 	"flammaje","zapmaje","watmaje","quagmaje","majmaje","datmaje","mtalmaje","tinbolt",0,0,0,0,0,0,0,0,0,"xx__xx",
@@ -482,7 +482,7 @@ selector_grid_contents = {
 	"whiz","txt_whiz","monsert","txt_monsert","kid","txt_kid","victoria","txt_victoria","pnut","txt_pnut","rru","txt_rru","it","txt_it","lol","txt_lol","swiit","txt_swiit",
 	"ubu","txt_ubu","bobub","txt_bobub","lefi","txt_lefi","waly","txt_waly","sso","txt_sso","wowbrutal","txt_wowbrutal","illy","txt_illy","heeh2","txt_heeh2","fari","txt_fari",
 	"sammah","txt_sammah","sallt","txt_sallt","huro","txt_huro","chonke","txt_chonke","quiq","txt_quiq","caac","txt_caac","zt","txt_zt","dooder","txt_dooder","lito","txt_lito",
-    "ror","txt_ror","whoa","txt_whoa",0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+    "ror","txt_ror","whoa","txt_whoa","greg","txt_greg","nnuu","txt_nnuu","uunn","txt_uunn","cuuc","txt_cuuc","cuc","txt_cuc","eeer","txt_eeer","ryyr","txt_ryyr",
     0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
     0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
     0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -492,11 +492,11 @@ selector_grid_contents = {
     0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
     0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 	"canyon","txt_canyon","lokc","txt_lokc","pikc","txt_pikc","sog","txt_sog","eexe","txt_eexe","bandana","txt_bandana","bead","txt_bead","bloop","txt_bloop","boug","txt_boug",
-	"drincc","txt_drincc","read","txt_read","cbush","txt_cbush","cap","txt_cap","lopikckc","txt_lopikckc","pikman","txt_pikman","roor","txt_roor",0,0,0,0,
+	"drincc","txt_drincc","read","txt_read","cbush","txt_cbush","cap","txt_cap","lopikckc","txt_lopikckc","pikman","txt_pikman","roor","txt_roor","want","txt_want","shurb","txt_shurb",
 	},
 	-- page 10: modd props
   {
-	"txt_gud","txt_awdul","txt_nft","txt_corl","txt_limeme","txt_matic","txt_yesgo","txt_drincc","txt_splash","txt_did","txt_yee",0,0,0,0,0,0,0,
+	"txt_gud","txt_awdul","txt_nft","txt_corl","txt_limeme","txt_matic","txt_yesgo","txt_drincc","txt_splash","txt_did","txt_yee","txt_want",0,0,0,0,0,0,
 	"muuv","pooosh","redbloodcell","tholl","stne",0,0,0,0,0,0,0,0,0,0,0,0,0,
     0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
     0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,

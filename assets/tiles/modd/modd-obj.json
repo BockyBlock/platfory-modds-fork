@@ -6,7 +6,7 @@
     "color": [[6, 2]],
     "rotate": true,
     "desc": "i wonder if he watches bfdi",
-    "tags": ["platform", "bfdi", "object", "dev", "character", "mod"],  
+    "tags": ["platform", "bfdi", "object", "dev", "character", "mod", "chars"],  
     "pronouns": ["it"]
   },
   {
@@ -16,7 +16,7 @@
     "color": [[6, 2]],
     "rotate": true,
     "desc": "it's like bup but worse",
-    "tags": ["character", "mod", "toad", "mushroom"],
+    "tags": ["character", "mod", "chars", "toad", "mushroom"],
     "pronouns": ["they", "them"]
   },
   {
@@ -25,7 +25,7 @@
     "color": [[6, 2]],
     "rotate": false,
     "desc": "gomba jumpscare",
-    "tags": ["character", "mod", "goomba", "mushroom"],
+    "tags": ["character", "mod", "chars", "goomba", "mushroom"],
     "pronouns": ["he", "him"]
   },
   {
@@ -34,7 +34,7 @@
     "types": ["object"],
     "color": [[6, 2]],
     "desc": "has absolut 0 relation to platform from baba",
-    "tags": ["platform", "bfdi", "object", "dev", "character", "mod"]
+    "tags": ["platform", "bfdi", "object", "dev", "character", "mod", "chars"]
   },
   {
     "name": "txt_wiki",
@@ -42,7 +42,7 @@
     "types": ["object"],
     "color": [[6, 2]],
     "desc": "pedia",
-    "tags": ["character", "mod", "toad", "mushroom"]
+    "tags": ["character", "mod", "chars", "toad", "mushroom"]
   },
   {
     "name": "txt_him",
@@ -50,7 +50,7 @@
     "types": ["object"],
     "color": [[6, 2]],
     "desc": "praise our lord and savior Cursed Goomba",
-    "tags": ["character", "mod", "goomba", "god", "mushroom"]
+    "tags": ["character", "mod", "chars", "goomba", "god", "mushroom"]
   },
   {
     "name": "monokeek",
@@ -58,7 +58,7 @@
     "color": [[2, 2]],
     "rotate": true,
     "desc": "created in a befren accident",
-    "tags": ["keke", "mod", "chars"],
+    "tags": ["keke", "mod", "chars", "chars"],
     "pronouns": ["he", "him"]
   },
   {
@@ -67,14 +67,14 @@
     "types": ["object"],
     "color": [[2, 2]],
     "desc": "how",
-    "tags": ["keke", "mod", "chars"],
+    "tags": ["keke", "mod", "chars", "chars"],
   },
   {
     "name": "gunguy",
     "sprite": ["modd/gunguy"],
     "color": [[1, 3]],
     "desc": "maybe he can find his PB over yonder",
-    "tags": ["hempuli", "mod", "blue", "chars"],
+    "tags": ["hempuli", "mod", "chars", "blue", "chars"],
     "rotate": true,
     "pronouns": ["he", "him"]
   },
@@ -84,14 +84,14 @@
     "types": ["object"],
     "color": [[1, 3]],
     "desc": "oh? his roommate is a laser gun",
-    "tags": ["hempuli", "mod", "blue", "chars"]
+    "tags": ["hempuli", "mod", "chars", "blue", "chars"]
   },
   {
     "name": "whiz",
     "sprite": ["modd/whiz"],
     "color": [[5, 3]],
     "desc": "can allegedly talk to robobots",
-    "tags": ["mod"],
+    "tags": ["mod", "chars"],
     "rotate": true,
     "pronouns": ["they", "them"]
   },
@@ -101,14 +101,14 @@
     "types": ["object"],
     "color": [[5, 3]],
     "desc": "gee whiz",
-    "tags": ["mod"]
+    "tags": ["mod", "chars"]
   },
   {
     "name": "monsert",
     "sprite": ["modd/monsert"],
     "color": [[4, 1]],
     "desc": "aw sweet, horrors beyond my comprehension",
-    "tags": ["mod"],
+    "tags": ["mod", "chars"],
     "rotate": true,
     "pronouns": ["it"]
   },
@@ -124,7 +124,7 @@
     "sprite": ["modd/bologna_body", "modd/bologna_head"],
     "color": [[2, 2], [2, 1]],
     "desc": "idk anymore",
-    "tags": ["mod", "chars"],
+    "tags": ["mod", "chars", "chars"],
     "rotate": true,
     "pronouns": ["she", "her"]
   },
@@ -134,14 +134,14 @@
     "types": ["object"],
     "color": [[2, 1]],
     "desc": "baloney",
-    "tags": ["mod", "chars"]
+    "tags": ["mod", "chars", "chars"]
   },
   {
     "name": "ty",
     "sprite": ["modd/ty"],
     "color": [[2, 3]],
     "desc": "ROOOAOROROAORAORRR",
-    "tags": ["mod"],
+    "tags": ["mod", "chars"],
     "rotate": true,
     "pronouns": ["he", "him"]
   },
@@ -157,7 +157,7 @@
     "name": "bruhbruh",
     "sprite": ["modd/bruhbruh_body", "modd/bruhbruh_head"],
     "color": [[1, 2], [1, 3]],
-    "tags": ["mod", "chars"],
+    "tags": ["mod", "chars", "chars"],
     "rotate": true,
     "pronouns": ["he", "him"]
   },
@@ -167,7 +167,7 @@
     "types": ["object"],
     "color": [[1, 3]],
     "desc": "bruh",
-    "tags": ["mod", "chars"]
+    "tags": ["mod", "chars", "chars"]
   },
   {
     "name": "whenthe",
@@ -175,7 +175,7 @@
     "color": [[0, 3]],
     "rotate": true,
     "desc": "me when the",
-    "tags": ["mod"],
+    "tags": ["mod", "chars"],
     "pronouns": ["they", "them"]
   },
   {
@@ -191,7 +191,7 @@
     "sprite": ["modd/it_editor"],
     "color": [[1, 4]],
     "desc": "Can't decide on a tile for it",
-    "tags": ["mod", "it"],
+    "tags": ["mod", "chars", "it"],
     "rotate": true
   },
   {
@@ -200,7 +200,7 @@
     "types": ["object"],
     "color": [[1, 4]],
     "desc": "IT: Randomizes each time it loads.",
-    "tags": ["mod", "txt", "it"]
+    "tags": ["mod", "chars", "txt", "it"]
   },
   {
     "name": "victoria",
@@ -208,7 +208,7 @@
     "color": [[6, 2], [2, 2], [0, 0], [1, 2], [2, 4], [4, 4]],
     "desc": "she will not, in fact, be the guy",
     "rotate": true,
-    "tags": ["mod", "lock", "pick", "door", "key", "lily", "lokcpikc", "lopikckc"],
+    "tags": ["mod", "chars", "lock", "pick", "door", "key", "lily", "lokcpikc", "lopikckc"],
     "pronouns": ["she", "her"]
   },
   {
@@ -220,7 +220,7 @@
       "sans": {"x": 17, "y": 14, "w": 1, "h": 2}
     },
     "rotate": true,
-    "tags": ["mod", "kid", "guy", "iwbtg", "wanna"],
+    "tags": ["mod", "chars", "kid", "guy", "iwbtg", "wanna"],
     "pronouns": ["he", "him"]
   },
   {
@@ -229,7 +229,7 @@
     "types": ["object"],
     "color": [[4, 4]],
     "desc": "formerly named lopikckc because there's too many people named lily",
-    "tags": ["mod", "lock", "pick", "door", "key", "lily", "lokcpikc", "txt"]
+    "tags": ["mod", "chars", "lock", "pick", "door", "key", "lily", "lokcpikc", "txt"]
   },
   {
     "name": "txt_kid",
@@ -237,14 +237,14 @@
     "types": ["object"],
     "color": [[4, 4]],
     "desc": "if he's thicc he'll be the guy",
-    "tags": ["mod", "kid", "guy", "iwbtg", "wanna", "txt"]
+    "tags": ["mod", "chars", "kid", "guy", "iwbtg", "wanna", "txt"]
   },
   {
     "name": "pnut",
     "sprite": ["modd/pnut_body", "modd/pnut_leg"],
     "color": [[6, 1], [0, 3]],
     "desc": "madedede by the sister of aLIEz on artfight, is very cute",
-    "tags": ["mod", "peanut"],
+    "tags": ["mod", "chars", "peanut"],
     "features": {
       "sans": {"x": 20, "y": 20, "w": 2, "h": 2}
     },
@@ -256,14 +256,14 @@
     "types": ["object"],
     "color": [[6, 2]],
     "desc": "don't to be immature, and if u do, don't",
-    "tags": ["mod", "peanut", "txt"]
+    "tags": ["mod", "chars", "peanut", "txt"]
   },
   {
     "name": "cbush",
     "sprite": ["modd/cbush"],
     "color": [[5, 1]],
     "desc": "three eyes means 1.5x the fun",
-    "tags": ["mod", "floflo"],
+    "tags": ["mod", "chars", "floflo"],
     "rotate": true
   },
   {
@@ -272,14 +272,14 @@
     "types": ["object"],
     "color": [[5, 1]],
     "desc": "the c stands for \"seeing\"",
-    "tags": ["mod", "txt", "floflo"]
+    "tags": ["mod", "chars", "txt", "floflo"]
   },
   {
     "name": "rru",
     "sprite": ["modd/rru"],
     "color": [[4, 1]],
     "desc": "wants to go back to bab be u 2",
-    "tags": ["mod", "rru"],
+    "tags": ["mod", "chars", "rru"],
     "rotate": true
   },
   {
@@ -288,14 +288,14 @@
     "types": ["object"],
     "color": [[4, 2]],
     "desc": "I almost put an angry face in the text",
-    "tags": ["mod", "txt", "rru"]
+    "tags": ["mod", "chars", "txt", "rru"]
   },
   {
     "name": "lol",
     "sprite": ["modd/lol"],
     "color": [[4, 1]],
     "desc": "lmao vera :)",
-    "tags": ["mod", "aloe", "alal"],
+    "tags": ["mod", "chars", "aloe", "alal"],
     "rotate": true,
     "pronouns": ["she", "her"]
   },
@@ -305,7 +305,7 @@
     "types": ["object"],
     "color": [[4, 1]],
     "desc": "the day I came up with this name, platfory's modds prolly started going uphill",
-    "tags": ["mod", "txt", "aloe", "alal"]
+    "tags": ["mod", "chars", "txt", "aloe", "alal"]
   },
   {
     "name": "xx__xx",
@@ -314,7 +314,7 @@
     "rotate": true,
     "wobble": true,
     "desc": "It simultaneously breaks every single rule of Baba Be U sprite makeing. Amazing!",
-    "tags": ["x", "mod", "chars"],
+    "tags": ["x", "mod", "chars", "chars"],
     "pronouns": ["he", "him"]
   },
   {
@@ -324,14 +324,14 @@
     "color": [[2, 2]],
     "desc": "you know, this game doesn't have an underscore character that works",
     "wobble": true,
-    "tags": ["x", "mod", "chars"],
+    "tags": ["x", "mod", "chars", "chars"],
   },
   {
     "name": "swiit",
     "sprite": ["modd/swiit"],
     "color": [[1, 2]],
     "desc": "sibling of ubu",
-    "tags": ["mod"],
+    "tags": ["mod", "chars"],
     "rotate": true
   },
   {
@@ -340,14 +340,14 @@
     "types": ["object"],
     "color": [[1, 2]],
     "desc": "I almost called it sus",
-    "tags": ["mod"]
+    "tags": ["mod", "chars"]
   },
   {
     "name": "ubu",
     "sprite": ["modd/ubu"],
     "color": [[1, 2]],
     "desc": "eats limons for a living",
-    "tags": ["mod"],
+    "tags": ["mod", "chars"],
     "rotate": true
   },
   {
@@ -356,14 +356,14 @@
     "types": ["object"],
     "color": [[1, 2]],
     "desc": "nice going, bub",
-    "tags": ["mod"]
+    "tags": ["mod", "chars"]
   },
   {
     "name": "bobub",
     "sprite": ["modd/bobub"],
     "color": [[1, 4]],
     "desc": "needs a chiropractor",
-    "tags": ["mod", "bub"],
+    "tags": ["mod", "chars", "bub"],
     "rotate": true
   },
   {
@@ -372,14 +372,14 @@
     "types": ["object"],
     "color": [[1, 4]],
     "desc": "yoyle cake",
-    "tags": ["mod", "bub"]
+    "tags": ["mod", "chars", "bub"]
   },
   {
     "name": "babtoo",
     "sprite": ["modd/babtoo"],
     "color": [[0, 3]],
     "desc": "it's evolvinng",
-    "tags": ["mod", "bab"],
+    "tags": ["mod", "chars", "bab"],
     "rotate": true
   },
   {
@@ -388,7 +388,7 @@
     "types": ["object"],
     "color": [[4, 1]],
     "desc": "new and improoved? doesn't that imply bab 1 is old and inferior",
-    "tags": ["mod", "bab"]
+    "tags": ["mod", "chars", "bab"]
   },
   {
     "name": "waly",
@@ -396,7 +396,7 @@
     "layer": 2,
     "color": [[1, 1]],
     "desc": "camouflage",
-    "tags": ["walla", "mod"],
+    "tags": ["walla", "mod", "chars"],
     "pronouns": ["it"],
     "rotate": true
   },
@@ -405,7 +405,7 @@
     "sprite": ["modd/moddtxt/waly"],
     "color": [[1, 1]],
     "desc": "waly wonder",
-    "tags": ["mod", "walla"],
+    "tags": ["mod", "chars", "walla"],
   },
   {
     "name": "lefi",
@@ -413,7 +413,7 @@
     "layer": 2,
     "color": [[2, 4]],
     "desc": "will steal ur island if you put her on a deadly ferris wwheel",
-    "tags": ["bfdi", "mod"],
+    "tags": ["bfdi", "mod", "chars"],
     "pronouns": ["she", "her"],
     "rotate": true
   },
@@ -422,14 +422,15 @@
     "sprite": ["modd/moddtxt/lefi"],
     "color": [[2, 4]],
     "desc": "snacc on berries to turn into a goldleaf",
-    "tags": ["mod", "bfdi"],
+    "tags": ["mod", "chars", "bfdi"],
   },
   {
     "name": "sso",
     "sprite": ["modd/sso"],
     "color": [[0, 2]],
     "desc": "haet stinky things",
-    "tags": ["mod", "soso"],
+    "tags": ["mod", "chars", "soso"],
+    "pronouns": ["ze", "hir"],
     "rotate": true
   },
   {
@@ -437,29 +438,31 @@
     "sprite": ["modd/moddtxt/sso"],
     "color": [[0, 2]],
     "desc": "SSO? single sign on? social security office? sorry sold out?",
-    "tags": ["mod", "soso"],
+    "tags": ["mod", "chars", "soso"]
   },
   {
     "name": "wowbrutal",
     "sprite": ["modd/wowbrutal"],
     "color": [[4, 0]],
     "desc": "stays in spce",
-    "tags": ["mod", "brute"],
-    "rotate": true
+    "tags": ["mod", "chars", "brute"],
+    "rotate": true,
+    "pronouns": ["he", "him"]
   },
   {
     "name": "txt_wowbrutal",
     "sprite": ["modd/moddtxt/wowbrutal"],
     "color": [[4, 0]],
     "desc": "aw, hootal",
-    "tags": ["mod", "brute"],
+    "tags": ["mod", "chars", "brute"],
   },
   {
     "name": "illy",
     "sprite": ["modd/illy"],
     "color": [[6, 2]],
     "desc": "illy is in your walls",
-    "tags": ["mod", "ili"],
+    "tags": ["mod", "chars", "ili"],
+    "pronouns": ["it"],
     "rotate": true
   },
   {
@@ -467,14 +470,14 @@
     "sprite": ["modd/moddtxt/illy"],
     "color": [[6, 2]],
     "desc": "silly",
-    "tags": ["mod", "ili"],
+    "tags": ["mod", "chars", "ili"],
   },
   {
     "name": "bab0",
     "sprite": ["modd/bab0"],
     "color": [[0, 3]],
-    "desc": "wtf?",
-    "tags": ["mod", "bab"],
+    "desc": "wtf? why",
+    "tags": ["mod", "chars", "bab"],
     "rotate": true
   },
   {
@@ -482,8 +485,9 @@
     "sprite": ["modd/heeh2"],
     "color": [[1, 4]],
     "desc": "I wheezed",
-    "tags": ["mod", "heeh"],
+    "tags": ["mod", "chars", "heeh"],
     "rotate": true,
+    "pronouns": ["it"],
     "voice": "xylo"
   },
   {
@@ -491,14 +495,15 @@
     "sprite": ["modd/moddtxt/heeh2"],
     "color": [[1, 4]],
     "desc": "so as not to conflict with heeh (fof's modds)",
-    "tags": ["mod", "heeh"],
+    "tags": ["mod", "chars", "heeh"],
   },
   {
     "name": "fari",
     "sprite": ["modd/fari"],
     "color": [[2, 2]],
     "desc": "ie amm fir! ie can burne any1 as ie wish!",
-    "tags": ["mod", "firey"],
+    "tags": ["mod", "chars", "firey"],
+    "pronouns": ["he", "him"],
     "rotate": true
   },
   {
@@ -506,14 +511,15 @@
     "sprite": ["modd/moddtxt/fari"],
     "color": [[2, 2]],
     "desc": "I CAN'T HEAR U WHEN UR SO FAR IWAY",
-    "tags": ["mod", "firey"],
+    "tags": ["mod", "chars", "firey"],
   },
   {
     "name": "sallt",
     "sprite": ["modd/sallt"],
     "color": [[4, 0]],
     "desc": "see this is why i dont hang out wit u",
-    "tags": ["mod", "salt"],
+    "tags": ["mod", "chars", "salt"],
+    "pronouns": ["they", "them"],
     "rotate": true
   },
   {
@@ -521,14 +527,15 @@
     "sprite": ["modd/moddtxt/sallt"],
     "color": [[4, 1]],
     "desc": "samalt? that's crinch",
-    "tags": ["mod", "salt"],
+    "tags": ["mod", "chars", "salt"],
   },
   {
     "name": "sammah",
     "sprite": ["modd/sammah"],
     "color": [[2, 3]],
     "desc": "do nut touch",
-    "tags": ["mod", "sama"],
+    "tags": ["mod", "chars", "sama"],
+	"pronouns": ["xe", "xem"],
     "rotate": true
   },
   {
@@ -536,14 +543,15 @@
     "sprite": ["modd/moddtxt/sammah"],
     "color": [[2, 3]],
     "desc": "u ever juts plugg in and giv powr and not taek",
-    "tags": ["mod", "sama"],
+    "tags": ["mod", "chars", "sama"],
   },
   {
     "name": "huro",
     "sprite": ["modd/huro"],
     "color": [[6, 1]],
     "desc": "goes brrrrrrrr",
-    "tags": ["mod", "tero"],
+    "tags": ["mod", "chars", "tero"],
+	"pronouns": ["he", "him"],
     "rotate": true
   },
   {
@@ -551,14 +559,15 @@
     "sprite": ["modd/moddtxt/huro"],
     "color": [[6, 1]],
     "desc": "*laminated paper sounds*",
-    "tags": ["mod", "tero"],
+    "tags": ["mod", "chars", "tero"],
   },
   {
     "name": "chonke",
     "sprite": ["modd/chonke"],
     "color": [[2, 4]],
     "desc": "wink wink wink wink wink",
-    "tags": ["mod", "chunk"],
+    "tags": ["mod", "chars", "chunk"],
+	"pronouns": ["she", "her"],
     "rotate": true,
     "voice": "shortsynth"
   },
@@ -567,14 +576,15 @@
     "sprite": ["modd/moddtxt/chonke"],
     "color": [[2, 4]],
     "desc": "pleas don't call it foke",
-    "tags": ["mod", "chunke"],
+    "tags": ["mod", "chars", "chunke"],
   },
   {
     "name": "quiq",
     "sprite": ["modd/quiq"],
     "color": [[3, 4]],
     "desc": "keeks distant cousine",
-    "tags": ["mod", "qiqi", "quiqui"],
+    "tags": ["mod", "chars", "qiqi", "quiqui"],
+	"pronouns": ["they", "them"],
     "rotate": true,
     "voice": "bit2"
   },
@@ -583,14 +593,15 @@
     "sprite": ["modd/moddtxt/quiq"],
     "color": [[3, 4]],
     "desc": "QUICKLY!!!!!!!",
-    "tags": ["mod", "qiqi", "quiqui"],
+    "tags": ["mod", "chars", "qiqi", "quiqui"],
   },
   {
     "name": "caac",
     "sprite": ["modd/caac"],
     "color": [[2, 4]],
     "desc": "horrors beyond our comprenhension, or adorable little cutie pie? you decide",
-    "tags": ["mod", "chacha"],
+    "tags": ["mod", "chars", "chacha"],
+	"pronouns": ["xe", "xem"],
     "rotate": true,
     "voice": "dark"
   },
@@ -599,14 +610,14 @@
     "sprite": ["modd/moddtxt/caac"],
     "color": [[2, 4]],
     "desc": "jump in the caac",
-    "tags": ["mod", "chacha"],
+    "tags": ["mod", "chars", "chacha"],
   },
   {
     "name": "pikman",
     "sprite": ["modd/pikman/sprout"],
     "color": [[5, 2]],
     "desc": "u can't garden with a shotgunne",
-    "tags": ["mod", "pikmin"],
+    "tags": ["mod", "chars", "pikmin"],
     "rotate": true
   },
   {
@@ -614,14 +625,15 @@
     "sprite": ["modd/moddtxt/pikc"],
     "color": [[5, 2]],
     "desc": "i love my pikman",
-    "tags": ["mod", "pikmin"],
+    "tags": ["mod", "chars", "pikmin"],
   },
   {
     "name": "lito",
     "sprite": ["modd/lito"],
     "color": [[2, 4]],
     "desc": "goes kzzzzzzzzzt",
-    "tags": ["mod", "lito"],
+    "tags": ["mod", "chars", "lito"],
+	"pronouns": ["he", "him"],
     "rotate": true
   },
   {
@@ -629,14 +641,15 @@
     "sprite": ["modd/moddtxt/lito"],
     "color": [[2, 4]],
     "desc": "*oscilloscope sounds*",
-    "tags": ["mod", "lito"],
+    "tags": ["mod", "chars", "lito"],
   },
   {
     "name": "dooder",
     "sprite": ["modd/dooder"],
     "color": [[0, 1]],
     "desc": "there's a shark in the pool",
-    "tags": ["mod", "duder"],
+    "tags": ["mod", "chars", "duder"],
+	"pronouns": ["dude", "dude"],
     "rotate": true
   },
   {
@@ -644,14 +657,15 @@
     "sprite": ["modd/moddtxt/dooder"],
     "color": [[0, 1]],
     "desc": "doost",
-    "tags": ["mod", "duder"],
+    "tags": ["mod", "chars", "duder"],
   },
   {
     "name": "zt",
     "sprite": ["modd/zt"],
     "color": [[4, 0]],
     "desc": "hot off the press",
-    "tags": ["mod", "zat"],
+    "tags": ["mod", "chars", "zat"],
+	"pronouns": ["she", "her"],
     "rotate": true
   },
   {
@@ -659,14 +673,15 @@
     "sprite": ["modd/moddtxt/zt"],
     "color": [[4, 0]],
     "desc": "bzzzzt",
-    "tags": ["mod", "zat"],
+    "tags": ["mod", "chars", "zat"],
   },
   {
     "name": "ror",
     "sprite": ["modd/ror"],
     "color": [[5, 3]],
     "desc": "the eyes are smaller than a pixel (but they're still there)",
-    "tags": ["mod", "roro"],
+    "tags": ["mod", "chars", "roro"],
+	"pronouns": ["it"],
     "rotate": true
   },
   {
@@ -674,14 +689,15 @@
     "sprite": ["modd/moddtxt/ror"],
     "color": [[5, 3]],
     "desc": "not roor",
-    "tags": ["mod", "roro"]
+    "tags": ["mod", "chars", "roro"]
   },
   {
     "name": "whoa",
     "sprite": ["modd/whoa"],
     "color": [[1, 2]],
     "desc": "woah",
-    "tags": ["mod", "woe"],
+    "tags": ["mod", "chars", "woe"],
+	"pronouns": ["she", "her"],
     "rotate": true
   },
   {
@@ -689,6 +705,118 @@
     "sprite": ["modd/moddtxt/whoa"],
     "color": [[1, 2]],
     "desc": "woe is me",
-    "tags": ["mod", "woe"]
+    "tags": ["mod", "chars", "woe"]
+  },
+  {
+    "name": "greg",
+    "sprite": ["modd/grrg"],
+    "color": [[0, 3]],
+    "desc": "not enough sides bro",
+    "tags": ["mod", "chars", "grgr"],
+	"pronouns": ["genderfluid"],
+    "rotate": true
+  },
+  {
+    "name": "txt_greg",
+    "sprite": ["modd/moddtxt/greg"],
+    "color": [[0, 2]],
+    "desc": "grrg was too hard to pronounce",
+    "tags": ["mod", "chars", "grgr"]
+  },
+  {
+    "name": "uunn",
+    "sprite": ["modd/uunn"],
+    "color": [[5, 3]],
+    "desc": "long lost sibling of gargle",
+	"pronouns": ["they", "them"],
+    "tags": ["mod", "chars", "unun"],
+    "rotate": true
+  },
+  {
+    "name": "txt_uunn",
+    "sprite": ["modd/moddtxt/uunn"],
+    "color": [[5, 3]],
+    "desc": "uh huh",
+    "tags": ["mod", "chars", "unun"]
+  },
+  {
+    "name": "nnuu",
+    "sprite": ["modd/nnuu"],
+    "color": [[1, 2]],
+    "desc": "are you the nuw guy",
+	"pronouns": ["you", "your"],
+    "tags": ["mod", "chars", "unun"],
+    "rotate": true
+  },
+  {
+    "name": "txt_nnuu",
+    "sprite": ["modd/moddtxt/nnuu"],
+    "color": [[1, 2]],
+    "desc": "aren't you glad I didn't call it nono",
+    "tags": ["mod", "chars", "unun"]
+  },
+  {
+    "name": "cuuc",
+    "sprite": ["modd/cuuc"],
+    "color": [[0, 3]],
+    "desc": "not enough sides bro",
+    "tags": ["mod", "chars", "cucu"],
+	"pronouns": ["it"],
+    "rotate": true
+  },
+  {
+    "name": "txt_cuuc",
+    "sprite": ["modd/moddtxt/cuuc"],
+    "color": [[0, 2]],
+    "desc": "no it's not greg, come on",
+    "tags": ["mod", "chars", "cucu"]
+  },
+  {
+    "name": "cuc",
+    "sprite": ["modd/cuc"],
+    "color": [[6, 1]],
+    "desc": "ouch! many branch at once",
+    "tags": ["mod", "chars", "cucu"],
+	"pronouns": ["shi", "shim"],
+    "rotate": true
+  },
+  {
+    "name": "txt_cuc",
+    "sprite": ["modd/moddtxt/cuc"],
+    "color": [[6, 1]],
+    "desc": "probably better not to worry about how you pronounce it",
+    "tags": ["mod", "chars", "cucu"]
+  },
+  {
+    "name": "eeer",
+    "sprite": ["modd/eeer"],
+    "color": [[2, 4]],
+    "desc": "square root of bird",
+    "tags": ["mod", "chars", "eeer"],
+	"pronouns": ["e", "em"],
+    "rotate": true
+  },
+  {
+    "name": "txt_eeer",
+    "sprite": ["modd/moddtxt/eeer"],
+    "color": [[6, 2]],
+    "desc": "the sound an angry mushroom makes",
+    "tags": ["mod", "chars", "eeer"]
+  },
+  {
+    "name": "ryyr",
+    "sprite": ["modd/ryyr_light", "modd/ryyr_dark"],
+    "color": [[1, 3], [1, 2]],
+    "desc": "I found it in the middle of a pit of mud",
+    "tags": ["mod", "chars", "ryyr"],
+	"pronouns": ["she", "her"],
+    "rotate": true
+  },
+  {
+    "name": "txt_ryyr",
+    "sprite": ["modd/moddtxt/ryyr"],
+    "color": [[1, 2]],
+    "desc": "ryyr. that's it.",
+    "tags": ["mod", "chars", "ryyr"]
   }
 ]

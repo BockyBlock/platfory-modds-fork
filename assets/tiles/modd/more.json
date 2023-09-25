@@ -225,5 +225,44 @@
     "color": [[5, 3]],
     "tags": ["chars", "andy"],
     "desc": "when? then"
+  },
+  {
+    "name": "pati",
+    "sprite": ["modd/othr/pati"],
+    "layer": 10,
+    "color": [[4, 1]],
+    "rotate": true,
+    "features": {
+      "sans": {"x": 21, "y": 8, "w": 5, "h": 5}
+    },
+    "desc": "pati go in pareboux and go in pareboux and go in pareboux...",
+    "tags": ["patrick", "parabox", "pattie", "paraboux", "pareboux", "chars"],
+    "pronouns": ["he", "him"]
+  },
+  {
+    "name": "txt_pati",
+    "sprite": ["modd/othr/txt/pati"],
+    "types": ["object"],
+    "color": [[4, 1]],
+    "desc": "be manous an instument?",
+    "tags": ["patrick", "parabox", "pattie", "paraboux", "pareboux", "chars"]
+  },
+  {
+    "name": "aah",
+    "sprite": ["modd/othr/aah"],
+    "rotate": true,
+    "layer": 10,
+    "color": [[3, 0]],
+    "desc": "mmm delicious demon soup",
+    "tags": ["eeh"],
+  },
+  {
+    "name": "txt_aah",
+    "sprite": ["modd/othr/txt/aah"],
+    "types": ["object"],
+    "layer": 10,
+    "color": [[3, 0]],
+    "desc": "please don't call them ahh they dont like that",
+    "tags": ["eeh"],
   }
 ]

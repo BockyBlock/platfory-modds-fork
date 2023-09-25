@@ -105,7 +105,7 @@
     "sprite": ["modd/moddtxt/prop/did"],
     "types": ["cond_prefix"],
     "color": [[3, 3]],
-    "desc": "DID: A prefix the object is more YEE than it is ANTI YEE.\nANTI: Swap YEE and anti YEE",
+    "desc": "DID: A prefix for if this unit is more YEE than it is ANTI YEE.\nANTI: Swap YEE and anti YEE",
     "tags": ["txt"]
   },
   {
@@ -115,5 +115,13 @@
     "color": [[5, 2]],
     "desc": "YEE: Causes the DID prefix to activate. Stacks.\nANTI: -1 to count",
     "tags": ["yes", "yeah", "yup", "yeeeeeee"]
+  },
+  {
+    "name": "txt_wanted",
+    "sprite": ["modd/moddtxt/prop/did"],
+    "types": ["cond_prefix"],
+    "color": [[6, 1]],
+    "desc": "placeholder",
+    "tags": ["txt"]
   }
 ]

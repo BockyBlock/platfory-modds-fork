@@ -217,5 +217,36 @@
     "color": [[0, 2]],
     "desc": "I still don't know why I called it that",
     "tags": ["mod", "drone"],
+  },
+  {
+    "name": "want",
+    "sprite": ["modd/want"],
+    "color": [[6, 1]],
+    "desc": "get noita'd",
+    "tags": ["mod", "wand"],
+    "rotate": true
+  },
+  {
+    "name": "txt_want",
+    "sprite": ["modd/moddtxt/want"],
+    "color": [[6, 1]],
+    "desc": "WANT: Does nothing",
+    "types": ["object", "verb_class", "verb"],
+    "tags": ["mod", "wand"]
+  },
+  {
+    "name": "shurb",
+    "sprite": ["modd/shurb"],
+    "color": [[5, 1]],
+    "desc": "rolling and trolling",
+    "tags": ["mod", "shrub", "coral"],
+    "rotate": true
+  },
+  {
+    "name": "txt_shurb",
+    "sprite": ["modd/moddtxt/shurb"],
+    "color": [[5, 1]],
+    "desc": "is this actually a shrub? it looks more like a weed to me",
+    "tags": ["mod", "shrub", "coral"]
   }
 ]

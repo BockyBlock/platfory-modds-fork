@@ -1602,6 +1602,13 @@ function testConds(unit, conds, compare_with, first_unit) --cond should be a {co
           result = false
         end
       end
+    elseif condtype == "wanted" then
+      wanters = matchesRule("?", "want", nil)
+        if wanters ~= nil then
+        result = true
+		else
+        result = false
+        end
     elseif condtype == "wait..." then
       result = last_move ~= nil and last_move[1] == 0 and last_move[2] == 0 and #last_clicks == 0
     elseif condtype == "mayb" then
@@ -4313,6 +4320,7 @@ function getUnitSprite(name, unit)
       addTry(try, "txt/latr")
     elseif name == "txt/themself" and scene == game and rules_with_unit[unit] then
       local pronoun
+      local modpr
       for _,rules in ipairs(rules_with_unit[unit]) do
         local name = rules.rule.subject.name 
         if name:ends("n't") or name == "every1" or name == "every2" or name == "every3" or group_names_set[name] then
@@ -4325,7 +4333,10 @@ function getUnitSprite(name, unit)
           if subject.pronouns and subject.pronouns[1] == "genderfluid" then
             local cycle_pronouns = {"them", "her", "it", "xem", "him", "hir"}
             new_pronoun = cycle_pronouns[(math.floor(love.timer.getTime()/0.18) + unit.tempid) % #cycle_pronouns + 1].."self"
-          else
+		  else
+			  if (subject.pronouns[1] == "dude") or (subject.pronouns[1] == "e") or (subject.pronouns[1] == "you") or (subject.pronouns[1] == "shi") then
+				modpr = true
+			  end
             new_pronoun = (subject.pronouns and (subject.pronouns[2] or subject.pronouns[1]) or "it").."self"
           end
           if pronoun and pronoun ~= new_pronoun then
@@ -4344,7 +4355,11 @@ function getUnitSprite(name, unit)
         end
       end
       pronoun = pronoun or "itself"
-      addTry(try, "txt/"..pronoun)
+		  if modpr then
+		  addTry(try, "modd/misctxt/"..pronoun) --I'm putting unreasonable effort into not putting custom pronouns in the default folder
+		  else
+		  addTry(try, "txt/"..pronoun)
+		  end
     elseif name == "txt/themself_lower" and scene == game and rules_with_unit[unit] then
       local has_multiple = false
       local last_units
