@@ -221,6 +221,7 @@
   {
     "name": "want",
     "sprite": ["modd/want"],
+    "layer": 11,
     "color": [[6, 1]],
     "desc": "get noita'd",
     "tags": ["mod", "wand"],
@@ -248,5 +249,20 @@
     "color": [[5, 1]],
     "desc": "is this actually a shrub? it looks more like a weed to me",
     "tags": ["mod", "shrub", "coral"]
+  },
+  {
+    "name": "sprink",
+    "sprite": ["modd/sprink"],
+    "color": [[5, 3]],
+    "desc": "boing bebababow beowww boung boing bebow",
+    "tags": ["mod", "spring", "trampoline"],
+    "rotate": true
+  },
+  {
+    "name": "txt_sprink",
+    "sprite": ["modd/moddtxt/sprink"],
+    "color": [[5, 3]],
+    "desc": "happy june",
+    "tags": ["mod", "spring", "trampoline"]
   }
 ]

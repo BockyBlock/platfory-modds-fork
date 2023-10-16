@@ -473,8 +473,8 @@ selector_grid_contents = {
 	"beb","txt_beb","dad","txt_dad","day","txt_day","getboux","txt_getboux","obby","txt_obby","tu","txt_tu","then","txt_then","hey","txt_hey",0,0,
 	"zekiel","txt_zekiel","menstr","txt_menstr","jely","txt_jely","babtoo","txt_babtoo","pati","txt_pati",0,0,0,0,0,0,0,0,
 	0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-	"txt_flammaje","txt_zapmaje","txt_watmaje","txt_quagmaje","txt_majmaje","txt_datmaje","txt_mtalmaje","txt_tinbolt",0,0,0,0,0,0,0,0,0,"txt_xx__xx",
-	"flammaje","zapmaje","watmaje","quagmaje","majmaje","datmaje","mtalmaje","tinbolt",0,0,0,0,0,0,0,0,0,"xx__xx",
+	"txt_flammaje","txt_zapmaje","txt_watmaje","txt_quagmaje","txt_majmaje","txt_datmaje","txt_mtalmaje","txt_tinbolt","txt_grasmaje","txt_drakmaje","txt_dirbolt","txt_voidbolt",0,0,0,0,0,"txt_xx__xx",
+	"flammaje","zapmaje","watmaje","quagmaje","majmaje","datmaje","mtalmaje","tinbolt","grasmaje","drakmaje","dirbolt","voidbolt",0,0,0,0,0,"xx__xx",
 	},
   -- page 9: modded
   {
@@ -483,7 +483,7 @@ selector_grid_contents = {
 	"ubu","txt_ubu","bobub","txt_bobub","lefi","txt_lefi","waly","txt_waly","sso","txt_sso","wowbrutal","txt_wowbrutal","illy","txt_illy","heeh2","txt_heeh2","fari","txt_fari",
 	"sammah","txt_sammah","sallt","txt_sallt","huro","txt_huro","chonke","txt_chonke","quiq","txt_quiq","caac","txt_caac","zt","txt_zt","dooder","txt_dooder","lito","txt_lito",
     "ror","txt_ror","whoa","txt_whoa","greg","txt_greg","nnuu","txt_nnuu","uunn","txt_uunn","cuuc","txt_cuuc","cuc","txt_cuc","eeer","txt_eeer","ryyr","txt_ryyr",
-    0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+    "bav","txt_bav","trie","txt_trie",0,0,0,0,0,0,0,0,0,0,0,0,0,0,
     0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
     0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
     0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -510,7 +510,7 @@ selector_grid_contents = {
     0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
     0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 	"be","goawaypls","nedkee","fordor","every1","every2","every3","txtify",":)","upleft","up","upright","left","direction","right","downleft","down","downright",
-	"snacc","ouch","lookat","nogo","walk","flye","the",0,0,0,0,0,0,0,0,0,0,0,
+	"snacc","ouch","lookat","nogo","walk","flye","the","frenles","go",0,0,0,0,0,0,0,0,0,
 	}
 }
 tile_grid_width = 18

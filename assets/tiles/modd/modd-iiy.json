@@ -243,5 +243,23 @@
     "rotate": true,
     "desc": "formerly named burbur until we realized it's not supposed to look like a burger",
     "tags": ["chars", "-oc", "iiy", "thingify", "thethe", "thief", "mod"]
+  },
+  {
+    "name": "frenles",
+    "sprite": ["modd/iiy/lonely"],
+    "color": [[1, 4]],
+    "convertible": false,
+    "rotate": false,
+    "desc": "boowomp",
+    "tags": ["chars", "-oc", "iiy", "lonely", "mod"]
+  },
+  {
+    "name": "go",
+    "sprite": ["modd/iiy/go"],
+    "color": [[5, 1]],
+    "convertible": false,
+    "rotate": true,
+    "desc": "ggogogogogooogogoogogogooooogoogggggg",
+    "tags": ["chars", "-oc", "iiy", "gogo", "mod"]
   }
 ]

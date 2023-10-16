@@ -1033,7 +1033,7 @@ function testConds(unit, conds, compare_with, first_unit) --cond should be a {co
       condtype = condtype:sub(0,-4)
     end --a lot of things don't actually work with count yet, but hey
 
-    if condtype:starts("that") then
+    if condtype:starts("that") or condtype:starts("taht") then
       lists = cond.others or {} -- using "lists" to store the names, since THAT doesn't allow nesting, and we need the name for hasRule
     elseif cond.others then
       for _,other in ipairs(cond.others) do
@@ -1105,7 +1105,7 @@ function testConds(unit, conds, compare_with, first_unit) --cond should be a {co
     withrecursion[cond] = true
     if (old_withrecursioncond) then
       result = false
-    elseif condtype:starts("that") then
+    elseif condtype:starts("that") or condtype:starts("taht") then
       result = true
       local verb = condtype:sub(5)
       for _,param in ipairs(lists) do -- using "lists" to store the names, since THAT doesn't allow nesting, and we need the name for hasRule

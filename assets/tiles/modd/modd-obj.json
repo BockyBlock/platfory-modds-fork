@@ -818,5 +818,37 @@
     "color": [[1, 2]],
     "desc": "ryyr. that's it.",
     "tags": ["mod", "chars", "ryyr"]
+  },
+  {
+    "name": "bav",
+    "sprite": ["modd/bavo"],
+    "color": [[2, 3]],
+    "desc": "blame google translate",
+    "tags": ["mod", "chars", "lava"],
+	"pronouns": ["they", "them"],
+    "rotate": true
+  },
+  {
+    "name": "txt_bav",
+    "sprite": ["modd/moddtxt/bavo"],
+    "color": [[2, 3]],
+    "desc": "yep, just \"bav\". were you expecting something like \"blavaoclastic flow\"",
+    "tags": ["mod", "chars", "lava"]
+  },
+  {
+    "name": "trie",
+    "sprite": ["modd/trie"],
+    "color": [[4, 4]],
+    "desc": "okokok uhhh I have no idea who came up with this except I totally do but SHSHSHHSHHHSHS",
+    "tags": ["mod", "chars", "tritri"],
+	"pronouns": ["they", "them"],
+    "rotate": true
+  },
+  {
+    "name": "txt_trie",
+    "sprite": ["modd/moddtxt/trie"],
+    "color": [[4, 4]],
+    "desc": "DID YOU KNOW? trie is the first OC I made specifically for platfory",
+    "tags": ["mod", "chars", "tritri"]
   }
 ]
