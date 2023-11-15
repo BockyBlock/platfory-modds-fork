@@ -1005,8 +1005,14 @@ function love.errorhandler(msg)
     love.graphics.clear(23/255, 49/255, 84/255)
     love.graphics.setColor(1,1,1)
     love.graphics.printf(p, pos, pos, love.graphics.getWidth() - pos)
-    if sprites["bab"] then
-      local bab = sprites["bab"]
+	-- babses = {"modd/grrg", "modd/platfory", "modd/babtoo", "modd/trie", "modd/whenthe"}
+	-- local bab = sprites[babses[math.random(1,5)]]
+	local bab = sprites["modd/trie"]
+		if bab then
+		else
+		  local bab = sprites["bab"]
+		end
+    if bab then
       local xoff = math.random(-2,2)
       local yoff = math.random(-2,2)
 
