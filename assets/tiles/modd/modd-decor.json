@@ -264,5 +264,20 @@
     "color": [[5, 3]],
     "desc": "happy june",
     "tags": ["mod", "spring", "trampoline"]
+  },
+  {
+    "name": "oiter",
+    "sprite": ["modd/oiter"],
+    "color": [[1, 4]],
+    "desc": "stay hydrated",
+    "tags": ["mod", "bottle", "water"],
+    "rotate": true
+  },
+  {
+    "name": "txt_oiter",
+    "sprite": ["modd/moddtxt/oiter"],
+    "color": [[1, 4]],
+    "desc": "but do you dink it",
+    "tags": ["mod", "bottle", "water"]
   }
 ]

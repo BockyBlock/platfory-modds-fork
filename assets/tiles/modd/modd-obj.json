@@ -294,7 +294,7 @@
     "name": "lol",
     "sprite": ["modd/lol"],
     "color": [[4, 1]],
-    "desc": "lmao vera :)",
+    "desc": "lmao vera",
     "tags": ["mod", "chars", "aloe", "alal"],
     "rotate": true,
     "pronouns": ["she", "her"]
@@ -622,7 +622,7 @@
   },
   {
     "name": "txt_pikman",
-    "sprite": ["modd/moddtxt/pikc"],
+    "sprite": ["modd/moddtxt/pikman"],
     "color": [[5, 2]],
     "desc": "i love my pikman",
     "tags": ["mod", "chars", "pikmin"],
@@ -759,7 +759,7 @@
     "name": "cuuc",
     "sprite": ["modd/cuuc"],
     "color": [[0, 3]],
-    "desc": "not enough sides bro",
+    "desc": "giv mee personel rooum pls",
     "tags": ["mod", "chars", "cucu"],
 	"pronouns": ["it"],
     "rotate": true
@@ -839,7 +839,7 @@
     "name": "trie",
     "sprite": ["modd/trie"],
     "color": [[4, 4]],
-    "desc": "okokok uhhh I have no idea who came up with this except I totally do but SHSHSHHSHHHSHS",
+    "desc": "wrecking games did not make this",
     "tags": ["mod", "chars", "tritri"],
 	"pronouns": ["they", "them"],
     "rotate": true
@@ -850,5 +850,85 @@
     "color": [[4, 4]],
     "desc": "DID YOU KNOW? trie is the first OC I made specifically for platfory",
     "tags": ["mod", "chars", "tritri"]
+  },
+  {
+    "name": "lolful",
+    "sprite": ["modd/lolful"],
+    "color": [[3, 1]],
+    "desc": "keeps your skin moiste",
+    "tags": ["mod", "chars", "aloe", "alal", "alful"],
+    "rotate": true,
+    "pronouns": ["she", "her"]
+  },
+  {
+    "name": "txt_lolful",
+    "sprite": ["modd/moddtxt/lolful"],
+    "types": ["object"],
+    "color": [[3, 1]],
+    "desc": "why",
+    "tags": ["mod", "chars", "txt", "aloe", "alal", "alful"]
+  },
+  {
+    "name": "sirboxe",
+    "sprite": ["modd/dyyd"],
+    "color": [[2, 2]],
+    "desc": "mister box man",
+    "tags": ["mod", "chars", "dydy"],
+	"pronouns": ["they", "them"],
+    "rotate": true
+  },
+  {
+    "name": "txt_sirboxe",
+    "sprite": ["modd/moddtxt/sirboxe"],
+    "color": [[2, 2]],
+    "desc": "not dyyd",
+    "tags": ["mod", "chars", "dydy"]
+  },
+  {
+    "name": "steep",
+    "sprite": ["modd/steep"],
+    "color": [[1, 2]],
+    "desc": "\"It's arguably a better balance beam, because now it's slopey.\"",
+    "tags": ["mod", "chars", "stepperstep"],
+	"pronouns": ["they", "them"],
+    "rotate": true
+  },
+  {
+    "name": "txt_steep",
+    "sprite": ["modd/moddtxt/steep"],
+    "color": [[1, 2]],
+    "desc": "step or step, which one will u pikc",
+    "tags": ["mod", "chars", "stepperstep"]
+  },
+  {
+    "name": "asasas",
+    "sprite": ["modd/asasas_glowy","modd/asasas_legs","modd/asasas_dark","modd/asasas_metal"],
+    "color": [[1, 4],[5, 3],[0, 0],[0, 1]],
+    "desc": "do not try at home",
+    "tags": ["mod", "chars", "asasu"],
+	"pronouns": ["ad", "ad"],
+    "rotate": true
+  },
+  {
+    "name": "txt_asasas",
+    "sprite": ["modd/moddtxt/asasas"],
+    "color": [[1, 4]],
+    "desc": "im going to supertask around the block\ndon't be folled, ad's named \"asasas\"",
+    "tags": ["mod", "chars", "asasu"]
+  },
+  {
+    "name": "shuush",
+    "sprite": ["modd/shuush"],
+    "color": [[6, 1]],
+    "desc": "forgot one of the folds",
+    "tags": ["mod", "chars", "tssssh"],
+	"pronouns": ["genderfluid"],
+    "rotate": true
+  },
+  {
+    "name": "txt_shuush",
+    "sprite": ["modd/moddtxt/shuush"],
+    "color": [[6, 1]],
+    "tags": ["mod", "chars", "tssssh"]
   }
 ]

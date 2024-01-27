@@ -4334,7 +4334,7 @@ function getUnitSprite(name, unit)
             local cycle_pronouns = {"them", "her", "it", "xem", "him", "hir"}
             new_pronoun = cycle_pronouns[(math.floor(love.timer.getTime()/0.18) + unit.tempid) % #cycle_pronouns + 1].."self"
 		  else
-			  if (subject.pronouns[1] == "dude") or (subject.pronouns[1] == "e") or (subject.pronouns[1] == "you") or (subject.pronouns[1] == "shi") then
+			  if (subject.pronouns[1] == "dude") or (subject.pronouns[1] == "e") or (subject.pronouns[1] == "you") or (subject.pronouns[1] == "shi") or (subject.pronouns[1] == "ad") then
 				modpr = true
 			  end
             new_pronoun = (subject.pronouns and (subject.pronouns[2] or subject.pronouns[1]) or "it").."self"
