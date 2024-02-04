@@ -20,7 +20,7 @@
     "sprite": ["modd/moddtxt/eexe"],
     "types": ["object"],
     "color": [[1, 3]],
-    "desc": "pronounced 'eeeeeeeeeeeeeeeeeeecks-eeh'",
+    "desc": "pronounced \"eeeeeeeeeeeeeeeeeeecks-eeh\"",
     "tags": ["mod", "txt"]
   },
   {
@@ -164,7 +164,7 @@
     "sprite": ["modd/read"],
     "color": [[2, 2]],
     "tags": ["mod", "book"],
-    "desc": "for the last time, it's not a diary",
+    "desc": "for the last time, it\"s not a diary",
     "rotate": true
   },
   {
@@ -180,34 +180,34 @@
     "sprite": ["modd/cap"],
     "color": [[2, 2]],
     "desc": "u r capping",
-    "tags": ["mod", "mhat"],
+    "tags": ["mod", "mhat"]
   },
   {
     "name": "txt_cap",
     "sprite": ["modd/moddtxt/cap"],
     "color": [[2, 2]],
     "desc": "CAP: If you got a cap, you will have got a cap",
-    "tags": ["mod", "mhat"],
+    "tags": ["mod", "mhat"]
   },
   {
     "name": "lopikckc",
     "sprite": ["modd/pikcgold"],
     "color": [[2, 4]],
     "desc": "open lokc with only one pikc",
-    "tags": ["mod", "key"],
+    "tags": ["mod", "key"]
   },
   {
     "name": "txt_lopikckc",
     "sprite": ["modd/moddtxt/lopikckc"],
     "color": [[2, 4]],
     "desc": "added this because it felt weird to rename victoria and break all those old levels",
-    "tags": ["mod", "key"],
+    "tags": ["mod", "key"]
   },
   {
     "name": "roor",
     "sprite": ["modd/roor"],
     "color": [[0, 2]],
-    "desc": "it's a woug! it's a rockit! nnno it's just this thing",
+    "desc": "it\"s a woug! it\"s a rockit! nnno it\"s just this thing",
     "tags": ["mod", "drone"],
     "rotate": true
   },
@@ -215,15 +215,15 @@
     "name": "txt_roor",
     "sprite": ["modd/moddtxt/roor"],
     "color": [[0, 2]],
-    "desc": "I still don't know why I called it that",
-    "tags": ["mod", "drone"],
+    "desc": "I still don\"t know why I called it that",
+    "tags": ["mod", "drone"]
   },
   {
     "name": "want",
     "sprite": ["modd/want"],
     "layer": 11,
     "color": [[6, 1]],
-    "desc": "get noita'd",
+    "desc": "get noita\"d",
     "tags": ["mod", "wand"],
     "rotate": true
   },

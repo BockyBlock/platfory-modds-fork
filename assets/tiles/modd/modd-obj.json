@@ -58,7 +58,7 @@
     "color": [[2, 2]],
     "rotate": true,
     "desc": "created in a befren accident",
-    "tags": ["keke", "mod", "chars", "chars"],
+    "tags": ["keke", "mod", "chars"],
     "pronouns": ["he", "him"]
   },
   {
@@ -67,7 +67,7 @@
     "types": ["object"],
     "color": [[2, 2]],
     "desc": "how",
-    "tags": ["keke", "mod", "chars", "chars"],
+    "tags": ["keke", "mod", "chars"]
   },
   {
     "name": "gunguy",
@@ -124,7 +124,7 @@
     "sprite": ["modd/bologna_body", "modd/bologna_head"],
     "color": [[2, 2], [2, 1]],
     "desc": "idk anymore",
-    "tags": ["mod", "chars", "chars"],
+    "tags": ["mod", "chars"],
     "rotate": true,
     "pronouns": ["she", "her"]
   },
@@ -134,7 +134,7 @@
     "types": ["object"],
     "color": [[2, 1]],
     "desc": "baloney",
-    "tags": ["mod", "chars", "chars"]
+    "tags": ["mod", "chars"]
   },
   {
     "name": "ty",
@@ -157,7 +157,7 @@
     "name": "bruhbruh",
     "sprite": ["modd/bruhbruh_body", "modd/bruhbruh_head"],
     "color": [[1, 2], [1, 3]],
-    "tags": ["mod", "chars", "chars"],
+    "tags": ["mod", "chars"],
     "rotate": true,
     "pronouns": ["he", "him"]
   },
@@ -167,7 +167,7 @@
     "types": ["object"],
     "color": [[1, 3]],
     "desc": "bruh",
-    "tags": ["mod", "chars", "chars"]
+    "tags": ["mod", "chars"]
   },
   {
     "name": "whenthe",
@@ -314,7 +314,7 @@
     "rotate": true,
     "wobble": true,
     "desc": "It simultaneously breaks every single rule of Baba Be U sprite makeing. Amazing!",
-    "tags": ["x", "mod", "chars", "chars"],
+    "tags": ["x", "mod", "chars"],
     "pronouns": ["he", "him"]
   },
   {
@@ -324,7 +324,7 @@
     "color": [[2, 2]],
     "desc": "you know, this game doesn't have an underscore character that works",
     "wobble": true,
-    "tags": ["x", "mod", "chars", "chars"],
+    "tags": ["x", "mod", "chars"]
   },
   {
     "name": "swiit",
@@ -405,7 +405,7 @@
     "sprite": ["modd/moddtxt/waly"],
     "color": [[1, 1]],
     "desc": "waly wonder",
-    "tags": ["mod", "chars", "walla"],
+    "tags": ["mod", "chars", "walla"]
   },
   {
     "name": "lefi",
@@ -422,7 +422,7 @@
     "sprite": ["modd/moddtxt/lefi"],
     "color": [[2, 4]],
     "desc": "snacc on berries to turn into a goldleaf",
-    "tags": ["mod", "chars", "bfdi"],
+    "tags": ["mod", "chars", "bfdi"]
   },
   {
     "name": "sso",
@@ -454,7 +454,7 @@
     "sprite": ["modd/moddtxt/wowbrutal"],
     "color": [[4, 0]],
     "desc": "aw, hootal",
-    "tags": ["mod", "chars", "brute"],
+    "tags": ["mod", "chars", "brute"]
   },
   {
     "name": "illy",
@@ -470,7 +470,7 @@
     "sprite": ["modd/moddtxt/illy"],
     "color": [[6, 2]],
     "desc": "silly",
-    "tags": ["mod", "chars", "ili"],
+    "tags": ["mod", "chars", "ili"]
   },
   {
     "name": "bab0",
@@ -495,7 +495,7 @@
     "sprite": ["modd/moddtxt/heeh2"],
     "color": [[1, 4]],
     "desc": "so as not to conflict with heeh (fof's modds)",
-    "tags": ["mod", "chars", "heeh"],
+    "tags": ["mod", "chars", "heeh"]
   },
   {
     "name": "fari",
@@ -511,7 +511,7 @@
     "sprite": ["modd/moddtxt/fari"],
     "color": [[2, 2]],
     "desc": "I CAN'T HEAR U WHEN UR SO FAR IWAY",
-    "tags": ["mod", "chars", "firey"],
+    "tags": ["mod", "chars", "firey"]
   },
   {
     "name": "sallt",
@@ -527,7 +527,7 @@
     "sprite": ["modd/moddtxt/sallt"],
     "color": [[4, 1]],
     "desc": "samalt? that's crinch",
-    "tags": ["mod", "chars", "salt"],
+    "tags": ["mod", "chars", "salt"]
   },
   {
     "name": "sammah",
@@ -543,7 +543,7 @@
     "sprite": ["modd/moddtxt/sammah"],
     "color": [[2, 3]],
     "desc": "u ever juts plugg in and giv powr and not taek",
-    "tags": ["mod", "chars", "sama"],
+    "tags": ["mod", "chars", "sama"]
   },
   {
     "name": "huro",
@@ -559,7 +559,7 @@
     "sprite": ["modd/moddtxt/huro"],
     "color": [[6, 1]],
     "desc": "*laminated paper sounds*",
-    "tags": ["mod", "chars", "tero"],
+    "tags": ["mod", "chars", "tero"]
   },
   {
     "name": "chonke",
@@ -576,7 +576,7 @@
     "sprite": ["modd/moddtxt/chonke"],
     "color": [[2, 4]],
     "desc": "pleas don't call it foke",
-    "tags": ["mod", "chars", "chunke"],
+    "tags": ["mod", "chars", "chunke"]
   },
   {
     "name": "quiq",
@@ -593,7 +593,7 @@
     "sprite": ["modd/moddtxt/quiq"],
     "color": [[3, 4]],
     "desc": "QUICKLY!!!!!!!",
-    "tags": ["mod", "chars", "qiqi", "quiqui"],
+    "tags": ["mod", "chars", "qiqi", "quiqui"]
   },
   {
     "name": "caac",
@@ -610,7 +610,7 @@
     "sprite": ["modd/moddtxt/caac"],
     "color": [[2, 4]],
     "desc": "jump in the caac",
-    "tags": ["mod", "chars", "chacha"],
+    "tags": ["mod", "chars", "chacha"]
   },
   {
     "name": "pikman",
@@ -625,7 +625,7 @@
     "sprite": ["modd/moddtxt/pikman"],
     "color": [[5, 2]],
     "desc": "i love my pikman",
-    "tags": ["mod", "chars", "pikmin"],
+    "tags": ["mod", "chars", "pikmin"]
   },
   {
     "name": "lito",
@@ -641,7 +641,7 @@
     "sprite": ["modd/moddtxt/lito"],
     "color": [[2, 4]],
     "desc": "*oscilloscope sounds*",
-    "tags": ["mod", "chars", "lito"],
+    "tags": ["mod", "chars", "lito"]
   },
   {
     "name": "padalahurpadalahur",
@@ -671,7 +671,7 @@
     "sprite": ["modd/moddtxt/dooder"],
     "color": [[0, 1]],
     "desc": "doost",
-    "tags": ["mod", "chars", "duder"],
+    "tags": ["mod", "chars", "duder"]
   },
   {
     "name": "zt",
@@ -687,7 +687,7 @@
     "sprite": ["modd/moddtxt/zt"],
     "color": [[4, 0]],
     "desc": "bzzzzt",
-    "tags": ["mod", "chars", "zat"],
+    "tags": ["mod", "chars", "zat"]
   },
   {
     "name": "ror",
