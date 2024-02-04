@@ -146,7 +146,7 @@
     "color": [[0, 3]],
     "rotate": true,
     "desc": "creat bab omeag",
-    "tags": ["zez","zekiel"],
+    "tags": ["zez","zekiel"]
   },
   {
     "name": "txt_zekiel",
@@ -154,7 +154,7 @@
     "types": ["object"],
     "color": [[0, 3]],
     "tags": ["zez","zekiel"],
-    "desc": "creat gud modd",
+    "desc": "creat gud modd"
   },
   {
     "name": "menstr",
@@ -163,7 +163,7 @@
     "color": [[4, 1]],
     "rotate": true,
     "desc": "dont let this distract u from the fact that this modd has 2 monsters in it",
-    "tags": ["zez","monsert"],
+    "tags": ["zez","monsert"]
   },
   {
     "name": "txt_menstr",
@@ -171,7 +171,7 @@
     "types": ["object"],
     "color": [[4, 1]],
     "tags": ["zez","monsert"],
-    "desc": "wee ar men",
+    "desc": "wee ar men"
   },
   {
     "name": "jely",
@@ -180,15 +180,15 @@
     "color": [[1, 3]],
     "rotate": true,
     "desc": "where its brain would normally be, there is instead two toothpicks and a frog",
-    "tags": ["zez","monsert"],
+    "tags": ["zez","jellyfish"]
   },
   {
     "name": "txt_jely",
     "sprite": ["modd/othr/txt/jely"],
     "types": ["object"],
     "color": [[1, 3]],
-    "tags": ["zez","monsert"],
-    "desc": "jelyjelluellyllylylleylljeyjlejylejylejylrvhuggtfxvghjxjgvdzygkutrvvbeyse",
+    "tags": ["zez","jellyfish"],
+    "desc": "jelyjelluellyllylylleylljeyjlejylejylejylrvhuggtfxvghjxjgvdzygkutrvvbeyse"
   },
   {
     "name": "hey",
@@ -254,7 +254,7 @@
     "layer": 10,
     "color": [[3, 0]],
     "desc": "mmm delicious demon soup",
-    "tags": ["eeh"],
+    "tags": ["eeh"]
   },
   {
     "name": "txt_aah",
@@ -263,7 +263,7 @@
     "layer": 10,
     "color": [[3, 0]],
     "desc": "please don't call them ahh they dont like that",
-    "tags": ["eeh"],
+    "tags": ["eeh"]
   },
   {
     "name": "tehso",

@@ -4,7 +4,7 @@
     "sprite": ["modd/cell/enemi"],
     "layer": 3,
     "color": [[2, 2]],
-    "desc": "as opposed to the white blood cell :)",
+    "desc": "as opposed to the white blood cell",
     "tags": ["cell","enemy"],  
   },
   {
@@ -21,7 +21,7 @@
     "layer": 3,
     "color": [[5, 4]],
     "desc": "it really said \"#\"",
-    "tags": ["cell","push"],  
+    "tags": ["cell","push"], 
   },
   {
     "name": "txt_cell",
@@ -30,7 +30,7 @@
     "layer": 3,
     "color": [[4, 4]],
     "desc": "CELL: refers to all cell machine tiles. is very borked.",
-    "tags": ["cell"],  
+    "tags": ["cell"]
   },
   {
     "name": "cell",
@@ -39,7 +39,7 @@
     "layer": 3,
     "color": [[4, 4]],
     "desc": "should not exist",
-    "tags": ["cell"],  
+    "tags": ["cell"]
   },
   {
     "name": "muuv",
@@ -48,7 +48,7 @@
     "color": [[1, 2]],
     "rotate": true,
     "desc": "not to be confused with moov",
-    "tags": ["cell","move"],  
+    "tags": ["cell","move"]
   },
   {
     "name": "stne",
@@ -56,6 +56,6 @@
     "layer": 3,
     "color": [[0, 1]],
     "desc": "conk create",
-    "tags": ["cell","stop","immobile"],  
+    "tags": ["cell","stop","immobile"]
   }
 ]
