@@ -264,5 +264,21 @@
     "color": [[3, 0]],
     "desc": "please don't call them ahh they dont like that",
     "tags": ["eeh"],
+  },
+  {
+    "name": "tehso",
+    "sprite": ["modd/othr/tehso"],
+    "color": [[2, 4]],
+    "desc": "\"yellow fof\" wtf rude",
+    "tags": ["mod", "chars", "tesho"],
+	"pronouns": ["ze", "hir"],
+    "rotate": true
+  },
+  {
+    "name": "txt_tehso",
+    "sprite": ["modd/othr/txt/tehso"],
+    "desc": "every factory needs it",
+    "color": [[2, 4]],
+    "tags": ["mod", "chars", "tesho"]
   }
 ]

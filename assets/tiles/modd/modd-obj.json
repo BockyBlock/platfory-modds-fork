@@ -644,6 +644,20 @@
     "tags": ["mod", "chars", "lito"],
   },
   {
+    "name": "padalahurpadalahur",
+    "sprite": ["modd/scribbly"],
+    "desc": "is a living hurricane a natural disaster? it's a moral gray aera",
+    "color": [[2, 1]],
+    "tags": ["chars", "scribbly"]
+  },
+  {
+    "name": "txt_padalahurpadalahur",
+    "sprite": ["modd/moddtxt/scribbly"],
+    "desc": "good luck finding this one, I shoved it WAY back in the object list",
+    "color": [[2, 1]],
+    "tags": ["mod", "chars", "scribbly"]
+  },
+  {
     "name": "dooder",
     "sprite": ["modd/dooder"],
     "color": [[0, 1]],
@@ -930,5 +944,114 @@
     "sprite": ["modd/moddtxt/shuush"],
     "color": [[6, 1]],
     "tags": ["mod", "chars", "tssssh"]
+  },
+  {
+    "name": "lel",
+    "sprite": ["modd/lel"],
+    "color": [[4, 2]],
+    "desc": "cannot stand tehso\n(ten minutes later)\nME AND THE FACTORYYYY",
+    "tags": ["mod", "chars", "lele"],
+	"pronouns": ["he", "him"],
+    "rotate": true
+  },
+  {
+    "name": "txt_lel",
+    "sprite": ["modd/moddtxt/lel"],
+    "color": [[4, 2]],
+    "tags": ["mod", "chars", "lele"]
+  },
+  {
+    "name": "vel",
+    "sprite": ["modd/vel"],
+    "color": [[3, 1]],
+    "desc": "it clearly isn't œsh! look, it's so narrow, the ears go forward, and purple hue",
+    "tags": ["mod", "chars", "velvel"],
+	"pronouns": ["she", "her"],
+    "rotate": true
+  },
+  {
+    "name": "txt_vel",
+    "sprite": ["modd/moddtxt/vel"],
+    "color": [[3, 1]],
+    "tags": ["mod", "chars", "velvel"]
+  },
+  {
+    "name": "yoy",
+    "sprite": ["modd/yoy"],
+    "color": [[5, 1]],
+    "desc": "kinda reminds me of a coyoyte",
+    "tags": ["mod", "chars", "yoyo"],
+	"pronouns": ["thht", "thht"],
+    "rotate": true
+  },
+  {
+    "name": "txt_yoy",
+    "sprite": ["modd/moddtxt/yoy"],
+    "color": [[5, 1]],
+    "tags": ["mod", "chars", "yoyo"]
+  },
+  {
+    "name": "g.ah!",
+    "sprite": ["modd/ga"],
+    "color": [[5, 2]],
+    "desc": "\"it's bab, it doesn't have to look good\"",
+    "tags": ["mod", "chars"],
+	"pronouns": ["ze", "hir"],
+    "rotate": true
+  },
+  {
+    "name": "txt_g.ah!",
+    "desc": "OH NO LOOK OUT",
+    "sprite": ["modd/moddtxt/ga"],
+    "color": [[5, 2]],
+    "tags": ["mod", "chars"]
+  },
+  {
+    "name": "leel",
+    "sprite": ["modd/leel"],
+    "color": [[4, 1]],
+    "desc": "looks really good in a hat",
+    "tags": ["mod", "chars", "lele", "kyle"],
+	"pronouns": ["he", "him"],
+    "rotate": true
+  },
+  {
+    "name": "txt_leel",
+    "sprite": ["modd/moddtxt/leel"],
+    "desc": "kinda looks like ceec tbh",
+    "color": [[4, 1]],
+    "tags": ["mod", "chars", "lele", "kyle"]
+  },
+  {
+    "name": "oesh",
+    "sprite": ["modd/oesh"],
+    "color": [[0, 2]],
+    "desc": "?",
+    "tags": ["mod", "chars", "oish", "oish"],
+	"pronouns": ["she", "her"],
+    "rotate": true
+  },
+  {
+    "name": "txt_oesh",
+    "sprite": ["modd/moddtxt/oesh"],
+    "desc": "kinda looks like ceec tbh",
+    "color": [[0, 2]],
+    "tags": ["mod", "chars", "oish", "oish"]
+  },
+  {
+    "name": "kyk",
+    "sprite": ["modd/kyk"],
+    "color": [[0, 3]],
+    "desc": "they're getting jiggy\nthey're doing the mario\nit's the kyky shaker",
+    "tags": ["mod", "chars"],
+	"pronouns": ["they", "them"],
+    "rotate": true
+  },
+  {
+    "name": "txt_kyk",
+    "sprite": ["modd/moddtxt/kyk"],
+    "desc": "kayak",
+    "color": [[0, 3]],
+    "tags": ["mod", "chars"]
   }
 ]

@@ -1895,7 +1895,6 @@ function miscUpdates(state_change)
           card_for_id[unit.id] = {math.random(1,9)}
         end
         local it = unpack(card_for_id[unit.id])
-        print("b")
         unit.sprite[1] = "modd/it_"..it or "modd/it"
       end
 
