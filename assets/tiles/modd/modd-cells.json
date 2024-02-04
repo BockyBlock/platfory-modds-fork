@@ -5,7 +5,7 @@
     "layer": 3,
     "color": [[2, 2]],
     "desc": "as opposed to the white blood cell",
-    "tags": ["cell","enemy"],  
+    "tags": ["cell","enemy"]
   },
   {
     "name": "tholl",
@@ -13,7 +13,7 @@
     "layer": 3,
     "color": [[1, 3]],
     "desc": "PAY THE THOLL MISTER SQUIDWARD",
-    "tags": ["cell","fall"],  
+    "tags": ["cell","fall"]
   },
   {
     "name": "pooosh",
@@ -21,7 +21,7 @@
     "layer": 3,
     "color": [[5, 4]],
     "desc": "it really said \"#\"",
-    "tags": ["cell","push"], 
+    "tags": ["cell","push"]
   },
   {
     "name": "txt_cell",
