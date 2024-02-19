@@ -470,7 +470,7 @@ selector_grid_contents = {
     0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 	0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 	0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-	"beb","txt_beb","dad","txt_dad","day","txt_day","getboux","txt_getboux","obby","txt_obby","tu","txt_tu","then","txt_then","hey","txt_hey",0,0,
+	"beb","txt_beb","dad","txt_dad","day","txt_day","getboux","txt_getboux","obby","txt_obby","tu","txt_tu","then","txt_then","hey","txt_hey","ipfipf","txt_ipfipf",
 	"zekiel","txt_zekiel","menstr","txt_menstr","jely","txt_jely","babtoo","txt_babtoo","pati","txt_pati","tehso","txt_tehso",0,0,0,0,0,0,
 	0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 	"txt_flammaje","txt_zapmaje","txt_watmaje","txt_quagmaje","txt_majmaje","txt_datmaje","txt_mtalmaje","txt_tinbolt","txt_grasmaje","txt_drakmaje","txt_dirbolt","txt_voidbolt",0,0,0,0,0,"txt_xx__xx",

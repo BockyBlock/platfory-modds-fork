@@ -280,5 +280,21 @@
     "desc": "every factory needs it",
     "color": [[2, 4]],
     "tags": ["mod", "chars", "tesho"]
+  },
+  {
+    "name": "ipfipf",
+    "sprite": ["modd/othr/ipfipf"],
+    "color": [[6, 3]],
+    "desc": "canyone but real",
+    "tags": ["mod", "chars", "ifif"],
+	"pronouns": ["she", "her"],
+    "rotate": true
+  },
+  {
+    "name": "txt_ipfipf",
+    "sprite": ["modd/othr/txt/ipfipf"],
+    "desc": "IPF, IFP, BLEAGH! BLEH! IPF! BLEGH!",
+    "color": [[6, 1]],
+    "tags": ["mod", "chars", "ifif"]
   }
 ]

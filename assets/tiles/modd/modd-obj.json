@@ -1026,7 +1026,6 @@
     "name": "oesh",
     "sprite": ["modd/oesh"],
     "color": [[0, 2]],
-    "desc": "?",
     "tags": ["mod", "chars", "oish", "oish"],
 	"pronouns": ["she", "her"],
     "rotate": true
@@ -1034,7 +1033,6 @@
   {
     "name": "txt_oesh",
     "sprite": ["modd/moddtxt/oesh"],
-    "desc": "kinda looks like ceec tbh",
     "color": [[0, 2]],
     "tags": ["mod", "chars", "oish", "oish"]
   },
