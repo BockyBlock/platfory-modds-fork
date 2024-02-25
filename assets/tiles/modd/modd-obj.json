@@ -1111,5 +1111,22 @@
     "desc": "kayak",
     "color": [[0, 3]],
     "tags": ["mod", "chars"]
+  },
+  {
+    "name": "ebase",
+    "sprite": ["modd/ebase"],
+    "color": [[2, 1]],
+    "desc": "ouch-ok + iylash + chonke = that",
+    "tags": ["mod", "chars"],
+	"pronouns": ["shi", "shim"],
+    "rotate": true,
+    "layer": 10
+  },
+  {
+    "name": "txt_ebase",
+    "sprite": ["modd/moddtxt/ebase"],
+    "desc": "a functioning member of society",
+    "color": [[2, 1]],
+    "tags": ["mod", "chars"]
   }
 ]
