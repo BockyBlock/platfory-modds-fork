@@ -67,7 +67,7 @@
     "name": "quagmaje",
     "layer": 9,
     "sprite": ["modd/maje/maje_hood", "modd/maje/maje_quag", "modd/maje/maje_eye", "modd/maje/maje_face"],
-    "color": [[3, 1], [3, 2], [0, 3], [0, 0]],
+    "color": [[5, 1], [5, 2], [0, 3], [0, 0]],
     "desc": "it's gonna barf",
     "tags": ["mod", "mage"],
     "rotate": true
