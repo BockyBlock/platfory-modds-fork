@@ -1120,13 +1120,47 @@
     "tags": ["mod", "chars"],
 	"pronouns": ["shi", "shim"],
     "rotate": true,
-    "layer": 10
+    "layer": 11
   },
   {
     "name": "txt_ebase",
     "sprite": ["modd/moddtxt/ebase"],
     "desc": "a functioning member of society",
     "color": [[2, 1]],
+    "tags": ["mod", "chars"]
+  },
+  {
+    "name": "telt",
+    "sprite": ["modd/telt"],
+    "color": [[3, 3]],
+    "desc": "s/he's so fuzzy",
+    "tags": ["mod", "chars"],
+	"pronouns": ["bigender"],
+    "rotate": true,
+    "layer": 11
+  },
+  {
+    "name": "txt_telt",
+    "sprite": ["modd/moddtxt/telt"],
+    "desc": "tell me",
+    "color": [[3, 3]],
+    "tags": ["mod", "chars"]
+  },
+  {
+    "name": "plop",
+    "sprite": ["modd/plop"],
+    "color": [[2, 4]],
+    "desc": "octahedron-shaped goober",
+    "tags": ["mod", "chars"],
+	"pronouns": ["ze", "hir"],
+    "rotate": true,
+    "layer": 11
+  },
+  {
+    "name": "txt_plop",
+    "sprite": ["modd/moddtxt/plop"],
+    "desc": "uhhh yeah they exist",
+    "color": [[2, 4]],
     "tags": ["mod", "chars"]
   }
 ]

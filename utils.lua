@@ -3854,8 +3854,8 @@ function buildOptions()
     scene.addButton("back", function() global_menu_state = "none"; scene.buildUI() end)
   elseif global_menu_state == "editor" then
     scene.addOption("print_to_screen", "log print()s to screen", {{"on", true}, {"off", false}})
-    scene.addOption("unfinished_words", "unfinished words in editor", {{"on", true}, {"off", false}})
-    scene.addOption("baba", "spoilery words in editor", {{"on", true}, {"off", false}})
+    scene.addOption("unfinished_words", "spoiler words in editor", {{"on", true}, {"off", false}})
+    scene.addOption("editstory", "edit campaign levels", {{"on", true}, {"off", false}})
     scene.addOption("infomode", "display object info", {{"on", true}, {"off", false}})
     scene.addButton("back", function() global_menu_state = "none"; scene.buildUI() end)
   elseif global_menu_state == "misc" then
@@ -4332,6 +4332,9 @@ function getUnitSprite(name, unit)
           local new_pronoun
           if subject.pronouns and subject.pronouns[1] == "genderfluid" then
             local cycle_pronouns = {"them", "her", "it", "xem", "him", "hir"}
+            new_pronoun = cycle_pronouns[(math.floor(love.timer.getTime()/0.18) + unit.tempid) % #cycle_pronouns + 1].."self"
+		  elseif subject.pronouns and subject.pronouns[1] == "bigender" then
+            local cycle_pronouns = {"him", "her"}
             new_pronoun = cycle_pronouns[(math.floor(love.timer.getTime()/0.18) + unit.tempid) % #cycle_pronouns + 1].."self"
 		  else
 				local mod_pronouns1 = {"dude", "e", "you", "shi", "ad", "thht"}

@@ -438,7 +438,7 @@ function scene.buildUI()
           world_folder:setPos(love.graphics.getWidth()/2 - width/2 - sprites["ui/open_folder"]:getWidth(), title_y + height/2)
         end
       end)
-    if load_mode == "edit" and world_parent ~= "officialworlds" and world ~= "" then
+    if load_mode == "edit" and ((world_parent ~= "officialworlds")) and world ~= "" then
       world_label:setTextHoverColor(0.75, 0.75, 0.75)
       world_label:onReleased(function(o) ui.setEditing(o) end)
     end
@@ -448,7 +448,7 @@ function scene.buildUI()
         :setSprite(sprites["ui/open_folder"]):setHoverSprite(sprites["ui/open_folder_h"]):setActiveSprite(sprites["ui/open_folder_a"])
         :setPos(love.graphics.getWidth()/2 - title_width/2 - sprites["ui/open_folder"]:getWidth(), title_y + title_height/2):setCentered(true)
         :onReleased(function()
-          if world_parent ~= "officialworlds" then
+          if ((world_parent ~= "officialworlds")) then
             love.system.openURL("file:///"..love.filesystem.getSaveDirectory().."/"..getWorldDir(true).."/")
           else
             love.system.openURL("file:///"..love.filesystem.getSource().."/"..getWorldDir(true).."/")
@@ -564,7 +564,7 @@ function scene.buildUI()
         end
         oy = oy + label_height + 8
 
-        if load_mode == "edit" and world_parent ~= "officialworlds" then
+        if load_mode == "edit" and ((world_parent ~= "officialworlds") or settings["editstory"]) then
           table.insert(worlds, 1, {
             create = true,
             name = "new world",
@@ -598,7 +598,7 @@ function scene.buildUI()
       end
       oy = oy + label_height + 8
 
-      if load_mode == "edit" and world_parent ~= "officialworlds" then
+      if load_mode == "edit" and ((world_parent ~= "officialworlds") or settings["editstory"]) then
         table.insert(levels, 1, {
           create = true,
           file = "{DEFAULT}",
@@ -620,7 +620,7 @@ function scene.buildUI()
         :setSize(love.graphics.getWidth(), label_height))
       oy = oy + label_height + 8
 
-      if load_mode == "edit" and world_parent ~= "officialworlds" then
+      if load_mode == "edit" and ((world_parent ~= "officialworlds") or settings["editstory"]) then
         table.insert(worlds, 1, {
           create = true,
           name = "new world",
@@ -642,7 +642,7 @@ function scene.buildUI()
         :setSize(love.graphics.getWidth(), label_height))
       oy = oy + label_height + 8
 
-      if load_mode == "edit" and world_parent ~= "officialworlds" then
+      if load_mode == "edit" and ((world_parent ~= "officialworlds") or settings["editstory"]) then
         table.insert(levels, 1, {
           create = true,
           file = "{DEFAULT}",
@@ -927,7 +927,7 @@ function scene.selectLevel(o, button)
         end
       end
       selected_levels = {}
-    elseif world_parent ~= "officialworlds" and (not o.data.world or o.data.world.world_parent ~= "officialworlds") then
+    elseif ((world_parent ~= "officialworlds")) and (not o.data.world or o.data.world.world_parent ~= "officialworlds") then
       if not o.data.deleting then
         o.data.deleting = 1
         o:setColor(1, 1, 1)

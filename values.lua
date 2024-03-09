@@ -451,12 +451,12 @@ selector_grid_contents = {
     "txt_diag","txt_ortho","txt_gomyway",0,0,"txt_boring","txt_bce","txt_notranform","txt_ify",0,0,0,0,"txt_that","txt_thatbe","txt_thatgot","txt_meow","txt_beside",
     "txt_turncornr","txt_folowal","txt_hopovr","txt_reflecc",0,0,0,0,0,0,0,0,0,"txt_reed","txt_orang","txt_yello","txt_grun","txt_cyeann",
     "txt_munwalk","txt_sidestep","txt_diagstep","txt_knightstep",0,"txt_tryagain","txt_noundo","txt_undo","txt_zawarudo","txt_brite","txt_torc","txt_tranparnt",0,"txt_bleu","txt_purp","txt_pinc","txt_whit","txt_graey",
-    "txt_spin","txt_rotatbl","txt_noturn","txt_stukc",0,"txt_poortoll","txt_goarnd","txt_mirrarnd","txt_glued",0,0,0,0,0,"txt_rave","txt_colrful","txt_blacc","txt_brwn",
+    "txt_spin","txt_rotatbl","txt_noturn","txt_stukc",0,"txt_poortoll","txt_goarnd","txt_mirrarnd","txt_glued","txt_halfstep","txt_rond","txt_offgrid",0,0,"txt_rave","txt_colrful","txt_blacc","txt_brwn",
     "txt_upleft","txt_up","txt_upright","txt_thicc",0,"txt_her","txt_thr","txt_rithere","txt_the","txt_deez",0,0,0,0,"txt_stelth","txt_qt","txt_thonk","txt_cool",
     "txt_left","txt_direction","txt_right",0,0,0,0,0,0,0,0,0,0,"txt_gay","txt_lesbab","txt_tranz","txt_ace","txt_aro",
-    "txt_downleft","txt_down","txt_downright",0,0,"selctr","txt_selctr","txt_frens","txt_groop","txt_gang","txt_themself",0,0,"txt_pan","txt_bi","txt_enby","txt_fluid","txt_πoly",
+    "txt_downleft","txt_down","txt_downright",0,0,"selctr","txt_selctr","txt_frens","txt_groop","txt_gang","txt_themself","camra",0,"txt_pan","txt_bi","txt_enby","txt_fluid","txt_πoly",
     0,0,0,0,0,"lvl","txt_lvl","txt_txt","txt_no1","txt_every1","txt_every2","this","txt_mous",0,0,0,0,0,
-    "txt_...","txt_''","txt_nt","txt_anti",0,"bordr","txt_bordr","lin","txt_lin","txt_lethers","txt_numa","txt_toen","txt_yuiy",0,0,0,0,0,
+    "txt_...","txt_''","txt_nt","txt_anti",0,"bordr","txt_bordr","lin","txt_lin","txt_lethers","txt_numa","txt_toen","txt_yuiy","txt_every3","txt_n'tifyyy",0,0,0,
   },
 	-- page 8: modds that are not platfory
   {
@@ -484,7 +484,7 @@ selector_grid_contents = {
 	"sammah","txt_sammah","sallt","txt_sallt","huro","txt_huro","chonke","txt_chonke","quiq","txt_quiq","caac","txt_caac","zt","txt_zt","dooder","txt_dooder","lito","txt_lito",
     "ror","txt_ror","whoa","txt_whoa","greg","txt_greg","nnuu","txt_nnuu","uunn","txt_uunn","cuuc","txt_cuuc","cuc","txt_cuc","eeer","txt_eeer","ryyr","txt_ryyr",
     "bav","txt_bav","trie","txt_trie","lolful","txt_lolful","sirboxe","txt_sirboxe","asasas","txt_asasas","steep","txt_steep","shuush","txt_shuush","g.ah!","txt_g.ah!","yoy","txt_yoy",
-    "lel","txt_lel","vel","txt_vel","leel","txt_leel","oesh","txt_oesh","kyk","txt_kyk","ebase","txt_ebase",0,0,0,0,0,0,
+    "lel","txt_lel","vel","txt_vel","leel","txt_leel","oesh","txt_oesh","kyk","txt_kyk","ebase","txt_ebase","plop","txt_plop",0,0,0,0,
     0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
     0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
     0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -516,26 +516,6 @@ selector_grid_contents = {
 tile_grid_width = 18
 tile_grid_height = 15
 
-if settings["baba"] then
-  table.insert(selector_grid_contents, {
-    0,"txt_is",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-    "baba","txt_baba","txt_you",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-    0,0,"txt_push",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-    0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-    0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-    0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-    0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-    0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-    0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-    0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-    0,"ui_s","ui_p","ui_o","ui_i","ui_l","ui_e","ui_r","ui_s",0,0,0,0,0,0,0,0,0,
-    0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0, 
-    0,"txt_is",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-    "baba","txt_baba","txt_you",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-    0,0,"txt_push",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-  })
-end
-
 if settings["unfinished_words"] then
   table.insert(selector_grid_contents, {
     0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"txt_camra","camra",
@@ -548,11 +528,11 @@ if settings["unfinished_words"] then
     0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
     0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
     0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-    0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-    0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-    0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-    0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-    0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+    0,"ui_s","ui_p","ui_o","ui_i","ui_l","ui_e","ui_r","ui_s",0,0,0,0,0,0,0,0,0,
+    0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0, 
+    0,"txt_is",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+    "baba","txt_baba","txt_you",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+    0,0,"txt_push",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
   })
 end
 
