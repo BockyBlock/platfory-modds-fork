@@ -294,5 +294,20 @@
     "color": [[6, 1]],
     "desc": "taeks 3 hits to destroy",
     "tags": ["mod", "block", "hard"]
+  },
+  {
+    "name": "checc",
+    "sprite": ["modd/checc"],
+    "color": [[5, 2]],
+    "desc": "yeah",
+    "tags": ["mod", "checkmark"],
+    "rotate": true
+  },
+  {
+    "name": "txt_checc",
+    "sprite": ["modd/moddtxt/checc"],
+    "color": [[5, 2]],
+    "desc": "unrelated to chec",
+    "tags": ["mod", "checkmark"]
   }
 ]
