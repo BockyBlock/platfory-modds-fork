@@ -1162,5 +1162,198 @@
     "desc": "uhhh yeah they exist",
     "color": [[2, 4]],
     "tags": ["mod", "chars"]
+  },
+  {
+    "name": "oril",
+    "sprite": ["modd/oril"],
+    "color": [[0, 3]],
+    "desc": "doesn't visit spce",
+    "tags": ["mod", "chars"],
+	"pronouns": ["he", "him"],
+    "rotate": true,
+    "layer": 12
+  },
+  {
+    "name": "txt_oril",
+    "sprite": ["modd/moddtxt/oril"],
+    "desc": "this name is completely made up",
+    "color": [[0, 3]],
+    "tags": ["mod", "chars"]
+  },
+  {
+    "name": "kuuk",
+    "sprite": ["modd/kuuk"],
+    "color": [[0, 2]],
+    "desc": "builds up speed for 102 hours",
+    "tags": ["mod", "chars"],
+	"pronouns": ["ze", "hir"],
+    "rotate": true,
+    "layer": 10
+  },
+  {
+    "name": "txt_kuuk",
+    "sprite": ["modd/moddtxt/kuuk"],
+    "desc": "goku what",
+    "color": [[0, 2]],
+    "tags": ["mod", "chars"]
+  },
+  {
+    "name": "weirdun",
+    "sprite": ["modd/weirdun"],
+    "color": [[5, 1]],
+    "desc": "shaved eyebrows? lookin' good",
+    "tags": ["mod", "chars"],
+	"pronouns": ["he", "him"],
+    "rotate": true,
+    "layer": 10
+  },
+  {
+    "name": "txt_weirdun",
+    "sprite": ["modd/moddtxt/weirdun"],
+    "desc": "short for \"weird uncle\"",
+    "color": [[5, 1]],
+    "tags": ["mod", "chars"]
+  },
+  {
+    "name": "car-2175902158",
+    "sprite": ["modd/char_2175902158"],
+    "color": [[3, 1]],
+    "desc": "kinda looks like keke holding their breath",
+    "tags": ["mod", "chars"],
+	"pronouns": ["she", "her"],
+    "rotate": true,
+    "layer": 10
+  },
+  {
+    "name": "txt_car-2175902158",
+    "sprite": ["modd/moddtxt/car_2175902158"],
+    "desc": "yeah that's her name don't wear it out",
+    "color": [[3, 1]],
+    "tags": ["mod", "chars"]
+  },
+  {
+    "name": "joss",
+    "sprite": ["modd/joss"],
+    "color": [[0, 3]],
+    "desc": "no you're not getting the one that looks like my pet rock",
+    "tags": ["mod", "chars"],
+	"pronouns": ["shi", "shim"],
+    "rotate": true,
+    "layer": 10
+  },
+  {
+    "name": "txt_joss",
+    "sprite": ["modd/moddtxt/joss"],
+    "desc": "I rode into town on my hoss",
+    "color": [[0, 3]],
+    "tags": ["mod", "chars"]
+  },
+  {
+    "name": "itoo",
+    "sprite": ["modd/i2"],
+    "color": [[1, 4]],
+    "desc": "for when you need to don't",
+    "tags": ["mod", "chars", "it"],
+	"pronouns": ["i", "me"],
+    "rotate": true,
+    "layer": 11
+  },
+  {
+    "name": "txt_itoo",
+    "sprite": ["modd/moddtxt/i2"],
+    "types": ["object"],
+    "color": [[1, 4]],
+    "desc": "kinda sounds like \"it\" lol",
+    "tags": ["mod", "chars", "it"]
+  },
+  {
+    "name": "kak",
+    "sprite": ["modd/kak"],
+    "color": [[0, 0]],
+    "desc": "pogo stick",
+    "tags": ["mod", "chars", "it"],
+	"pronouns": ["it", "it"],
+    "rotate": true,
+    "layer": 11
+  },
+  {
+    "name": "txt_kak",
+    "sprite": ["modd/moddtxt/kak"],
+    "types": ["object"],
+    "color": [[0, 0]],
+    "desc": "hjgnmtmrhnjtfhnjt it's so funny",
+    "tags": ["mod", "chars"]
+  },
+  {
+    "name": "follt",
+    "sprite": ["modd/follt"],
+    "layer": 11,
+    "color": [[5, 2]],
+    "rotate": true,
+    "features": {
+      "sans": {"x": 25, "y": 17, "w": 2, "h": 2}
+    },
+    "desc": "bellt but bush",
+    "pronouns": ["he", "him"]
+  },
+  {
+    "name": "txt_follt",
+    "sprite": ["modd/moddtxt/follt"],
+    "types": ["object"],
+    "color": [[5, 2]],
+    "desc": "see also: bef (not from portugal)",
+    "alias": ["jij"],
+    "tags": ["chars", "fofo", "bush"]
+  },
+  {
+    "name": "goopey",
+    "sprite": ["modd/goopey"],
+    "color": [[2, 2]],
+    "desc": "\"come see worlds largest sparkl\"",
+    "tags": ["mod", "chars", "goopi"],
+	"pronouns": ["they", "them"],
+    "rotate": true,
+    "layer": 11
+  },
+  {
+    "name": "txt_goopey",
+    "sprite": ["modd/moddtxt/goopey"],
+    "color": [[2, 2]],
+    "desc": "kinda bogged",
+    "tags": ["mod", "chars", "goopi"]
+  },
+  {
+    "name": "nine",
+    "sprite": ["modd/nine-light", "modd/nine-dark"],
+    "color": [[1, 1], [1, 0]],
+    "desc": "OR IS IT",
+    "tags": ["mod", "chars", "ixix"],
+	"pronouns": ["they", "them"],
+    "rotate": true,
+    "layer": 11
+  },
+  {
+    "name": "txt_nine",
+    "sprite": ["modd/moddtxt/nine"],
+    "color": [[1, 1]],
+    "desc": "how did you even-  what ?",
+    "tags": ["mod", "chars", "ixix"]
+  },
+  {
+    "name": "chec",
+    "sprite": ["modd/stripe-light", "modd/stripe-dark"],
+    "color": [[3, 3], [3, 2]],
+    "desc": "guys your texture didn't load",
+    "tags": ["mod", "chars", "ixix", "stripey"],
+	"pronouns": ["bigender"],
+    "rotate": true,
+    "layer": 11
+  },
+  {
+    "name": "txt_chec",
+    "sprite": ["modd/moddtxt/chec"],
+    "color": [[3, 3]],
+    "desc": "chec ur discord",
+    "tags": ["mod", "chars", "ixix", "stripey"]
   }
 ]

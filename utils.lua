@@ -4337,7 +4337,7 @@ function getUnitSprite(name, unit)
             local cycle_pronouns = {"him", "her"}
             new_pronoun = cycle_pronouns[(math.floor(love.timer.getTime()/0.18) + unit.tempid) % #cycle_pronouns + 1].."self"
 		  else
-				local mod_pronouns1 = {"dude", "e", "you", "shi", "ad", "thht"}
+				local mod_pronouns1 = {"dude", "e", "you", "shi", "ad", "thht", "me"}
 				
 				  for _,e in pairs(mod_pronouns1) do
 					if e == subject.pronouns[1] then

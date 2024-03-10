@@ -726,6 +726,12 @@ local function testParser()
       {name = "be", type = "verb_all"},
       {name = "u", type = "property"},
     },
+    { -- Test 12 - FALSE
+      {name = "bab", type = "object"},
+      {name = "be", type = "verb"},
+      {name = "ok", type = "I forget but it doesn't matter"},
+      {name = "u", type = "property"},
+    }
   }
 
   for i,test in ipairs(tests) do

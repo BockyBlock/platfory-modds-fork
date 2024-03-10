@@ -123,5 +123,14 @@
     "color": [[6, 1]],
     "desc": "placeholder",
     "tags": ["txt"]
+  },
+  {
+    "name": "txt_ok",
+    "sprite": ["modd/moddtxt/prop/ok"],
+    "types": ["ok"],
+    "color": [[2, 3]],
+    "desc": "-OK: A suffix that makes the previous word parse as a noun.",
+    "alias": ["-ok"],
+    "tags": ["-oc", "iiy", "ok"]
   }
 ]
