@@ -972,6 +972,18 @@ function addRule(full_rule)
         end
       end
     end
+  elseif subject == "cell" then
+    for _,v in ipairs(referenced_text) do
+      if subject_not % 2 == 1 then
+        if not (v == "redbloodcell" or v == "tholl" or v == "muuv" or v == "stne" or v == "pooosh" or v == "cell") then
+          addRuleSimple({v, rules.subject.conds}, rules.verb, rules.object, units, dir)
+        end
+      else
+        if (v == "redbloodcell" or v == "tholl" or v == "muuv" or v == "stne" or v == "pooosh" or v == "cell") then
+          addRuleSimple({v, rules.subject.conds}, rules.verb, rules.object, units, dir)
+        end
+      end
+    end
   elseif subject == "yuiy" then
     for _,v in ipairs(referenced_objects) do
       if subject_not % 2 == 1 then

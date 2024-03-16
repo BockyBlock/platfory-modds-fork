@@ -265,6 +265,7 @@ bab arguments!
   end
 
   sprites["letters_/"] = sprites["letters_slash"]
+  sprites["letters__"] = sprites["modd/misctxt/letters_hyphen"]
   sprites["letters_:"] = sprites["letters_colon"]
   system_cursor = sprites["ui/mous"]
   --if love.system.getOS() == "OS X" then

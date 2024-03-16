@@ -959,10 +959,11 @@ function scene.mouseReleased(x, y, button)
           end
         end
       end
-      -- hidden/locked/open
+      -- hidden/locked/open/title
       if mouseOverBox(-38, -45, 16, 16, t) then level_dialogue.unit.special.visibility = "hidden" end
       if mouseOverBox(-20, -45, 16, 16, t) then level_dialogue.unit.special.visibility = "locked" end
       if mouseOverBox(-2, -45, 16, 16, t) then level_dialogue.unit.special.visibility = "open" end
+      if mouseOverBox(-16, -45, 16, 16, t) then level_dialogue.unit.special.visibility = "title" end
       
       if mouseOverBox(30, -96, 62, 62, t) then -- level picture
         new_scene = loadscene
@@ -1792,6 +1793,7 @@ function scene.draw(dt)
         love.graphics.draw(sprites["ui/levelbox_hidden"], -38, -45)
         love.graphics.draw(sprites["ui/levelbox_locked"], -20, -45)
         love.graphics.draw(sprites["ui/levelbox_open"], -2, -45)
+        love.graphics.draw(sprites["ui/levelbox_title"], 16, -45)
         
         if not unit.special.iconstyle or unit.special.iconstyle == "number" or unit.special.iconstyle == "dots" then
           love.graphics.printf(tostring(unit.special.number or 1), -27, -70, 30, "center")

@@ -497,8 +497,8 @@ selector_grid_contents = {
 	-- page 10: modd props
   {
 	"txt_gud","txt_awdul","txt_nft","txt_corl","txt_limeme","txt_matic","txt_yesgo","txt_drincc","txt_splash","txt_did","txt_yee","txt_want",0,0,0,0,0,0,
-	"muuv","pooosh","redbloodcell","tholl","stne",0,0,0,0,0,0,0,0,0,0,0,0,0,
-    0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+	"txt_cell","muuv","pooosh","redbloodcell","tholl","stne",0,0,0,0,0,0,0,0,0,0,0,0,
+    "secial","txt_secial",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
     0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
     0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
     0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,

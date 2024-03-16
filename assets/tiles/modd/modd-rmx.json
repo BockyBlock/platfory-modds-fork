@@ -213,5 +213,20 @@
     "types": ["object"],
     "color": [[3, 2]],
     "tags": ["voidbolt"]
+  },
+  {
+    "name": "secial",
+    "sprite": ["modd/secial"],
+    "color": [[0, 3]],
+    "desc": "\"s\" it says",
+    "tags": ["mod", "sign", "special"],
+    "layer": 10
+  },
+  {
+    "name": "txt_secial",
+    "sprite": ["modd/moddtxt/secial"],
+    "desc": "its a secial snoflick",
+    "color": [[0, 3]],
+    "tags": ["mod", "sign", "special"]
   }
 ]

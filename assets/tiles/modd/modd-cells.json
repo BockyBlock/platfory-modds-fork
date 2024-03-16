@@ -27,18 +27,8 @@
     "name": "txt_cell",
     "sprite": ["modd/moddtxt/cell"],
     "types": ["object"],
-    "layer": 3,
     "color": [[4, 4]],
-    "desc": "CELL: refers to all cell machine tiles. is very borked.",
-    "tags": ["cell"]
-  },
-  {
-    "name": "cell",
-    "sprite": ["modd/cell/cel"],
-    "convertible": false,
-    "layer": 3,
-    "color": [[4, 4]],
-    "desc": "should not exist",
+    "desc": "CELL: Refers to all Cell Machine tiles. Glitched as of now.",
     "tags": ["cell"]
   },
   {
